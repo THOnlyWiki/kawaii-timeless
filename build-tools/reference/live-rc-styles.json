@@ -1,0 +1,2676 @@
+{
+ "url": "https://thonly.cc/%E7%89%B9%E6%AE%8A:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9?hidebots=1&limit=500&days=30&enhanced=1&urlversion=2",
+ "title": "最近更改 - 东方Project线下活动维基",
+ "bodyClass": "mw-rcfilters-enabled mediawiki ltr sitedir-ltr mw-hide-empty-elt ns--1 ns-special mw-special-Recentchanges page-特殊_最近更改 rootpage-特殊_最近更改 skin-timeless action-view skin--responsive mdui-loaded scrolled mw-rcfilters-ui-initialized webfonts-changed",
+ "viewport": [
+  1600,
+  1000
+ ],
+ "totalRulesReadable": 3698,
+ "selectors": {
+  "mw-content-text": {
+   "selector": "#mw-content-text",
+   "rect": {
+    "x": 272,
+    "y": 156,
+    "w": 1056,
+    "h": 1171
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "1056px",
+    "height": "1171.34px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "25.6px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "#mw-content-text",
+     "css": "#mw-content-text { margin-bottom: 3em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "print"
+    }
+   ]
+  },
+  "mw-changeslist": {
+   "selector": ".mw-changeslist",
+   "rect": {
+    "x": 272,
+    "y": 447,
+    "w": 1056,
+    "h": 880
+   },
+   "props": {
+    "display": "block",
+    "position": "relative",
+    "width": "1056px",
+    "height": "879.969px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "15.2px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "24.32px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-changeslist",
+     "css": ".mw-changeslist { font-size: 0.95em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-rcfilters-ui-changesListWrapperWidget",
+     "css": ".mw-rcfilters-ui-changesListWrapperWidget { position: relative; }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "mw-changeslist-line": {
+   "selector": ".mw-changeslist-line",
+   "rect": {
+    "x": 272,
+    "y": 492,
+    "w": 785,
+    "h": 46
+   },
+   "props": {
+    "display": "table",
+    "position": "static",
+    "width": "784.906px",
+    "height": "46.3906px",
+    "margin": "0px",
+    "padding": "12px 0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".client-js .mw-changeslist ul, .client-js .mw-changeslist table.mw-enhanced-rc",
+     "css": ".client-js .mw-changeslist ul, .client-js .mw-changeslist table.mw-enhanced-rc { margin-left: calc(0.357143em + 45px); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "table.mw-enhanced-rc",
+     "css": "table.mw-enhanced-rc { border: 0px; border-spacing: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "table.mw-enhanced-rc",
+     "css": "table.mw-enhanced-rc { padding: var(--space-sm) 0; font-size: 0.875rem; transition: background 100ms; margin: 0px !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-body table",
+     "css": ".mw-body table { width: 100%; margin-right: 0px; margin-left: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen and (max-width: 850px)"
+    }
+   ]
+  },
+  "mw-changeslist-line-inner": {
+   "selector": ".mw-changeslist-line-inner",
+   "rect": {
+    "x": 372,
+    "y": 504,
+    "w": 685,
+    "h": 22
+   },
+   "props": {
+    "display": "table-cell",
+    "position": "static",
+    "width": "685.234px",
+    "height": "22.3906px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "table.mw-enhanced-rc th, table.mw-enhanced-rc td",
+     "css": "table.mw-enhanced-rc th, table.mw-enhanced-rc td { padding: 0px; vertical-align: top; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-rcfilters-ui-changesListWrapperWidget table.mw-enhanced-rc td:last-child",
+     "css": ".mw-rcfilters-ui-changesListWrapperWidget table.mw-enhanced-rc td:last-child { width: 100%; }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "mw-changeslist-date": {
+   "selector": ".mw-changeslist-date",
+   "missing": true
+  },
+  "mw-changeslist-separator": {
+   "selector": ".mw-changeslist-separator",
+   "rect": {
+    "x": 479,
+    "y": 505,
+    "w": 9,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "mw-changeslist-title": {
+   "selector": ".mw-changeslist-title",
+   "rect": {
+    "x": 372,
+    "y": 552,
+    "w": 55,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(0, 138, 197)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 138, 197)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "a",
+     "css": "a { background: none !important; padding: 0px !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "print"
+    },
+    {
+     "selector": "a, a.external, a.new, a.stub",
+     "css": "a, a.external, a.new, a.stub { color: inherit !important; text-decoration: inherit !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "print"
+    },
+    {
+     "selector": "a",
+     "css": "a { background: transparent; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "a",
+     "css": "a { --color-link: #008ac5; --color-link--hover: #00aeec; --color-link--active: #36c; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "a",
+     "css": "a { color: var(--color-link); text-decoration: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    }
+   ]
+  },
+  "mw-changeslist-user": {
+   "selector": ".mw-changeslist-user",
+   "missing": true
+  },
+  "mw-changeslist-diff": {
+   "selector": ".mw-changeslist-diff",
+   "rect": {
+    "x": 441,
+    "y": 552,
+    "w": 28,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(0, 138, 197)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 138, 197)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "a",
+     "css": "a { background: none !important; padding: 0px !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "print"
+    },
+    {
+     "selector": "a, a.external, a.new, a.stub",
+     "css": "a, a.external, a.new, a.stub { color: inherit !important; text-decoration: inherit !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "print"
+    },
+    {
+     "selector": "a",
+     "css": "a { background: transparent; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "a",
+     "css": "a { --color-link: #008ac5; --color-link--hover: #00aeec; --color-link--active: #36c; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "a",
+     "css": "a { color: var(--color-link); text-decoration: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    }
+   ]
+  },
+  "mw-changeslist-history": {
+   "selector": ".mw-changeslist-history",
+   "rect": {
+    "x": 478,
+    "y": 552,
+    "w": 28,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(0, 138, 197)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 138, 197)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "a",
+     "css": "a { background: none !important; padding: 0px !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "print"
+    },
+    {
+     "selector": "a, a.external, a.new, a.stub",
+     "css": "a, a.external, a.new, a.stub { color: inherit !important; text-decoration: inherit !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "print"
+    },
+    {
+     "selector": "a",
+     "css": "a { background: transparent; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "a",
+     "css": "a { --color-link: #008ac5; --color-link--hover: #00aeec; --color-link--active: #36c; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "a",
+     "css": "a { color: var(--color-link); text-decoration: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    }
+   ]
+  },
+  "mw-changeslist-bytechange": {
+   "selector": ".mw-changeslist-bytechange",
+   "missing": true
+  },
+  "mw-changeslist-group": {
+   "selector": ".mw-changeslist-group",
+   "missing": true
+  },
+  "mw-collapsible": {
+   "selector": ".mw-collapsible",
+   "rect": {
+    "x": 1070,
+    "y": 447,
+    "w": 258,
+    "h": 144
+   },
+   "props": {
+    "display": "block",
+    "position": "relative",
+    "width": "240.5px",
+    "height": "126.125px",
+    "margin": "0px 0px 6.5px 13px",
+    "padding": "7.8px",
+    "border": "1px solid rgba(0, 0, 0, 0)",
+    "borderRadius": "4px",
+    "background": "rgb(249, 250, 251) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgb(249, 250, 251)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "13px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "15.6px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "1",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-changeslist .mw-changeslist-legend",
+     "css": ".mw-changeslist .mw-changeslist-legend { padding: 0.6em; border-color: transparent; border-radius: var(--border-radius--small); background-color: var(--color-surface-2); font-size: 0.8125rem; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-changeslist .mw-changeslist-legend",
+     "css": ".mw-changeslist .mw-changeslist-legend { margin: 0px; float: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(max-width: 850px)"
+    },
+    {
+     "selector": ".mw-changeslist-legend",
+     "css": ".mw-changeslist-legend { float: right; margin-left: 1em; margin-bottom: 0.5em; clear: right; font-size: 85%; line-height: 1.2em; padding: 0.5em; border: 1px solid rgb(221, 221, 221); background-color: rgb(255, 255, 255); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend",
+     "css": ".mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend { background-color: rgb(255, 255, 255); position: relative; z-index: 1; border: 1px solid rgb(200, 204, 209); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend",
+     "css": ".mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend { border-color: transparent; background-color: var(--color-surface-2); }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "mw-collapsible-toggle": {
+   "selector": ".mw-collapsible-toggle",
+   "rect": {
+    "x": 1298,
+    "y": 456,
+    "w": 21,
+    "h": 16
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "21px",
+    "height": "16.25px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "13px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "15.6px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-collapsible:not(.mw-made-collapsible) th::before, .mw-collapsible:not(.mw-made-collapsible)::before, .mw-collapsible-toggle",
+     "css": ".mw-collapsible:not(.mw-made-collapsible) th::before, .mw-collapsible:not(.mw-made-collapsible)::before, .mw-collapsible-toggle { float: right; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-collapsible-toggle",
+     "css": ".mw-collapsible-toggle { transition: transform 0.4s cubic-bezier(0.22, 0.58, 0.12, 0.98), opacity 0.4s cubic-bezier(0.22, 0.58, 0.12, 0.98); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-collapsible-toggle",
+     "css": ".mw-collapsible-toggle { float: right; user-select: none; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".mw-customtoggle, .mw-collapsible-toggle",
+     "css": ".mw-customtoggle, .mw-collapsible-toggle { cursor: pointer; }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "mw-rcfilters-ui-filterWrapperWidget": {
+   "selector": ".mw-rcfilters-ui-filterWrapperWidget",
+   "rect": {
+    "x": 272,
+    "y": 198,
+    "w": 1056,
+    "h": 230
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "1056px",
+    "height": "229.781px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "25.6px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-rcfilters-ui-filterWrapperWidget",
+     "css": ".mw-rcfilters-ui-filterWrapperWidget { width: 100%; direction: ltr; }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "mw-rcfilters-ui-changesListWrapperWidget": {
+   "selector": ".mw-rcfilters-ui-changesListWrapperWidget",
+   "rect": {
+    "x": 272,
+    "y": 447,
+    "w": 1056,
+    "h": 880
+   },
+   "props": {
+    "display": "block",
+    "position": "relative",
+    "width": "1056px",
+    "height": "879.969px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "15.2px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "24.32px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-changeslist",
+     "css": ".mw-changeslist { font-size: 0.95em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-rcfilters-ui-changesListWrapperWidget",
+     "css": ".mw-rcfilters-ui-changesListWrapperWidget { position: relative; }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "mw-rcfilters-ui-filterTagMultiselectWidget": {
+   "selector": ".mw-rcfilters-ui-filterTagMultiselectWidget",
+   "rect": {
+    "x": 272,
+    "y": 248,
+    "w": 1056,
+    "h": 128
+   },
+   "props": {
+    "display": "inline-block",
+    "position": "relative",
+    "width": "1056px",
+    "height": "128.062px",
+    "margin": "16px 0px 0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "4px",
+    "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "25.6px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget",
+     "css": ".oo-ui-tagMultiselectWidget { display: inline-block; position: relative; width: 100%; max-width: 50em; vertical-align: top; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget-outlined",
+     "css": ".oo-ui-tagMultiselectWidget-outlined { width: 100%; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled",
+     "css": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled { background-color: rgb(255, 255, 255); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined",
+     "css": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined { background-color: rgb(248, 249, 250); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled",
+     "css": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled { background-color: var(--color-surface-1); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined",
+     "css": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined { background-color: var(--color-surface-2); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".mw-rcfilters-ui-filterTagMultiselectWidget",
+     "css": ".mw-rcfilters-ui-filterTagMultiselectWidget { max-width: none; margin-top: 16px; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget.oo-ui-tagMultiselectWidget-outlined",
+     "css": ".mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget.oo-ui-tagMultiselectWidget-outlined { border-radius: var(--border-radius--small); background-color: var(--color-surface-1); }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "oo-ui-tagMultiselectWidget": {
+   "selector": ".oo-ui-tagMultiselectWidget",
+   "rect": {
+    "x": 272,
+    "y": 248,
+    "w": 1056,
+    "h": 128
+   },
+   "props": {
+    "display": "inline-block",
+    "position": "relative",
+    "width": "1056px",
+    "height": "128.062px",
+    "margin": "16px 0px 0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "4px",
+    "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "25.6px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget",
+     "css": ".oo-ui-tagMultiselectWidget { display: inline-block; position: relative; width: 100%; max-width: 50em; vertical-align: top; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget-outlined",
+     "css": ".oo-ui-tagMultiselectWidget-outlined { width: 100%; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled",
+     "css": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled { background-color: rgb(255, 255, 255); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined",
+     "css": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined { background-color: rgb(248, 249, 250); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled",
+     "css": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled { background-color: var(--color-surface-1); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined",
+     "css": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined { background-color: var(--color-surface-2); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".mw-rcfilters-ui-filterTagMultiselectWidget",
+     "css": ".mw-rcfilters-ui-filterTagMultiselectWidget { max-width: none; margin-top: 16px; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget.oo-ui-tagMultiselectWidget-outlined",
+     "css": ".mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget.oo-ui-tagMultiselectWidget-outlined { border-radius: var(--border-radius--small); background-color: var(--color-surface-1); }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "oo-ui-tagItemWidget": {
+   "selector": ".oo-ui-tagItemWidget",
+   "rect": {
+    "x": 280,
+    "y": 293,
+    "w": 152,
+    "h": 25
+   },
+   "props": {
+    "display": "inline-block",
+    "position": "relative",
+    "width": "151.812px",
+    "height": "25.1406px",
+    "margin": "0px 4px 4px 0px",
+    "padding": "0px 23px 0px 8px",
+    "border": "1px solid rgba(0, 0, 0, 0.05)",
+    "borderRadius": "25.1429px",
+    "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(84, 89, 93)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.8571px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".oo-ui-draggableElement-handle:not(.oo-ui-draggableElement-undraggable), .oo-ui-draggableElement-handle:not(.oo-ui-draggableElement-undraggable).oo-ui-widget",
+     "css": ".oo-ui-draggableElement-handle:not(.oo-ui-draggableElement-undraggable), .oo-ui-draggableElement-handle:not(.oo-ui-draggableElement-undraggable).oo-ui-widget { cursor: grab; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagItemWidget.oo-ui-widget-enabled",
+     "css": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagItemWidget.oo-ui-widget-enabled { background-color: rgb(255, 255, 255); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagItemWidget",
+     "css": ".oo-ui-tagItemWidget { position: relative; display: inline-block; cursor: default; white-space: nowrap; box-sizing: border-box; width: auto; max-width: 100%; height: 1.57143em; margin: 0px 4px 4px 0px; border: 1px solid rgb(162, 169, 177); border-radius: 1.57143em; padding: 0px 8px; line-height: 1.4",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagItemWidget.oo-ui-widget-enabled",
+     "css": ".oo-ui-tagItemWidget.oo-ui-widget-enabled { color: rgb(32, 33, 34); transition: background-color 100ms, color 100ms, border-color 100ms, box-shadow 100ms; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed)",
+     "css": ".oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed) { background-color: rgb(248, 249, 250); padding-right: 23px; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagItemWidget.oo-ui-widget-enabled",
+     "css": ".oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagItemWidget.oo-ui-widget-enabled { background-color: var(--color-surface-2--hover); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagItemWidget",
+     "css": ".oo-ui-tagItemWidget { border-color: var(--border-color-base); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagItemWidget.oo-ui-widget-enabled",
+     "css": ".oo-ui-tagItemWidget.oo-ui-widget-enabled { color: var(--color-base); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed)",
+     "css": ".oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed) { background-color: var(--color-surface-2); }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "mw-rcfilters-ui-watchlistDetailsWidget": {
+   "selector": "#mw-rcfilters-ui-watchlistDetailsWidget",
+   "missing": true
+  }
+ },
+ "selectorsExtra": {
+  "mw-rcfilters-ui": {
+   "selector": ".mw-rcfilters-ui",
+   "missing": true
+  },
+  "mw-rcfilters-ui-highlights": {
+   "selector": ".mw-rcfilters-ui-highlights",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "props": {
+    "display": "none",
+    "position": "relative",
+    "width": "45px",
+    "height": "auto",
+    "margin": "0px 0px 0px -50px",
+    "padding": "0px 5px 0px 0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".client-js .mw-rcfilters-ui-highlights",
+     "css": ".client-js .mw-rcfilters-ui-highlights { display: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-rcfilters-ui-highlights",
+     "css": ".mw-rcfilters-ui-highlights { display: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-rcfilters-ui-highlights",
+     "css": ".mw-rcfilters-ui-highlights { display: none; padding: 0px 0.357143em 0px 0px; width: calc(45px); position: relative; margin-left: calc(-0.357143em - 45px); }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "mw-changeslist-legend": {
+   "selector": ".mw-changeslist-legend",
+   "rect": {
+    "x": 1070,
+    "y": 447,
+    "w": 258,
+    "h": 144
+   },
+   "props": {
+    "display": "block",
+    "position": "relative",
+    "width": "240.5px",
+    "height": "126.125px",
+    "margin": "0px 0px 6.5px 13px",
+    "padding": "7.8px",
+    "border": "1px solid rgba(0, 0, 0, 0)",
+    "borderRadius": "4px",
+    "background": "rgb(249, 250, 251) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgb(249, 250, 251)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "13px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "15.6px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "1",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-changeslist .mw-changeslist-legend",
+     "css": ".mw-changeslist .mw-changeslist-legend { padding: 0.6em; border-color: transparent; border-radius: var(--border-radius--small); background-color: var(--color-surface-2); font-size: 0.8125rem; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-changeslist .mw-changeslist-legend",
+     "css": ".mw-changeslist .mw-changeslist-legend { margin: 0px; float: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(max-width: 850px)"
+    },
+    {
+     "selector": ".mw-changeslist-legend",
+     "css": ".mw-changeslist-legend { float: right; margin-left: 1em; margin-bottom: 0.5em; clear: right; font-size: 85%; line-height: 1.2em; padding: 0.5em; border: 1px solid rgb(221, 221, 221); background-color: rgb(255, 255, 255); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend",
+     "css": ".mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend { background-color: rgb(255, 255, 255); position: relative; z-index: 1; border: 1px solid rgb(200, 204, 209); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend",
+     "css": ".mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend { border-color: transparent; background-color: var(--color-surface-2); }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "mw-changeslist-line-prefix": {
+   "selector": ".mw-changeslist-line-prefix",
+   "rect": {
+    "x": 287,
+    "y": 504,
+    "w": 0,
+    "h": 22
+   },
+   "props": {
+    "display": "table-cell",
+    "position": "static",
+    "width": "0px",
+    "height": "22.3906px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "table.mw-enhanced-rc th, table.mw-enhanced-rc td",
+     "css": "table.mw-enhanced-rc th, table.mw-enhanced-rc td { padding: 0px; vertical-align: top; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "mw-enhanced-rc": {
+   "selector": ".mw-enhanced-rc",
+   "rect": {
+    "x": 272,
+    "y": 492,
+    "w": 785,
+    "h": 46
+   },
+   "props": {
+    "display": "table",
+    "position": "static",
+    "width": "784.906px",
+    "height": "46.3906px",
+    "margin": "0px",
+    "padding": "12px 0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".client-js .mw-changeslist ul, .client-js .mw-changeslist table.mw-enhanced-rc",
+     "css": ".client-js .mw-changeslist ul, .client-js .mw-changeslist table.mw-enhanced-rc { margin-left: calc(0.357143em + 45px); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "table.mw-enhanced-rc",
+     "css": "table.mw-enhanced-rc { border: 0px; border-spacing: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "table.mw-enhanced-rc",
+     "css": "table.mw-enhanced-rc { padding: var(--space-sm) 0; font-size: 0.875rem; transition: background 100ms; margin: 0px !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-body table",
+     "css": ".mw-body table { width: 100%; margin-right: 0px; margin-left: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen and (max-width: 850px)"
+    }
+   ]
+  },
+  "mw-enhancedchanges-arrow-space": {
+   "selector": ".mw-enhancedchanges-arrow-space",
+   "rect": {
+    "x": 272,
+    "y": 505,
+    "w": 15,
+    "h": 15
+   },
+   "props": {
+    "display": "inline-block",
+    "position": "static",
+    "width": "15px",
+    "height": "15px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-enhancedchanges-arrow-space",
+     "css": ".mw-enhancedchanges-arrow-space { display: inline-block; width: 15px; height: 15px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "mw-changeslist-links": {
+   "selector": ".mw-changeslist-links",
+   "rect": {
+    "x": 372,
+    "y": 504,
+    "w": 104,
+    "h": 22
+   },
+   "props": {
+    "display": "inline-block",
+    "position": "static",
+    "width": "104.266px",
+    "height": "22.3906px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-changeslist-links",
+     "css": ".mw-changeslist-links { display: inline-block; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "mw-usertoollinks": {
+   "selector": ".mw-usertoollinks",
+   "rect": {
+    "x": 564,
+    "y": 504,
+    "w": 124,
+    "h": 22
+   },
+   "props": {
+    "display": "inline-block",
+    "position": "static",
+    "width": "123.828px",
+    "height": "22.3906px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-changeslist-links",
+     "css": ".mw-changeslist-links { display: inline-block; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "mw-userlink": {
+   "selector": ".mw-userlink",
+   "rect": {
+    "x": 548,
+    "y": 505,
+    "w": 13,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(0, 138, 197)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 138, 197)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-userlink",
+     "css": ".mw-userlink { overflow-wrap: break-word; hyphens: auto; unicode-bidi: embed; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "a",
+     "css": "a { background: none !important; padding: 0px !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "print"
+    },
+    {
+     "selector": "a, a.external, a.new, a.stub",
+     "css": "a, a.external, a.new, a.stub { color: inherit !important; text-decoration: inherit !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "print"
+    },
+    {
+     "selector": "a",
+     "css": "a { background: transparent; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-userlink",
+     "css": ".mw-userlink { unicode-bidi: embed; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "a",
+     "css": "a { --color-link: #008ac5; --color-link--hover: #00aeec; --color-link--active: #36c; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "a",
+     "css": "a { color: var(--color-link); text-decoration: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    }
+   ]
+  },
+  "mw-title": {
+   "selector": ".mw-title",
+   "rect": {
+    "x": 372,
+    "y": 552,
+    "w": 55,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-changeslist .mw-tag-marker, .mw-changeslist .mw-title",
+     "css": ".mw-changeslist .mw-tag-marker, .mw-changeslist .mw-title { unicode-bidi: embed; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "mw-diff-bytes": {
+   "selector": ".mw-diff-bytes",
+   "rect": {
+    "x": 532,
+    "y": 552,
+    "w": 52,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(0, 175, 137)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 175, 137)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-plusminus-pos, .mw-plusminus-neg, .mw-plusminus-null",
+     "css": ".mw-plusminus-pos, .mw-plusminus-neg, .mw-plusminus-null { unicode-bidi: isolate; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-plusminus-pos",
+     "css": ".mw-plusminus-pos { color: rgb(0, 100, 0); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-plusminus-pos",
+     "css": ".mw-plusminus-pos { color: var(--color-success); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "mw-plusminus-pos": {
+   "selector": ".mw-plusminus-pos",
+   "rect": {
+    "x": 1148,
+    "y": 542,
+    "w": 39,
+    "h": 20
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "39.1094px",
+    "height": "19.5px",
+    "margin": "0px 6.5px 0px 0px",
+    "padding": "0px",
+    "border": "0px none rgb(224, 99, 134)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(224, 99, 134)",
+    "fontSize": "13px",
+    "fontWeight": "700",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "19.5px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-plusminus-pos, .mw-plusminus-neg, .mw-plusminus-null",
+     "css": ".mw-plusminus-pos, .mw-plusminus-neg, .mw-plusminus-null { unicode-bidi: isolate; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-plusminus-pos",
+     "css": ".mw-plusminus-pos { color: rgb(0, 100, 0); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-plusminus-pos",
+     "css": ".mw-plusminus-pos { color: var(--color-success); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-changeslist-legend dt",
+     "css": ".mw-changeslist-legend dt { float: left; margin: 0px 0.5em 0px 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-changeslist-legend dt, .mw-changeslist-legend dd",
+     "css": ".mw-changeslist-legend dt, .mw-changeslist-legend dd { line-height: 1.3em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "dt",
+     "css": "dt { font-weight: bold; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "print"
+    },
+    {
+     "selector": ".mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4, .mw-body h5, .mw-body h6, .mw-body dt",
+     "css": ".mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4, .mw-body h5, .mw-body h6, .mw-body dt { margin: 1.25em 0px 0.5em; font-family: -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic ",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-body dt",
+     "css": ".mw-body dt { margin: 1.5em 0px 0.1em; font-family: -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"; font",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-body dt",
+     "css": ".mw-body dt { margin-top: 1em; color: rgb(224, 99, 134); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-body .mw-changeslist-legend dt",
+     "css": ".mw-body .mw-changeslist-legend dt { margin: 0px 0.5em 0px 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "screen"
+    }
+   ]
+  },
+  "line-inner-articleLink": {
+   "selector": ".mw-changeslist-line-inner-articleLink",
+   "rect": {
+    "x": 372,
+    "y": 552,
+    "w": 55,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "line-inner-historyLink": {
+   "selector": ".mw-changeslist-line-inner-historyLink",
+   "rect": {
+    "x": 427,
+    "y": 552,
+    "w": 89,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "line-inner-characterDiff": {
+   "selector": ".mw-changeslist-line-inner-characterDiff",
+   "rect": {
+    "x": 532,
+    "y": 552,
+    "w": 52,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "line-inner-userLink": {
+   "selector": ".mw-changeslist-line-inner-userLink",
+   "rect": {
+    "x": 600,
+    "y": 552,
+    "w": 56,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "line-inner-userTalkLink": {
+   "selector": ".mw-changeslist-line-inner-userTalkLink",
+   "rect": {
+    "x": 656,
+    "y": 552,
+    "w": 127,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "line-inner-tags": {
+   "selector": ".mw-changeslist-line-inner-tags",
+   "rect": {
+    "x": 733,
+    "y": 505,
+    "w": 0,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "line-inner-comment": {
+   "selector": ".mw-changeslist-line-inner-comment",
+   "rect": {
+    "x": 783,
+    "y": 552,
+    "w": 0,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "line-inner-separatorAfterLinks": {
+   "selector": ".mw-changeslist-line-inner-separatorAfterLinks",
+   "rect": {
+    "x": 476,
+    "y": 505,
+    "w": 16,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "line-inner-separatorAftercharacterDiff": {
+   "selector": ".mw-changeslist-line-inner-separatorAftercharacterDiff",
+   "rect": {
+    "x": 585,
+    "y": 552,
+    "w": 16,
+    "h": 19
+   },
+   "props": {
+    "display": "inline",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.pt|ext.visualEditor.desktopArticleTarget.noscript|jquery.makeCollapsible.styles|mediawiki.feedlink,helplink,icon|mediawiki.interface.helpers.styles|mediawiki.rcfilters.filters.base.styles|mediawiki.special.changeslist|mediawiki.special.changeslist.enhanced,legend|oojs-ui.styles.icons-alerts|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  }
+ },
+ "missing": [
+  ".mw-changeslist-date",
+  ".mw-changeslist-user",
+  ".mw-changeslist-bytechange",
+  ".mw-changeslist-group",
+  "#mw-rcfilters-ui-watchlistDetailsWidget"
+ ],
+ "missingExtra": [
+  ".mw-rcfilters-ui"
+ ],
+ "lineStructure": [
+  {
+   "tag": "span",
+   "cls": "mw-changeslist-line-inner-articleLink",
+   "id": null,
+   "text": "桂林THO‎",
+   "display": "inline",
+   "color": "rgb(33, 33, 33)",
+   "fontSize": "14px",
+   "marginLeft": "0px",
+   "padding": "0px"
+  },
+  {
+   "tag": "span",
+   "cls": "mw-changeslist-line-inner-historyLink",
+   "id": null,
+   "text": "差异历史",
+   "display": "inline",
+   "color": "rgb(33, 33, 33)",
+   "fontSize": "14px",
+   "marginLeft": "0px",
+   "padding": "0px"
+  },
+  {
+   "tag": "span",
+   "cls": "mw-changeslist-line-inner-separatorAfterLinks",
+   "id": null,
+   "text": "",
+   "display": "inline",
+   "color": "rgb(33, 33, 33)",
+   "fontSize": "14px",
+   "marginLeft": "0px",
+   "padding": "0px"
+  },
+  {
+   "tag": "span",
+   "cls": "mw-changeslist-line-inner-characterDiff",
+   "id": null,
+   "text": "+369‎",
+   "display": "inline",
+   "color": "rgb(33, 33, 33)",
+   "fontSize": "14px",
+   "marginLeft": "0px",
+   "padding": "0px"
+  },
+  {
+   "tag": "span",
+   "cls": "mw-changeslist-line-inner-separatorAftercharacterDiff",
+   "id": null,
+   "text": "",
+   "display": "inline",
+   "color": "rgb(33, 33, 33)",
+   "fontSize": "14px",
+   "marginLeft": "0px",
+   "padding": "0px"
+  },
+  {
+   "tag": "span",
+   "cls": "mw-changeslist-line-inner-userLink",
+   "id": null,
+   "text": "稀神灵梦",
+   "display": "inline",
+   "color": "rgb(33, 33, 33)",
+   "fontSize": "14px",
+   "marginLeft": "0px",
+   "padding": "0px"
+  },
+  {
+   "tag": "span",
+   "cls": "mw-changeslist-line-inner-userTalkLink",
+   "id": null,
+   "text": "留言 贡献 封禁",
+   "display": "inline",
+   "color": "rgb(33, 33, 33)",
+   "fontSize": "14px",
+   "marginLeft": "0px",
+   "padding": "0px"
+  },
+  {
+   "tag": "span",
+   "cls": "mw-changeslist-line-inner-comment",
+   "id": null,
+   "text": "",
+   "display": "inline",
+   "color": "rgb(33, 33, 33)",
+   "fontSize": "14px",
+   "marginLeft": "0px",
+   "padding": "0px"
+  },
+  {
+   "tag": "span",
+   "cls": "mw-changeslist-line-inner-rollback",
+   "id": null,
+   "text": "回退5次编辑",
+   "display": "inline",
+   "color": "rgb(33, 33, 33)",
+   "fontSize": "14px",
+   "marginLeft": "0px",
+   "padding": "0px"
+  },
+  {
+   "tag": "span",
+   "cls": "mw-changeslist-line-inner-tags",
+   "id": null,
+   "text": "",
+   "display": "inline",
+   "color": "rgb(33, 33, 33)",
+   "fontSize": "14px",
+   "marginLeft": "0px",
+   "padding": "0px"
+  },
+  {
+   "tag": "span",
+   "cls": "mw-changeslist-line-inner-watchingUsers",
+   "id": null,
+   "text": "",
+   "display": "inline",
+   "color": "rgb(33, 33, 33)",
+   "fontSize": "14px",
+   "marginLeft": "0px",
+   "padding": "0px"
+  }
+ ],
+ "lineTrStructure": [
+  {
+   "tag": "td",
+   "cls": "",
+   "colspan": null,
+   "text": "",
+   "rect": {
+    "x": 272,
+    "y": 551,
+    "w": 0,
+    "h": 22
+   }
+  },
+  {
+   "tag": "td",
+   "cls": "",
+   "colspan": null,
+   "text": "",
+   "rect": {
+    "x": 272,
+    "y": 551,
+    "w": 15,
+    "h": 22
+   }
+  },
+  {
+   "tag": "td",
+   "cls": "mw-changeslist-line-prefix",
+   "colspan": null,
+   "text": "",
+   "rect": {
+    "x": 287,
+    "y": 551,
+    "w": 0,
+    "h": 22
+   }
+  },
+  {
+   "tag": "td",
+   "cls": "mw-enhanced-rc",
+   "colspan": "2",
+   "text": "13:17",
+   "rect": {
+    "x": 287,
+    "y": 551,
+    "w": 85,
+    "h": 22
+   }
+  },
+  {
+   "tag": "td",
+   "cls": "mw-changeslist-line-inner",
+   "colspan": null,
+   "text": "桂林THO‎ 差异历史 +369‎ 稀神灵梦 留言 贡献 封禁 回退5次编辑",
+   "rect": {
+    "x": 372,
+    "y": 551,
+    "w": 685,
+    "h": 22
+   }
+  }
+ ],
+ "firstEditLineOuter": "<td class=\"mw-changeslist-line-inner\" data-target-page=\"桂林THO\"><span class=\"mw-changeslist-line-inner-articleLink\"> <span class=\"mw-title\"><a href=\"/%E6%A1%82%E6%9E%97THO\" class=\"mw-changeslist-title\" title=\"桂林THO\">桂林THO</a></span>‎</span><span class=\"mw-changeslist-line-inner-historyLink\"> <span class=\"mw-changeslist-links\"><span><a class=\"mw-changeslist-diff\" href=\"/index.php?title=%E6%A1%82%E6%9E%97THO&amp;curid=133&amp;diff=2192&amp;oldid=1535\">差异</a></span><span><a href=\"/index.php?title=%E6%A1%82%E6%9E%97THO&amp;action=history&amp;curid=133\" class=\"mw-changeslist-history\" title=\"桂林THO\">历史</a></span></span></span><span class=\"mw-changeslist-line-inner-separatorAfterLinks\"> <span class=\"mw-changeslist-separator\"></span> </span><span class=\"mw-changeslist-line-inner-characterDiff\"><span dir=\"ltr\" class=\"mw-plusminus-pos mw-diff-bytes\" title=\"更改后有1,998字节\">+369</span>‎</span><span class=\"mw-changeslist-line-inner-separatorAftercharacterDiff\"> <span class=\"mw-changeslist-separator\"></span> </span><span class=\"mw-changeslist-line-inner-userLink\"><a href=\"/%E7%94%A8%E6%88%B7:%E7%A8%80%E7%A5%9E%E7%81%B5%E6%A2%A6\" class=\"mw-userlink\" title=\"用户:稀神灵梦\"><bdi>稀神灵梦</bdi></a></span><span class=\"mw-changeslist-line-inner-userTalkLink\"> <span class=\"mw-usertoollinks mw-changeslist-links\"><span><a href=\"/index.php?title=%E7%94%A8%E6%88%B7%E8%AE%A8%E8%AE%BA:%E7%A8%80%E7%A5%9E%E7%81%B5%E6%A2%A6&amp;action=edit&amp;redlink=1\" class=\"new mw-usertoollinks-talk\" title=\"用户讨论:稀神灵梦（页面不存在）\">留言</a></span> <span><a href=\"/%E7%89%B9%E6%AE%8A:%E7%94%A8%E6%88%B7%E8%B4%A1%E7%8C%AE/%E7%A8%80%E7%A5%9E%E7%",
+ "firstLineText": "14:39 用户创建日志 用户账号LE 留言 贡献 封禁已创建 ‎",
+ "changeslistHtmlHead": "<div class=\"mw-changeslist oo-ui-widget oo-ui-widget-enabled mw-rcfilters-ui-changesListWrapperWidget\" aria-live=\"polite\"><div class=\"mw-changeslist-overlay\"></div><div class=\"mw-changeslist-legend mw-collapsible mw-made-collapsible\"><span class=\"mw-collapsible-toggle mw-collapsible-toggle-default\" role=\"button\" tabindex=\"0\" aria-expanded=\"true\"><a class=\"mw-collapsible-text\">折叠</a></span><strong>缩写列表：</strong><div class=\"mw-collapsible-content\"><dl> <dt class=\"newpage\">新</dt> <dd class=\"mw-changeslist-legend-newpage\">该编辑创建了新页面（见<a href=\"/%E7%89%B9%E6%AE%8A:%E6%96%B0%E5%BB%BA%E9%A1%B5%E9%9D%A2\" title=\"特殊:新建页面\">新页面列表</a>）</dd> <dt class=\"minoredit\">小</dt> <dd class=\"mw-changeslist-legend-minor\">该编辑为小编辑</dd> <dt class=\"botedit\">机</dt> <dd class=\"mw-changeslist-legend-bot\">该编辑由机器人执行</dd> <dt class=\"unpatrolled\">!</dt> <dd class=\"mw-changeslist-legend-unpatrolled\">该编辑尚未巡查</dd> <dt class=\"mw-plusminus-pos\">(<em>±123</em>)</dt> <dd class=\"mw-changeslist-legend-plusminus\">该页面字节数的前后变化</dd> </dl> </div></div><h4>2026年10月8日 (星期四)</h4> <div><div class=\"content-table-wrapper\"><div class=\"content-table-scrollbar inactive\" style=\"width: 1056px;\"><div class=\"content-table-spoof\" style=\"width: 461",
+ "rcfiltersTree": {
+  "tag": "div",
+  "cls": "oo-ui-widget oo-ui-widget-enabled mw-rcfilters-ui-filterWrapperWidget",
+  "id": null,
+  "text": "",
+  "rect": {
+   "x": 272,
+   "y": 198,
+   "w": 1056,
+   "h": 230
+  },
+  "children": [
+   {
+    "tag": "div",
+    "cls": "mw-rcfilters-ui-filterWrapperWidget-top",
+    "id": null,
+    "text": "",
+    "rect": {
+     "x": 272,
+     "y": 198,
+     "w": 1056,
+     "h": 35
+    },
+    "children": [
+     {
+      "tag": "div",
+      "cls": "oo-ui-widget oo-ui-widget-enabled mw-rcfilters-ui-rcTopSectionWidget",
+      "id": null,
+      "text": "",
+      "rect": {
+       "x": 272,
+       "y": 198,
+       "w": 1056,
+       "h": 35
+      }
+     }
+    ]
+   },
+   {
+    "tag": "div",
+    "cls": "oo-ui-widget oo-ui-widget-enabled oo-ui-draggableGroupElement oo-ui-tagMultiselectWidget oo-ui-tagMultiselectWidget-outlined oo-ui-menuTagMultiselectWidget mw-r",
+    "id": null,
+    "text": "",
+    "rect": {
+     "x": 272,
+     "y": 248,
+     "w": 1056,
+     "h": 128
+    },
+    "children": [
+     {
+      "tag": "div",
+      "cls": "oo-ui-tagMultiselectWidget-handle",
+      "id": null,
+      "text": "",
+      "rect": {
+       "x": 272,
+       "y": 248,
+       "w": 1056,
+       "h": 88
+      }
+     },
+     {
+      "tag": "div",
+      "cls": "mw-rcfilters-ui-table",
+      "id": null,
+      "text": "",
+      "rect": {
+       "x": 272,
+       "y": 337,
+       "w": 1056,
+       "h": 40
+      }
+     }
+    ]
+   },
+   {
+    "tag": "div",
+    "cls": "mw-rcfilters-ui-filterWrapperWidget-bottom",
+    "id": null,
+    "text": "",
+    "rect": {
+     "x": 272,
+     "y": 393,
+     "w": 1056,
+     "h": 35
+    },
+    "children": [
+     {
+      "tag": "span",
+      "cls": "oo-ui-widget oo-ui-widget-enabled oo-ui-toggleWidget oo-ui-toggleWidget-off oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-labelElement oo-ui-toggleButton",
+      "id": null,
+      "text": "",
+      "rect": {
+       "x": 272,
+       "y": 393,
+       "w": 125,
+       "h": 35
+      }
+     },
+     {
+      "tag": "span",
+      "cls": "mw-rcfilters-ui-filterWrapperWidget-showNewChanges oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-frameless oo-ui-iconElement oo-ui-f",
+      "id": null,
+      "text": "",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 0,
+       "h": 0
+      }
+     },
+     {
+      "tag": "div",
+      "cls": "oo-ui-widget oo-ui-widget-enabled mw-rcfilters-ui-changesLimitAndDateButtonWidget",
+      "id": null,
+      "text": "",
+      "rect": {
+       "x": 1124,
+       "y": 393,
+       "w": 204,
+       "h": 35
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "rcfiltersHtmlHead": "<div class=\"oo-ui-widget oo-ui-widget-enabled mw-rcfilters-ui-filterWrapperWidget\"><div class=\"mw-rcfilters-ui-filterWrapperWidget-top\"><div class=\"oo-ui-widget oo-ui-widget-enabled mw-rcfilters-ui-rcTopSectionWidget\"><div class=\"mw-rcfilters-ui-table\"><div class=\"mw-rcfilters-ui-row\"><div class=\"mw-rcfilters-ui-cell mw-rcfilters-ui-rcTopSectionWidget-topLinks-table\"></div><div class=\"mw-rcfilters-ui-table-placeholder mw-rcfilters-ui-cell\"></div><div class=\"mw-rcfilters-ui-cell mw-rcfilters-ui-rcTopSectionWidget-savedLinks\"><span class=\"mw-rcfilters-ui-savedLinksListWidget-button oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-iconElement oo-ui-indicatorElement oo-ui-labelElement oo-ui-buttonWidget oo-ui-buttonMenuSelectWidget mw-rcfilters-ui-savedLinksListWidget\"><a class=\"oo-ui-buttonElement-button\" role=\"button\" tabindex=\"0\" rel=\"nofollow\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-owns=\"ooui-1\"><span class=\"oo-ui-iconElement-icon oo-ui-icon-bookmark\"></span><span class=\"oo-ui-labelElement-label\">已保存的过滤器</span><span class=\"oo-ui-indicatorElement-indicator oo-ui-indicator-down\"></span></a></span></div></div></div></div></div><div class=\"oo-ui-widget oo-ui-widget-enabled oo-ui-draggableGroupElement oo-ui-tagMultiselectWidget oo-ui-tagMultiselectWidget-outlined oo-ui-menuTagMultiselectWidget mw-rcfilters-ui-filterTagMultiselectWidget\"><div class=\"oo-ui-tagMultiselectWidget-handle\"><span class=\"oo-ui-indicatorElement-indicator oo-ui-",
+ "watchlistDetails": null,
+ "rcSpinnerPresent": false,
+ "capturedAt": "2026-10-14T15:35:28.757Z",
+ "notes": [
+  "未找到元素的选择器：.mw-changeslist-date；.mw-changeslist-user；.mw-changeslist-bytechange；.mw-changeslist-group；#mw-rcfilters-ui-watchlistDetailsWidget",
+  "补充选择器未找到：.mw-rcfilters-ui"
+ ],
+ "domOriginalLength": 57005
+}

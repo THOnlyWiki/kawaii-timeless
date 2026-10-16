@@ -1,0 +1,432 @@
+/*
+ * Kawaii-Timeless：编辑器 / 源代码视图样式（皮肤第 3 个样式表，覆盖 core 的 base.css）
+ *
+ * 覆盖范围：
+ *   1. CodeMirror 容器（wikitext / 代码页编辑 .wiki-code-editor、只读预览 .wiki-code-view）；
+ *   2. CodeMirror 内部：行号槽、光标、选区、当前行、括号匹配；
+ *   3. 语法高亮（cm-s-default 重配色，取自皮肤调色板）；
+ *   4. wikitext 编辑工具栏 #wiki-editor-toolbar（.toolbar-*）与可视化编辑器 .visual-editor-toolbar；
+ *   5. 查看源代码 .wiki-source、正文语法高亮代码块 pre.syntax；
+ *   6. 自动补全浮层 .CodeMirror-hints、编辑器内滚动条。
+ *
+ * 配色全部走皮肤变量（--color-primary / --color-surface-* / --color-base* / --border-* …），
+ * 因此 :root.skin-timeless-dark 暗色主题下自动生效；语法色用本文件顶部的 --cm-editor-* 变量，
+ * 暗色下单独微调。
+ */
+
+:root {
+    /* 语法高亮配色（浅色） */
+    --cm-editor-keyword: #bd5774;
+    --cm-editor-string: #c2185b;
+    --cm-editor-number: #1e78bc;
+    --cm-editor-def: #006692;
+    --cm-editor-meta: #8a6d3b;
+}
+
+:root.skin-timeless-dark {
+    /* 语法高亮配色（暗色） */
+    --cm-editor-keyword: #f2a2b6;
+    --cm-editor-string: #f08aa8;
+    --cm-editor-number: #7cb7e8;
+    --cm-editor-def: #6fc0dd;
+    --cm-editor-meta: #d4b26a;
+}
+
+/* ---------- 1. CodeMirror 容器 ----------
+   注意：core 的 base.css 用 .CodeMirror.wiki-code-editor / .wiki-code-view .CodeMirror
+   （两个类，优先级更高）定样式，这里必须同优先级并列写才能覆盖 */
+.CodeMirror,
+.CodeMirror.wiki-code-editor,
+.wiki-code-view .CodeMirror {
+    height: auto;
+    border: 1px solid var(--border-color-base);
+    border-radius: var(--border-radius--medium);
+    background: var(--color-surface-0, #fff);
+    color: var(--color-base--emphasized, #202122);
+    font-family: var(--font-family-monospace);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.CodeMirror:hover,
+.CodeMirror.wiki-code-editor:hover,
+.wiki-code-view .CodeMirror:hover {
+    border-color: var(--border-color-input--hover, rgba(0, 0, 0, 0.4));
+}
+
+.CodeMirror-focused,
+.CodeMirror.wiki-code-editor.CodeMirror-focused,
+.wiki-code-view .CodeMirror-focused {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px hsl(var(--color-primary__h, 360) var(--color-primary__s, 85%)
+        var(--color-primary__l, 68%) / 0.18);
+}
+
+/* wikitext 编辑页：普通 textarea（没有 CodeMirror）也用同一套皮肤（等宽 + 无边框 + 淡焦点，
+   对齐线上 WikiEditor 的观感：工具栏与正文代码区连成一块白色区域，没有外框） */
+.wiki-form.wiki-editor textarea {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: var(--color-base--emphasized, #202122);
+    font-family: var(--font-family-monospace);
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 0.4em 0.2em 1em;
+    box-shadow: none;
+    transition: none;
+}
+
+.wiki-form.wiki-editor textarea:focus {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.wiki-form.wiki-editor textarea:hover {
+    border-color: transparent;
+}
+
+/* 工具栏紧贴编辑器/代码框的上沿：拼成一张卡片 */
+.wiki-toolbar + .CodeMirror,
+.wiki-toolbar + textarea,
+.wiki-toolbar + textarea + .CodeMirror {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 0;
+}
+
+.CodeMirror.wiki-code-editor {
+    min-height: 26em;
+}
+
+.CodeMirror-line {
+    padding: 0 0.6em;
+}
+
+/* 行号槽（同样要与 base.css 的 .wiki-code-editor .CodeMirror-gutters 并列写） */
+.CodeMirror-gutters,
+.wiki-code-editor .CodeMirror-gutters,
+.wiki-code-view .CodeMirror-gutters {
+    background: var(--color-surface-2, #f8f9fa);
+    border-right: 1px solid var(--border-color-base);
+    border-radius: var(--border-radius--medium) 0 0 var(--border-radius--medium);
+}
+
+.wiki-toolbar + .CodeMirror .CodeMirror-gutters,
+.wiki-toolbar + textarea + .CodeMirror .CodeMirror-gutters {
+    border-top-left-radius: 0;
+}
+
+.CodeMirror-linenumber {
+    color: var(--color-base--subtle, #72777d);
+    padding: 0 0.7em 0 0.9em;
+    font-size: 0.9em;
+}
+
+/* 光标 / 选区（粉色主题） */
+.CodeMirror-cursor {
+    border-left: 2px solid var(--color-primary);
+    border-right: none;
+    width: 0;
+}
+
+.CodeMirror-selected {
+    background: hsl(var(--color-primary__h, 360) var(--color-primary__s, 85%)
+        var(--color-primary__l, 68%) / 0.22) !important;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background: hsl(var(--color-primary__h, 360) var(--color-primary__s, 85%)
+        var(--color-primary__l, 68%) / 0.32) !important;
+}
+
+/* 当前行 / 括号匹配 */
+.CodeMirror-activeline-background {
+    background: var(--background-color-primary--hover, #fdf0f4);
+}
+
+.CodeMirror-matchingbracket {
+    color: inherit !important;
+    background: hsl(var(--color-primary__h, 360) var(--color-primary__s, 85%)
+        var(--color-primary__l, 68%) / 0.28);
+    border-radius: var(--border-radius--small);
+    outline: none !important;
+}
+
+.CodeMirror-nonmatchingbracket {
+    color: var(--color-destructive, #dd3333) !important;
+}
+
+/* ---------- 2. 语法高亮（cm-s-default 重配色） ---------- */
+.cm-s-default .cm-comment {
+    color: var(--color-base--subtle, #72777d);
+    font-style: italic;
+}
+
+.cm-s-default .cm-keyword {
+    color: var(--cm-editor-keyword);
+    font-weight: 600;
+}
+
+.cm-s-default .cm-atom,
+.cm-s-default .cm-number,
+.cm-s-default .cm-qualifier {
+    color: var(--cm-editor-number);
+}
+
+.cm-s-default .cm-def {
+    color: var(--cm-editor-def);
+    font-weight: 600;
+}
+
+.cm-s-default .cm-variable {
+    color: var(--color-base--emphasized, #202122);
+}
+
+.cm-s-default .cm-variable-2 {
+    color: var(--cm-editor-def);
+}
+
+.cm-s-default .cm-string,
+.cm-s-default .cm-string-2 {
+    color: var(--cm-editor-string);
+}
+
+.cm-s-default .cm-property {
+    color: var(--color-link, #008ac5);
+}
+
+.cm-s-default .cm-attribute,
+.cm-s-default .cm-builtin {
+    color: var(--cm-editor-def);
+}
+
+.cm-s-default .cm-tag {
+    color: var(--color-primary);
+}
+
+.cm-s-default .cm-operator {
+    color: var(--color-base, #54595d);
+}
+
+.cm-s-default .cm-meta {
+    color: var(--cm-editor-meta);
+}
+
+.cm-s-default .cm-header {
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.cm-s-default .cm-link {
+    color: var(--color-link, #008ac5);
+}
+
+.cm-s-default .cm-url,
+.cm-s-default .cm-hr {
+    color: var(--color-base--subtle, #72777d);
+}
+
+/* ---------- 3. wikitext 编辑工具栏 / 可视化编辑器工具栏 ----------
+   线上 WikiEditor 观感：白色工具条、无外框、32px 扁平按钮、悬停浅灰底、分组用浅分隔线 */
+.wiki-toolbar {
+    border: 0;
+    border-radius: 0;
+    background: var(--color-surface-0, #fff);
+    background-image: none;
+    padding: 0.35em 0;
+    gap: 0.15em;
+}
+
+.wiki-toolbar .toolbar-group + .toolbar-group {
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+    margin-left: 0.35em;
+    padding-left: 0.35em;
+}
+
+.wiki-toolbar .toolbar-button {
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: var(--border-radius--small, 4px);
+    background: transparent;
+    /* 皮肤 / 工具条按钮要扁平：压掉皮肤给 <button> 的投影与按下缩放、
+       以及站点「糖果按钮」主题（裸 button 选择器）带进来的投影 / 加粗 / 外边距 */
+    box-shadow: none;
+    transform: none;
+    margin-right: 0;
+    font-weight: normal;
+    color: var(--color-base, #54595d);
+    font-size: 14px;
+    transition: background-color 0.12s ease, color 0.12s ease;
+}
+
+.wiki-toolbar .toolbar-button:active,
+.wiki-toolbar .toolbar-button:focus {
+    box-shadow: none;
+    transform: none;
+}
+
+.wiki-toolbar .toolbar-button:hover,
+.visual-editor-toolbar button:hover {
+    background: var(--background-color-quiet--hover, rgba(0, 0, 0, 0.07));
+    color: var(--color-base--emphasized, #202122);
+}
+
+.wiki-toolbar .toolbar-button:active,
+.visual-editor-toolbar button:active {
+    background: rgba(0, 0, 0, 0.12);
+}
+
+/* 工具条里的「高级 / 特殊字符 / 帮助」这类文字按钮：与图标按钮同高、更松弛 */
+.wiki-toolbar .toolbar-button-text {
+    width: auto;
+    padding: 0 0.6em;
+    font-size: 0.875em;
+}
+
+.wiki-toolbar .toolbar-menu {
+    border: 1px solid var(--border-color-base);
+    border-radius: var(--border-radius--medium);
+    background: var(--color-surface-0, #fff);
+    box-shadow: var(--box-shadow-card);
+}
+
+.wiki-toolbar .toolbar-menu button {
+    border-radius: var(--border-radius--small);
+}
+
+.wiki-toolbar .toolbar-menu button:hover {
+    background: var(--background-color-primary--hover, #fdf0f4);
+    color: var(--color-primary);
+}
+
+.visual-editor-toolbar {
+    border: 1px solid var(--border-color-base);
+    border-radius: var(--border-radius--medium);
+    background: var(--color-surface-2, #f8f9fa);
+}
+
+.visual-editor-toolbar button {
+    border-radius: var(--border-radius--small);
+    box-shadow: none;
+    transform: none;
+    margin-right: 0;
+    font-weight: normal;
+    color: var(--color-base, #54595d);
+}
+
+/* ---------- 3b. 保存区：勾选项（监视列表 / 小编辑 / 机器人）+ 摘要 ----------
+   线上（OOUI）观感：20px 方框、主色强调色、标签 14px 灰字、行间距舒展 */
+.wiki-form.wiki-editor .edit-actions {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 0.5em;
+}
+
+.edit-watch-option,
+.edit-minor-option,
+.edit-bot-option {
+    gap: 0.55em;
+    margin: 0.35em 0;
+    color: var(--color-base, #54595d);
+    font-size: 0.875em;
+}
+
+.wiki-form.wiki-editor .edit-actions input[type="checkbox"] {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    /* core 的 base.css 给表单控件设过 margin（0.5em 0）与蓝色 accent；这里按主题收紧：
+       勾选后的颜色用主题主色（粉），与按钮 / 页签一致（站点 CSS 的 #FFB57C 只作原生控件默认） */
+    margin: 0;
+    accent-color: var(--color-primary, #fb7299);
+    cursor: pointer;
+}
+
+.wiki-form.wiki-editor .edit-actions input[type="checkbox"]:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* 编辑摘要：标签与输入框上下排（线上是 fieldLayout-align-top） */
+.wiki-form.wiki-editor .edit-summary {
+    margin-top: 1em;
+}
+
+.wiki-form.wiki-editor .edit-summary label {
+    display: block;
+    margin-bottom: 0.3em;
+    color: var(--color-base, #54595d);
+    font-size: 0.875em;
+}
+
+/* ---------- 4. 查看源代码 / 代码预览 / 正文代码块 ---------- */
+.wiki-source,
+pre.syntax {
+    border: 1px solid var(--border-color-base);
+    border-radius: var(--border-radius--medium);
+    background: var(--color-surface-2, #f8f9fa);
+    color: var(--color-base--emphasized, #202122);
+    font-family: var(--font-family-monospace);
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.wiki-code-view .CodeMirror {
+    border-radius: var(--border-radius--medium);
+    font-size: 0.875rem;
+}
+
+.wiki-code-view .CodeMirror-gutters {
+    background: var(--color-surface-2, #f8f9fa);
+}
+
+/* ---------- 5. 自动补全浮层 / 滚动条 ---------- */
+.CodeMirror-hints {
+    border: 1px solid var(--border-color-base);
+    border-radius: var(--border-radius--medium);
+    background: var(--color-surface-0, #fff);
+    box-shadow: var(--box-shadow-card);
+    font-family: var(--font-family-base);
+    padding: 0.15em;
+}
+
+.CodeMirror-hint {
+    border-radius: var(--border-radius--small);
+    color: var(--color-base--emphasized, #202122);
+}
+
+li.CodeMirror-hint-active {
+    background: var(--color-primary) !important;
+    color: #fff !important;
+}
+
+.CodeMirror-vscrollbar,
+.CodeMirror-hscrollbar,
+.CodeMirror-scrollbar-filler,
+.CodeMirror-gutter-filler {
+    background: transparent;
+}
+
+.CodeMirror-vscrollbar::-webkit-scrollbar,
+.CodeMirror-hscrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.CodeMirror-vscrollbar::-webkit-scrollbar-thumb,
+.CodeMirror-hscrollbar::-webkit-scrollbar-thumb {
+    border: 2px solid transparent;
+    border-radius: var(--border-radius--pill);
+    background: var(--border-color-input--hover, rgba(0, 0, 0, 0.25));
+    background-clip: padding-box;
+}
+
+.CodeMirror-vscrollbar::-webkit-scrollbar-thumb:hover,
+.CodeMirror-hscrollbar::-webkit-scrollbar-thumb:hover {
+    background: var(--color-base--subtle, #72777d);
+    background-clip: padding-box;
+}

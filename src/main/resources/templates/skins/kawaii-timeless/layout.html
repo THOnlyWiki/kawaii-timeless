@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<!--
+  Kawaii-Timeless 皮肤布局（移植自 MediaWiki skins/Timeless，OtomadWiki 定制版；
+  由 kawaii-timeless 插件提供，模板名 templates/skins/kawaii-timeless/layout.html）。
+
+  DOM 结构与原皮肤 TimelessTemplate.php 对齐（组件逐一对应）：
+    #mw-header-container    顶栏：用户栏（头像下拉 + 上传按钮）、站点标题（wordmark）、搜索框（#p-search）
+    #menus-cover            移动端菜单遮罩（点外部关闭）
+    #mw-content-container   内容区：#mw-content（正文 + 页签行）+ #mw-site-navigation（logo、导航、wiki工具）
+                            + #mw-related-navigation（页面工具、语言、分类）
+    #mw-footer-container    页脚（#footer-icons + #footer-list/#footer-places/#footer-info）
+
+  数据来自 core 的皮肤上下文（与 vector / plain 相同）：sidebar / languageLinks / pageCategories /
+  currentUser / pluginPersonalTools / pageUrl / activeTab / watch …；样式在
+  static/skins/kawaii-timeless/kawaii-timeless.css（less.php 编译产物 + main.js/mobile.js）。
+-->
+<html lang="zh" th:lang="${#locale.language}" xmlns:th="http://www.thymeleaf.org"
+      th:fragment="layout(pageTitle, content)">
+<head th:replace="~{fragments/head :: head(${pageTitle} + ' - ' + (${siteName} ?: 'WikiKernel'))}">
+    <title>WikiKernel</title>
+</head>
+<!--/* body 常驻 scrolled：线上 MediaWiki:Common.js 用 MutationObserver 一直保持这个类
+       （紧凑顶栏 48px + 显示 .kawaii-header-background 背景层），这里静态加上同样的效果 */-->
+<body class="mediawiki client-js ltr sitedir-ltr mw-hide-empty-elt skin-timeless scrolled"
+      th:classappend="${' page-' + #strings.replace((wikiTitle != null ? wikiTitle : pageTitle), ' ', '_')
+                        + (isTalkPage == true ? ' ns-talk' : (isSpecialPage == true ? ' ns-special' : ' ns-subject'))
+                        + (((wikiTitle != null ? wikiTitle : pageTitle) == #messages.msg('special.preferences'))
+                            ? ' mw-special-Preferences' : '')
+                        + (printableView == true ? ' wiki-printable' : '')}">
+
+<!--/* 供各分组/工具判断用的变量：’wiki工具’分组（侧栏页面里通常叫“工具”） */-->
+<div id="mw-wrapper"
+     th:with="toolsSection=${(sidebar != null and !#lists.isEmpty(sidebar)) ? (sidebar.^[title == '工具' or title == 'Toolbox']) : null},
+              labelUpload=#{tools.upload}, labelSpecial=#{tools.specialPages},
+              labelContribs=#{tools.userContributions}, labelLogs=#{tools.logs},
+              labelViewGroups=#{tools.viewGroups}, labelChangeGroups=#{tools.changeGroups},
+              labelCheckUser=#{tools.checkUser}, labelMerge=#{tools.userMerge}, labelBlock=#{tools.block}">
+
+    <!--/* ==================== 顶栏 ==================== */-->
+    <div id="mw-header-container" class="ts-container" th:unless="${printableView}">
+        <div id="mw-header" class="ts-inner">
+            <div id="user-tools">
+                <!--/* 上传入口（Kawaii 定制：原站 #header-upload 空元素 + CSS 图标） */-->
+                <a id="header-upload" class="mdui-ripple" th:href="@{/wiki/特殊:上传文件}"
+                   th:title="#{skin.kawaii-timeless.upload}" th:attr="aria-label=#{skin.kawaii-timeless.upload}"></a>
+                <!--/* 个人工具图标组（原站这里是 Echo 的铃铛/消息盘；WikiKernel 用 social-profile 的
+                       私信 / 好友 / 礼物代替，CSS 里按类名换成 Material 图标 + 未读小红点） */-->
+                <div id="personal-extra"
+                     th:if="${pluginPersonalTools != null and !#lists.isEmpty(pluginPersonalTools)}">
+                    <ul>
+                        <th:block th:each="tool : ${pluginPersonalTools}" th:utext="${tool}"></th:block>
+                    </ul>
+                </div>
+                <div id="personal">
+                    <!--/* 头像：站点设置键 kawaii-timeless.header-avatar = 图片 URL（站点统一头像；留空 = 用用户自己的头像，
+                           未登录 / 无头像时用内置默认头像）——LocalSettings.yaml: wikikernel.skins.kawaii-timeless.header-avatar */-->
+                    <h2 th:title="#{skin.kawaii-timeless.personalTitle}"
+                        th:with="avatarSetting=${@siteConfigImpl.get('kawaii-timeless.header-avatar', '')},
+                                 avatarUrl=${#strings.isEmpty(avatarSetting) ? (userAvatarUrl ?: '/img/avatar-default.svg') : avatarSetting}">
+                        <div class="header-avatar"
+                             th:style="|background-image: url('${avatarUrl}')|"></div>
+                    </h2>
+                    <div id="personal-inner" class="dropdown">
+                        <div class="mw-portlet" id="p-personal" role="navigation" aria-labelledby="p-personal-label"
+                             th:title="#{skin.kawaii-timeless.personalTitle}">
+                            <h3 id="p-personal-label" th:lang="${#locale}" dir="ltr">
+                                <b th:if="${currentUser != null}" th:text="${currentUser.username}">用户名</b>
+                                <th:block th:if="${currentUser == null}" th:text="#{skin.kawaii-timeless.notloggedin}">未登录</th:block>
+                            </h3>
+                            <div class="mw-portlet-body">
+                                <ul th:lang="${#locale}" dir="ltr">
+                                    <li id="pt-login" class="mw-list-item" th:if="${currentUser == null}">
+                                        <a th:href="@{/wiki/特殊:登录}" th:title="#{auth.login}"><span th:text="#{auth.login}">登录</span></a>
+                                    </li>
+                                    <li id="pt-createaccount" class="mw-list-item" th:if="${currentUser == null and registerAvailable}">
+                                        <a th:href="@{/wiki/特殊:注册}" th:title="#{auth.registerTitle}"><span th:text="#{auth.register}">注册</span></a>
+                                    </li>
+                                    <li id="pt-userpage" class="mw-list-item" th:if="${currentUser != null}">
+                                        <a th:href="@{/wiki/{t}(t=${'用户:' + currentUser.username})}" th:title="#{auth.currentUserTitle}"><span th:text="#{skin.kawaii-timeless.userpage}">用户页</span></a>
+                                    </li>
+                                    <li id="pt-mytalk" class="mw-list-item" th:if="${currentUser != null}">
+                                        <a th:href="@{/wiki/{t}(t=${'用户讨论:' + currentUser.username})}" th:title="#{personal.talkTitle}"><span th:text="#{skin.kawaii-timeless.talkpage}">用户讨论</span></a>
+                                    </li>
+                                    <li id="pt-preferences" class="mw-list-item" th:if="${currentUser != null}">
+                                        <a th:href="@{/wiki/特殊:参数设置}" th:title="#{personal.preferencesTitle}"><span th:text="#{special.preferences}">参数设置</span></a>
+                                    </li>
+                                    <li id="pt-watchlist" class="mw-list-item" th:if="${currentUser != null}">
+                                        <a th:href="@{/wiki/特殊:监视列表}" th:title="#{watch.title}"><span th:text="#{special.watchlist}">监视列表</span></a>
+                                    </li>
+                                    <li id="pt-mycontris" class="mw-list-item" th:if="${currentUser != null}">
+                                        <a th:href="@{/wiki/特殊:用户贡献(name=${currentUser.username})}" th:title="#{personal.contributionsTitle}"><span th:text="#{personal.contributions}">贡献</span></a>
+                                    </li>
+                                    <!--/* 注意：本皮肤不渲染 core 的「外观」入口（原站也没有）与插件注入的个人工具
+                                           （social-profile 的私信 / 好友 / 礼物）——按站点所有者要求保持与原站菜单一致 */-->
+                                    <li id="pt-logout" class="mw-list-item" th:if="${currentUser != null}">
+                                        <a th:href="@{/api/user/logout}" th:title="#{auth.logoutTitle}"><span th:text="#{auth.logout}">退出</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--/* 顶栏站名（wordmark）：站点设置键 kawaii-timeless.wordmark = 文字或图片 URL
+                   （以 / 或 http(s):// 开头按图片处理；旧值 svg = 内置动画 SVG、text = 站点名称，兼容）；
+                   留空 = 站点名称。.wordmark 类 = 有图片；文字版超 13 字用 .long（原皮肤行为）；
+                   .jumpanim 悬停跳动与原站一致 */-->
+            <div id="p-logo-text" class="mw-portlet" role="banner"
+                 th:with="wordmarkRaw=${@siteConfigImpl.get('kawaii-timeless.wordmark', '')},
+                          wordmarkValue=${wordmarkRaw == 'svg'
+                              ? '/skins/kawaii-timeless/images/Wiki_Logo_Text_Animated.svg'
+                              : (wordmarkRaw == 'text' ? '' : wordmarkRaw)},
+                          wordmarkImage=${#strings.startsWith(wordmarkValue, '/')
+                              or #strings.startsWith(wordmarkValue, 'http://')
+                              or #strings.startsWith(wordmarkValue, 'https://')},
+                          wordmarkText=${wordmarkImage ? ''
+                              : (#strings.isEmpty(wordmarkValue) ? (siteName ?: 'WikiKernel') : wordmarkValue)},
+                          wordmarkClass=${wordmarkImage ? 'wordmark'
+                              : (#strings.length(wordmarkText) > 13 ? 'long' : '')}">
+                <a id="p-banner" class="mw-wiki-title jumpanim" th:classappend="${wordmarkClass}"
+                   th:href="@{/}" th:title="${siteName} ?: 'WikiKernel'">
+                    <img th:if="${wordmarkImage}" th:src="${wordmarkValue}" width="750" height="80"
+                         th:alt="${siteName} ?: 'WikiKernel'"/>
+                    <th:block th:unless="${wordmarkImage}" th:text="${wordmarkText}">WikiKernel</th:block>
+                </a>
+            </div>
+
+            <!--/* 搜索（原皮肤 #header-center > #p-search；#simpleSearch 的 opacityhide 由 main.js 移除） */-->
+            <div id="header-center">
+                <div class="mw-portlet" id="p-search" role="search">
+                    <h3><label for="searchInput" th:text="#{common.search}">搜索</label></h3>
+                    <form id="searchform" th:action="@{/wiki/特殊:搜索}">
+                        <div id="simpleSearch" class="opacityhide">
+                            <div id="searchInput-container">
+                                <input type="search" name="q" id="searchInput" th:value="${q}"
+                                       th:placeholder="#{common.searchPlaceholder(${siteName} ?: 'WikiKernel')}"
+                                       th:attr="aria-label=#{common.search}"/>
+                            </div>
+                            <input type="hidden" name="title" value="特殊:搜索"/>
+                            <div id="header-search-button" class="mdui-ripple">
+                                <button type="submit" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"
+                                        th:text="#{common.search}">搜索</button>
+                                <button type="submit" id="searchButton" class="searchButton"
+                                        th:text="#{skin.kawaii-timeless.go}">前往</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--/* Kawaii 主题的头图背景层 */-->
+        <div class="kawaii-header-background"></div>
+        <div class="visualClear"></div>
+    </div>
+
+    <!--/* 移动端菜单遮罩 */-->
+    <div id="menus-cover"></div>
+
+    <!--/* ==================== 内容区 ==================== */-->
+    <div id="mw-content-container" class="ts-container">
+        <div id="mw-content-block" class="ts-inner">
+            <div id="mw-content-wrapper">
+                <div id="mw-content">
+                    <div id="content" class="mw-body" role="main">
+                        <!--/* 页面横幅等 beforeTitle 片段（PageDisplayHook） */-->
+                        <div id="siteNotice" th:if="${pageBeforeTitleHtml != null}">
+                            <th:block th:each="fragment : ${pageBeforeTitleHtml}" th:utext="${fragment}"></th:block>
+                        </div>
+                        <h1 id="firstHeading" class="firstHeading" th:if="${hideTitle != true}"
+                            th:text="${pageTitle}">页面标题</h1>
+                        <div id="bodyContentOuter">
+                            <!--/* 页签行（原皮肤 #mw-page-header-links：命名空间 + 更多 + 页面操作） */-->
+                            <div id="mw-page-header-links" th:unless="${printableView}">
+                                <div class="mw-portlet tools-inline" id="p-namespaces" role="navigation"
+                                     aria-labelledby="p-namespaces-label" th:if="${wikiTitle != null}">
+                                    <h3 id="p-namespaces-label" th:text="#{skin.kawaii-timeless.namespaces}">命名空间</h3>
+                                    <div class="mw-portlet-body">
+                                        <ul>
+                                            <li id="ca-nstab-main" th:classappend="${isTalkPage != true} ? 'selected'">
+                                                <a th:href="${isTalkPage ? subjectPageUrl : pageUrl}"><span th:text="#{common.page}">页面</span></a>
+                                            </li>
+                                            <li id="ca-talk" th:classappend="${isTalkPage == true} ? 'selected'">
+                                                <a th:if="${talkPageUrl != null}" th:href="${talkPageUrl}"><span th:text="#{common.talk}">讨论</span></a>
+                                                <span th:if="${talkPageUrl == null}" th:text="#{common.talk}">讨论</span>
+                                            </li>
+                                            <!--/* 监视 / 取消监视（原皮肤把五角星放在命名空间组里；watch.js 按 #watch-toggle 绑定） */-->
+                                            <li class="watch-tab" id="ca-watch" th:if="${watched != null}">
+                                                <a th:if="${currentUser != null}" href="#" id="watch-toggle"
+                                                   th:attr="data-title=${wikiTitle},data-watched=${watched}"
+                                                   th:text="${watched == true} ? #{watch.unwatch} : #{watch.watch}">监视</a>
+                                                <a th:if="${currentUser == null}" th:href="@{/wiki/特殊:登录}"
+                                                   th:text="#{watch.watch}">监视</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--/* 特殊页：单个「特殊页面」页签（沿用 #p-namespaces 的 id，样式才会隐藏 portlet 标题） */-->
+                                <div class="mw-portlet tools-inline" id="p-namespaces" role="navigation"
+                                     th:if="${isSpecialPage == true and wikiTitle == null}">
+                                    <h3 th:text="#{skin.kawaii-timeless.namespaces}">命名空间</h3>
+                                    <div class="mw-portlet-body">
+                                        <ul>
+                                            <li id="ca-nstab-special" class="selected">
+                                                <span th:text="#{common.specialPage}">特殊页面</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--/* 更多（移动端下拉开关，原皮肤 #ca-more） */-->
+                                <div class="mw-portlet tools-inline" id="p-more" role="navigation"
+                                     aria-labelledby="p-more-label" th:if="${wikiTitle != null}">
+                                    <h3 id="p-more-label" th:text="#{skin.kawaii-timeless.pagemisc}">更多</h3>
+                                    <div class="mw-portlet-body">
+                                        <ul>
+                                            <li id="ca-more" class="dropdown-toggle">
+                                                <span th:text="#{skin.kawaii-timeless.more}">更多</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--/* 页面操作：阅读 / 编辑（可视化 / 源代码）/ 历史 / 监视 */-->
+                                <div class="mw-portlet tools-inline" id="p-views" role="navigation"
+                                     aria-labelledby="p-views-label" th:if="${wikiTitle != null}">
+                                    <h3 id="p-views-label" th:text="#{skin.kawaii-timeless.pagetools}">页面操作</h3>
+                                    <div class="mw-portlet-body">
+                                        <ul>
+                                            <li id="ca-view" th:classappend="${activeTab == null or activeTab == 'view'} ? 'selected'">
+                                                <a th:href="${pageUrl}"><span th:text="#{common.view}">阅读</span></a>
+                                            </li>
+                                            <li id="ca-ve-edit" th:if="${canVisualEdit}" th:classappend="${veMode == true} ? 'selected'">
+                                                <a th:href="${pageUrl + '?veaction=edit'}"><span th:text="#{common.edit}">编辑</span></a>
+                                            </li>
+                                            <li id="ca-edit" th:classappend="${activeTab == 'edit' and veMode != true} ? 'selected'">
+                                                <a th:href="${pageUrl + '?action=edit'}"><span
+                                                        th:text="${canVisualEdit == true} ? #{common.editSource} : (${canEditPage == true} ? #{common.edit} : #{common.viewSource})">编辑源代码</span></a>
+                                            </li>
+                                            <li id="ca-history" th:classappend="${activeTab == 'history'} ? 'selected'">
+                                                <a th:href="${pageUrl + '?action=history'}"><span th:text="#{skin.kawaii-timeless.history}">历史</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="visualClear"></div>
+                            <!--/* 正文：#bodyContent.mw-body-content > .mw-parser-output（Timeless 的内容样式挂在这里） */-->
+                            <div id="bodyContent" class="mw-body-content">
+                                <div id="mw-parser-output" class="mw-parser-output wiki-content mw-content-ltr" dir="ltr"
+                                     th:insert="${content}">
+                                    <p>页面内容</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--/* 正文之后（#content 之外、原皮肤 getAfterContent）：afterContent 片段（评论等） */-->
+                <div id="content-bottom-stuff" th:if="${pageAfterContentHtml != null}">
+                    <th:block th:each="fragment : ${pageAfterContentHtml}" th:utext="${fragment}"></th:block>
+                </div>
+            </div>
+
+            <!--/* ==================== 左侧：logo + 导航 + wiki工具 ==================== */-->
+            <div id="mw-site-navigation" th:unless="${printableView}">
+                <!--/* 左栏站点 logo：站点设置键 kawaii-timeless.logo = 图片 URL（LocalSettings.yaml:
+                       wikikernel.skins.kawaii-timeless.logo）；留空 = 整块隐藏。
+                       注意用 th:block 先取变量：th:if 的优先级在 th:with 之前，直接同元素判断会读不到 */-->
+                <th:block th:with="logoUrl=${@siteConfigImpl.get('kawaii-timeless.logo', '')}">
+                    <div id="p-logo" class="mw-portlet" role="banner" th:if="${!#strings.isEmpty(logoUrl)}">
+                        <a class="mw-wiki-logo timeless-logo mdui-ripple" th:href="@{/}"
+                           th:title="#{common.home}">
+                            <img th:src="${logoUrl}" th:alt="${siteName} ?: 'WikiKernel'"/>
+                        </a>
+                    </div>
+                </th:block>
+                <div id="site-navigation" class="sidebar-chunk">
+                    <h2><span th:text="#{skin.kawaii-timeless.navigation}">导航</span></h2>
+                    <div class="sidebar-inner">
+                        <div class="mw-portlet" role="navigation" th:each="section, stat : ${sidebar}"
+                             th:if="${section != toolsSection}"
+                             th:id="'p-sidebar-' + ${stat.index}" th:attr="aria-label=${section.title}">
+                            <h3 th:if="${!#strings.isEmpty(section.title)}" th:text="${section.title}">分组</h3>
+                            <div class="mw-portlet-body">
+                                <ul>
+                                    <!--/* MediaWiki 风格条目 id（id="n-<原始键>"）：皮肤自带与站点皮肤页里的
+                                           #n-* 图标规则按它匹配（如 #n-mainpage-description / #n-沙盒） */-->
+                                    <li th:each="item : ${section.items}" th:id="'n-' + ${item.key}">
+                                        <a th:href="${item.href}"
+                                           th:target="${item.external} ? '_blank' : null"
+                                           th:rel="${item.external} ? 'nofollow' : null"><span th:text="${item.label}">条目</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="site-tools" class="sidebar-chunk">
+                    <h2><span th:text="#{skin.kawaii-timeless.sitetools}">wiki工具</span></h2>
+                    <div class="sidebar-inner">
+                        <div class="mw-portlet" id="p-tb" role="navigation" aria-labelledby="p-tb-label">
+                            <h3 id="p-tb-label" th:text="#{skin.kawaii-timeless.sitetools}">wiki工具</h3>
+                            <div class="mw-portlet-body">
+                                <ul>
+                                    <!--/* 工具分组里的“上传文件 / 特殊页面”放这里（原皮肤 site-tools 的 general 组） */-->
+                                    <th:block th:if="${toolsSection != null}">
+                                        <li th:each="item : ${toolsSection.items}" th:id="${item.key}"
+                                            th:if="${item.label == labelUpload or item.label == labelSpecial}">
+                                            <a th:href="${item.href}"
+                                               th:target="${item.external} ? '_blank' : null"><span th:text="${item.label}">条目</span></a>
+                                        </li>
+                                    </th:block>
+                                    <!--/* 没有工具分组时（侧栏页面为空）：内置兜底 */-->
+                                    <th:block th:if="${toolsSection == null}">
+                                        <li id="t-upload"><a th:href="@{/wiki/特殊:上传文件}"><span th:text="#{tools.upload}">上传文件</span></a></li>
+                                        <li id="t-specialpages"><a th:href="@{/wiki/特殊:特殊页面}"><span th:text="#{tools.specialPages}">特殊页面</span></a></li>
+                                    </th:block>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--/* ==================== 右侧：页面工具 + 语言 + 分类 ==================== */-->
+            <div id="mw-related-navigation" th:unless="${printableView}">
+                <div id="page-tools" class="sidebar-chunk">
+                    <h2><span th:text="#{skin.kawaii-timeless.pageactions}">页面工具</span></h2>
+                    <div class="sidebar-inner">
+                        <!--/* 页面操作（次要）：移动 / 保护（原皮肤 p-cactions） */-->
+                        <div class="mw-portlet" id="p-cactions" role="navigation" aria-labelledby="p-cactions-label"
+                             th:if="${canMove == true or canProtect == true or canDelete == true}">
+                            <h3 id="p-cactions-label" th:text="#{skin.kawaii-timeless.pageactions}">页面工具</h3>
+                            <div class="mw-portlet-body">
+                                <ul>
+                                    <li id="ca-delete" th:if="${canDelete}">
+                                        <a th:href="@{/wiki/特殊:删除页面(page=${wikiTitle})}"><span th:text="#{skin.kawaii-timeless.delete}">删除</span></a>
+                                    </li>
+                                    <li id="ca-move" th:if="${canMove}">
+                                        <a th:href="@{/wiki/特殊:移动页面(page=${wikiTitle})}"><span th:text="#{common.move}">移动</span></a>
+                                    </li>
+                                    <li id="ca-protect" th:if="${canProtect}">
+                                        <a th:href="@{/wiki/特殊:保护页面(page=${wikiTitle})}"><span
+                                                th:text="${page != null and page.protectedPage == true} ? #{common.unprotect} : #{common.protect}">保护</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/* 用户页工具：工具分组里的“用户贡献 / 日志 / 用户权限 / 私信 / 封禁”等（原皮肤 p-userpagetools） */-->
+                        <div class="mw-portlet" id="p-userpagetools" role="navigation" aria-labelledby="p-userpagetools-label"
+                             th:if="${toolsSection != null and wikiTitle != null and #strings.startsWith(wikiTitle, '用户:')}">
+                            <h3 id="p-userpagetools-label" th:text="#{skin.kawaii-timeless.userpagetools}">用户页面工具</h3>
+                            <div class="mw-portlet-body">
+                                <ul>
+                                    <li th:each="item : ${toolsSection.items}" th:id="${item.key}"
+                                        th:if="${item.label == labelContribs or item.label == labelLogs
+                                                 or item.label == labelViewGroups or item.label == labelChangeGroups
+                                                 or item.label == labelCheckUser or item.label == labelMerge
+                                                 or item.label == labelBlock}">
+                                        <a th:href="${item.href}"><span th:text="${item.label}">条目</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/* 更多：工具分组里余下的标准工具（链入页面 / 相关更改 / 可打印版 / 固定链接 / 页面信息） */-->
+                        <div class="mw-portlet" id="p-pagemisc" role="navigation" aria-labelledby="p-pagemisc-label"
+                             th:if="${toolsSection != null}">
+                            <h3 id="p-pagemisc-label" th:text="#{skin.kawaii-timeless.pagemisc}">更多</h3>
+                            <div class="mw-portlet-body">
+                                <ul>
+                                    <li th:each="item : ${toolsSection.items}" th:id="${item.key}"
+                                        th:unless="${item.label == labelUpload or item.label == labelSpecial
+                                                    or item.label == labelContribs or item.label == labelLogs
+                                                    or item.label == labelViewGroups or item.label == labelChangeGroups
+                                                    or item.label == labelCheckUser or item.label == labelMerge
+                                                    or item.label == labelBlock}">
+                                        <a th:href="${item.href}"
+                                           th:target="${item.external} ? '_blank' : null"
+                                           th:rel="${item.external} ? 'nofollow' : null"><span th:text="${item.label}">条目</span></a>
+                                    </li>
+                                    <!--/* 页面日志（原皮肤 timeless-pagelog：只对内容页显示） */-->
+                                    <li id="t-pagelog" th:if="${wikiTitle != null}">
+                                        <a th:href="@{/wiki/特殊:日志(page=${wikiTitle})}"><span th:text="#{skin.kawaii-timeless.pagelog}">页面日志</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--/* 其他语言（正文里的 [[en:…]] 跨语言链接，原皮肤 #other-languages） */-->
+                <div id="other-languages" class="sidebar-chunk"
+                     th:if="${languageLinks != null and !#lists.isEmpty(languageLinks)}">
+                    <h2><span th:text="#{skin.kawaii-timeless.projects}">其他项目</span></h2>
+                    <div class="sidebar-inner">
+                        <div class="mw-portlet" id="p-lang" role="navigation" aria-labelledby="p-lang-label">
+                            <h3 id="p-lang-label" th:text="#{skin.kawaii-timeless.languages}">语言</h3>
+                            <div class="mw-portlet-body">
+                                <ul>
+                                    <li th:each="link : ${languageLinks}">
+                                        <a th:href="${link.url}" target="_blank" rel="nofollow"
+                                           ><span th:text="${link.languageName != null and !link.languageName.isEmpty()} ? ${link.languageName} : ${link.prefix}">语言</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--/* 分类（原皮肤 #catlinks-sidebar；正文底部的分类栏由皮肤样式隐藏） */-->
+                <div id="catlinks-sidebar" class="sidebar-chunk"
+                     th:if="${pageCategories != null and !#lists.isEmpty(pageCategories)}">
+                    <h2><span th:text="#{view.categories}">分类</span></h2>
+                    <div class="sidebar-inner">
+                        <div class="mw-portlet" id="p-categories" role="navigation" aria-labelledby="p-categories-label">
+                            <h3 id="p-categories-label" th:text="#{view.categories}">分类</h3>
+                            <div class="mw-portlet-body">
+                                <ul>
+                                    <li th:each="cat : ${pageCategories}">
+                                        <a th:href="${cat.url}" th:classappend="${cat.red} ? 'new'"><span th:text="${cat.label}">分类</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="visualClear"></div>
+        </div>
+    </div>
+
+    <!--/* ==================== 页脚 ====================
+         结构与线上（MediaWiki Timeless）一致：
+         #footer-icons 右浮（CC BY 4.0 + Powered by MediaWiki 两枚 88x31 徽章）
+         + #footer-list 左侧（#footer-info：最后编辑 + 版权；#footer-places：隐私/关于/免责声明） */-->
+    <div id="mw-footer-container" class="mw-footer-container ts-container" th:unless="${printableView}">
+        <div id="mw-footer" class="mw-footer ts-inner" role="contentinfo" th:lang="${#locale.language}" dir="ltr">
+            <ul id="footer-icons">
+                <li id="footer-copyrightico" class="footer-icons">
+                    <a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow">
+                        <img th:src="@{/skins/kawaii-timeless/images/footer-cc.svg}" width="88" height="31"
+                             loading="lazy" th:alt="#{skin.kawaii-timeless.footerLicense}"/>
+                    </a>
+                </li>
+                <li id="footer-poweredbyico" class="footer-icons">
+                    <a href="https://www.mediawiki.org/" rel="nofollow">
+                        <img th:src="@{/skins/kawaii-timeless/images/footer-poweredby-mediawiki.png}"
+                             width="88" height="31" loading="lazy" alt="Powered by MediaWiki"/>
+                    </a>
+                </li>
+            </ul>
+            <div id="footer-list">
+                <ul id="footer-info">
+                    <li id="footer-info-lastmod" th:if="${footerLastEdited != null}"
+                        th:text="#{footer.lastEdited(${@wikiTime.formatWeekday(footerLastEdited)})}">此页面最后编辑于 …</li>
+                    <li id="footer-info-copyright" th:utext="#{skin.kawaii-timeless.footerCopyright}">除非另有声明……</li>
+                </ul>
+                <ul id="footer-places">
+                    <li id="footer-places-privacy"><a th:href="@{/wiki/WikiKernel:隐私政策}" th:text="#{footer.privacy}">隐私政策</a></li>
+                    <li id="footer-places-about"><a th:href="@{/wiki/WikiKernel:关于}" th:text="#{footer.about}">关于WikiKernel</a></li>
+                    <li id="footer-places-disclaimer"><a th:href="@{/wiki/WikiKernel:免责声明}" th:text="#{footer.disclaimers}">免责声明</a></li>
+                </ul>
+            </div>
+            <div class="visualClear"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

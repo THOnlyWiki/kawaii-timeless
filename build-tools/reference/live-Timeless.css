@@ -1,0 +1,396 @@
+/* 
+                          _ _   _____ _                _               
+  /\ /\__ ___      ____ _(_|_) /__   (_)_ __ ___   ___| | ___  ___ ___ 
+ / //_/ _` \ \ /\ / / _` | | |   / /\/ | '_ ` _ \ / _ \ |/ _ \/ __/ __|
+/ __ \ (_| |\ V  V / (_| | | |  / /  | | | | | | |  __/ |  __/\__ \__ \
+\/  \/\__,_| \_/\_/ \__,_|_|_|  \/   |_|_| |_| |_|\___|_|\___||___/___/
+                        Kawaii Timeless by Aira
+
+ 如果有bug和建议请在留言板上提出
+ 请尊重音MAD维基版权，复制需要注明源自音MAD维基，并且附上URL地址 https://otomad.wiki/MediaWiki:Timeless.css
+ 版权协定：知识共享 署名 3.0
+
+代码正在逐渐整合进Timeless内部以大量减少代码重复性并增加性能，开源地址https://github.com/OtomadWiki/Kawaii-Timeless/
+*/
+
+.mw-body h6{
+	color: #212121;
+	font-weight: bold;
+}
+/*平板页面导航字体修改*/
+#mw-site-navigation h2, #mw-related-navigation h2{
+	font-weight: 500;
+}
+/*body修改及修复line-height修改后的bug*/
+body.ns-1 .mw-body h1.firstHeading, body.ns-3 .mw-body h1.firstHeading{
+	margin-bottom: .5em;
+}
+li{
+	margin-bottom: 10px;
+}
+/*顶栏*/
+.oo-ui-clippableElement-clippable.oo-ui-popupWidget-body{
+	max-width: unset !important;
+}
+.mw-echo-ui-notificationBadgeButtonPopupWidget-popup > .oo-ui-popupWidget-popup > .oo-ui-popupWidget-footer .mw-echo-ui-notificationBadgeButtonPopupWidget-footer-buttons .oo-ui-buttonElement:last-child{
+	border-left: none;
+}
+.mw-echo-ui-notificationBadgeButtonPopupWidget-popup > .oo-ui-popupWidget-popup > .oo-ui-popupWidget-footer{
+	border-top: none;
+}
+.mw-echo-ui-notificationBadgeButtonPopupWidget-popup > .oo-ui-popupWidget-popup > .oo-ui-popupWidget-head{
+	border-bottom: none;
+	box-shadow: 0 0px 9px rgb(0 0 0 / 9%);
+}
+.oo-ui-popupWidget-popup{
+	border: none;
+}
+.oo-ui-popupWidget{
+	filter: drop-shadow(0 15px 20px rgb(0 0 0 / 20%));
+}
+.oo-ui-popupWidget-anchored-top .oo-ui-popupWidget-anchor:before{
+	border-bottom-color: #fff;
+}
+div.mw-echo-ui-overlay{
+	z-index: 600;
+}
+#mw-header-nav-hack, #mw-header-hack{
+	box-shadow: unset;
+}
+/*现代化搜索框*/
+#simpleSearch{
+    opacity: 100;
+}
+/*目录卡片*/
+ul#filetoc, .toc, .mw-warning{
+	border: unset;
+	box-shadow: 0 2px 5px 0px rgb(0 0 0 / 0.2);
+	background: #fff;
+	border-radius: 4px;
+}
+/*移动端菜单*/
+#menus-cover{
+	background: #000;
+	opacity: 0.15;
+}
+#site-navigation .sidebar-inner{
+	border: unset;
+}
+.sidebar-inner, .dropdown{
+	border: unset;
+	border-radius: 6px;
+}
+@media screen and (max-width: 1099px) and (min-width: 851px){
+	.sidebar-inner, .dropdown{
+		border: unset !important;
+		box-shadow: 0 2px 30px 1px rgb(0 0 0 / 0.2) !important;
+	}
+	#mw-site-navigation .sidebar-inner{
+		border: unset !important;
+		box-shadow: 0 2px 30px 1px rgb(0 0 0 / 0.2) !important;
+	}
+}
+@media screen and (max-width: 850px){
+	.sidebar-inner, .dropdown{
+	box-shadow: 0 2px 30px 1px rgb(0 0 0 / 0.2) !important;
+	z-index: 501;
+	}
+}
+@media screen and (max-width: 1099px) and (min-width: 851px){
+	#mw-related-navigation .sidebar-inner{
+	border: unset !important;
+	box-shadow: 0 2px 30px 1px rgb(0 0 0 / 0.2) !important;
+	}
+}
+/*个人资料设置页*/
+.profile-tab{
+	background-color: unset;
+	padding: 9px 10px 10px;
+	font-size: 16px;
+}
+.profile-tab a:visited, .profile-tab a {
+	color: #000 !important;
+}
+.profile-tab-on a:visited, .profile-tab-on a {
+	color: var(--color-primary) !important;
+}
+.profile-tab-on{
+	background-color: unset;
+	padding: 9px 10px 10px;
+	font-size: 16px;
+	border-bottom: solid 2px var(--color-primary);
+}
+.eye-container .title{
+	color: #000;
+	font-size: 14px;
+}
+.eye-container{
+	box-shadow: none;
+	opacity: 1.0;
+}
+/*按钮*/
+button, html input[type="button"], input[type="reset"], input[type="submit"]{
+	background-color: var(--color-primary);
+    border: none;
+    outline-color: #000;
+    border-color: #000;
+    border-radius: 2px;
+    color: #fff;
+    padding: 5px 12px;
+    margin-right: 5px;
+    font-weight: bold;
+    transition: background-color 100ms,color 100ms,border-color 100ms,box-shadow 150ms,transform 150ms;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+}
+button:hover, html input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: var(--color-hover);
+	box-shadow: 0 9px 9px rgb(0 0 0 / 15%);
+}
+button:active, html input[type="button"]:active, input[type="submit"]:active {
+    background-color: var(--color-dark);
+    box-shadow: 0 0 0 rgb(0 0 0 / 15%) !important;
+    transform: scale(.95);
+}
+button:focus, html input[type="button"]:focus, input[type="submit"]:focus {
+    box-shadow: 0 0 0 4px rgb(251 114 153 / 25%);
+    outline: 1px solid transparent;
+}
+.mw-ui-button:not(:disabled){
+	transition: background-color 100ms,color 100ms,border-color 100ms,box-shadow 150ms,transform 150ms;
+}
+.mw-echo-ui-notificationBadgeButtonPopupWidget-popup > .oo-ui-popupWidget-popup > .oo-ui-popupWidget-footer .mw-echo-ui-notificationBadgeButtonPopupWidget-footer-buttons .oo-ui-buttonElement > .oo-ui-buttonElement-button{
+	box-shadow: none;
+}
+.mw-ui-button{
+	border: none;
+	border-color: #000;
+	outline-color: #000;
+}
+.mw-ui-button:focus{
+	border-color: var(--color-primary);
+	box-shadow: inset 0 0 0 1px var(--color-primary), inset 0 0 0 2px #ffffff;
+}
+/*播放器*/
+.oo-ui-windowManager-modal.oo-ui-windowManager-floating > .oo-ui-dialog > .oo-ui-window-frame{
+	border: none;
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+	border-radius: 4px;
+}
+/*修改图标颜色*/
+.oo-ui-image-progressive.oo-ui-icon-edit, .mw-ui-icon-edit-progressive:before{
+	background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3Eedit%3C/title%3E%3Cg fill=%22%23fb7299%22%3E%3Cpath d=%22M16.77 8l1.94-2a1 1 0 000-1.41l-3.34-3.3a1 1 0 00-1.41 0L12 3.23zM1 14.25V19h4.75l9.96-9.96-4.75-4.75z%22/%3E%3C/g%3E%3C/svg%3E");
+}
+.oo-ui-image-progressive.oo-ui-icon-settings, .mw-ui-icon-settings-progressive:before{
+	background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3Esettings%3C/title%3E%3Cg fill=%22%23fb7299%22%3E%3Cg xmlns:xlink=%22http://www.w3.org/1999/xlink%22 transform=%22translate%2810 10%29%22%3E%3Cpath id=%22a%22 d=%22M1.5-10h-3l-1 6.5h5m0 7h-5l1 6.5h3%22/%3E%3Cuse transform=%22rotate%2845%29%22 xlink:href=%22%23a%22/%3E%3Cuse transform=%22rotate%2890%29%22 xlink:href=%22%23a%22/%3E%3Cuse transform=%22rotate%28135%29%22 xlink:href=%22%23a%22/%3E%3C/g%3E%3Cpath d=%22M10 2.5a7.5 7.5 0 000 15 7.5 7.5 0 000-15v4a3.5 3.5 0 010 7 3.5 3.5 0 010-7%22/%3E%3C/g%3E%3C/svg%3E");
+}
+/*媒体查看器*/
+.mw-ui-button.mw-ui-progressive{
+	border-radius: 2px;
+}
+.mw-mmv-close,.mw-mmv-options-button{
+	transition: transform 300ms;
+}
+.mw-mmv-close:hover{
+    transform: rotate(-180deg);
+}
+.mw-mmv-options-button:hover{
+	transform: rotate(-90deg);
+}
+.mw-mmv-download-button, .mw-mmv-reuse-button, .mw-mmv-options-button, .mw-mmv-close, .mw-mmv-fullscreen, .mw-mmv-next-image, .mw-mmv-prev-image{
+	box-shadow: none !important;
+	background-color: transparent !important;
+	border: none !important;
+}
+.mw-mmv-download-button.mw-mmv-dialog-open, .mw-mmv-reuse-button.mw-mmv-dialog-open, .mw-mmv-options-button.mw-mmv-dialog-open, .mw-mmv-close.mw-mmv-dialog-open, .mw-mmv-fullscreen.mw-mmv-dialog-open, .mw-mmv-next-image.mw-mmv-dialog-open, .mw-mmv-prev-image.mw-mmv-dialog-open, .mw-mmv-download-button:hover, .mw-mmv-reuse-button:hover, .mw-mmv-options-button:hover, .mw-mmv-close:hover, .mw-mmv-fullscreen:hover, .mw-mmv-next-image:hover, .mw-mmv-prev-image:hover{
+	background-color: unset !important;
+	border: none !important;
+}
+/*SocialProfile*/
+.relationship-item{
+	box-shadow: 0 3px 6px rgb(0 0 0 / 4%), 0 3px 6px rgb(0 0 0 / 6%);
+    border: 1px solid;
+    border-color: rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+.relationship-item img{
+	border-radius: 2em;
+}
+.relationship-action img{
+	border-radius: 2em;
+}
+#profile-title-container {
+    padding: 19px 0 6px 6px;
+}
+#profile-top{
+	border-bottom: none;
+}
+.user-section-heading{
+	line-height: 34px;
+}
+/*警告卡片*/
+div.mw-warning-with-logexcerpt{
+    padding: 4px 16px !important;
+    margin-bottom: 10px !important;
+    border: unset !important;
+    clear: both !important;
+    border-radius: var(--border-radius--medium) !important;
+}
+/*去掉平板端奇怪的阴影*/
+@media screen and (min-width: 851px) and (max-width: 1099px){
+	#mw-related-navigation .sidebar-chunk{
+		box-shadow: none;
+	}
+}
+@media screen and (min-width: 851px) and (max-width: 1099px){
+	#mw-site-navigation .sidebar-chunk{
+		box-shadow: none;
+	}
+}
+/*通知*/
+.mw-echo-ui-notificationItemWidget{
+	background-color: unset;
+	border:1px solid #f9f9f9;
+}
+.mw-echo-ui-notificationItemWidget:hover{
+	background-color: unset;
+}
+.mw-echo-ui-notificationItemWidget:focus{
+	box-shadow: inset 0 0 0 1px var(--color-primary);
+}
+@media screen and (max-width: 850px){
+.oo-ui-popupWidget-anchored-top .oo-ui-popupWidget-anchor{
+    display: none;
+}}
+/*隐藏帮助*/
+body #mw-wrapper .mw-helplink, body #mw-wrapper #mw-indicator-mw-helplink{
+	display: none;
+}
+
+/*针对移动端用户页的竖向排列*/
+@media screen and (max-width: 850px){
+#user-page-left {
+    width: 100%;
+    float: none;}
+#user-page-right {
+    width: 100%;
+    float: none;
+    }
+}
+
+#wpUploadFile::file-selector-button {
+    display: none !important;
+}
+
+/* Fix for non backdrop-filter support browser */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	/* IE10+ CSS styles go here */
+    #kawaiiHeaderBackground, #personal .dropdown, .suggestions {
+    	background: rgba(255,255,255,0.95) !important;
+	}
+}
+
+/* 侧栏图标 */
+
+#n-沙盒 a:before {
+	content: 'science';
+}
+
+#n-规划 a:before {
+	content: 'route';
+}
+
+#n-编辑规范 a:before {
+	content: 'rule';
+}
+
+#n-使用方法与帮助 a:before {
+	content: 'help';
+}
+
+#n-留言板 a:before {
+	content: 'forum';
+}
+
+#n-活动分布地图 a:before {
+	content: 'map';
+}
+
+#n-活动QQ群组一览 a:before {
+	content: 'group_add';
+}
+
+#n-近期活动 a:before {
+	content: 'campaign';
+}
+
+#n-创建页面 a:before {
+	content: 'createpage';
+}
+
+#n-快速创建活动页面 a:before {
+	content: 'add';
+}
+
+#n-快速创建活动子页面 a:before {
+	content: 'add';
+}
+
+#n-线下活动速查表 a:before {
+	content: 'view_list';
+}
+
+#n-活动日历 a:before {
+	content: 'calendar_today';
+}
+
+#n-地区词条索引 a:before {
+	content: 'manage_search';
+}
+
+#n-所有页面 a:before {
+	content: 'auto_stories';
+}
+
+#profile-toggle-button {
+	background-color: #ff3871;
+}
+
+ul#filetoc, .toc, .mw-warning {
+	display: none;
+}
+
+iframe {
+	overflow: hidden;
+}
+
+@media screen and (min-width: 851px) {
+    .infobox {
+        width: 170px;
+        margin: 1em 0 30px 30px;
+    }
+}
+
+@media (max-width: 410px) {
+    #p-logo-text {
+       /*  display: none !important;*/
+    }
+}
+
+.kawaii-header-background {
+    transform: translateY(0%);
+    box-shadow: none;
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+    box-shadow: 0 0 24px rgba(193, 159, 168, 0.5);
+    transition: box-shadowcubic-bezier(0.16,1,0.3,1) 600ms, heightcubic-bezier(0.16,1,0.3,1) 600ms, transformcubic-bezier(0.16,1,0.3,1) 600ms;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.7);
+}
+.scrolled .kawaii-header-background {
+    transform: translateY(0%);
+    box-shadow: 0 0 24px rgba(193, 159, 168, 0.5);
+}

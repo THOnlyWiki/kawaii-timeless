@@ -1,0 +1,93 @@
+【live-skins.timeless.css】.mw-special-Preferences .mw-footer-container { position:relative;z-index:1 }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper #mw-content { padding-bottom:1em }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .mw-body h1.firstHeading { display:flex;align-items:center;color:var(--color-primary);font-weight:800 }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .mw-body h1.firstHeading:before { position:relative;left:0;display:inline-flex;width:40px;height:40px;padding:0;margin:0 8px;animation:rolling 10s infinite linear;background-position:center;content:'settings';direction:ltr;font-family:'Material Icons';font-feature-settings:'liga';font-size:40px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:1;text-rendering:optimizeLegibility;text-transform:none;user-select:none;vertical-align:middle;white-space:nowrap;word-wrap:normal }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color:transparent }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected:before { color:var(--color-primary);opacity:1 }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper #mw-page-header-links { display:none }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .mw-prefs-buttons { display:flex;flex-direction:row;justify-content:space-between;padding:1em 0;border-top:1px transparent;margin-top:15px;background-color:var(--background-color-overlay);box-shadow:none }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .mw-htmlform-field-HTMLHorizontalRuleField .mw-input hr { background-color:unset }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { display:flex;min-height:40px;align-items:center;border-radius:var(--border-radius--small) }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget:nth-child(1):before { content:'person' }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget:nth-child(2):before { content:'display_settings' }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget:nth-child(3):before { content:'edit' }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget:nth-child(4):before { content:'history' }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget:nth-child(5):before { content:'star' }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget:nth-child(6):before { content:'search' }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget:nth-child(7):before { content:'notifications' }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget:nth-child(8):before { content:'widgets' }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed { display:flex;align-items:flex-end;background-color:transparent }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed::-webkit-scrollbar { display:none }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label,#mw-wrapper .oo-ui-tabSelectWidget-framed.oo-ui-widget-enabled:focus .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label { color:var(--color-primary);font-weight:700 }
+
+【live-skins.timeless.css】#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label { padding:5px 5px 6px;font-size:16px;font-weight:500;transition:color 0.5s cubic-bezier(0.1,0.9,0.2,1) }
+
+【live-skins.timeless.css】.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label:after { position:absolute;bottom:0;left:50%;width:95%;height:2px;border-radius:100px;background-color:var(--color-primary);content:'';opacity:0;transform:translate(-50%) scaleX(0);transition:transform 0.8s cubic-bezier(0.1,0.9,0.2,1) }
+
+【live-skins.timeless.css】.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label:after { animation:tab-indicator-opacity 0.5s cubic-bezier(0.1,0.9,0.2,1);opacity:1;transform:translate(-50%) scaleX(1) }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .mw-prefs-buttons { display:flex;flex-direction:row;justify-content:space-between;padding:1em 1em;border-top:1px transparent;margin-top:15px;box-shadow:none }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .mw-htmlform-field-HTMLHorizontalRuleField .mw-input hr { background-color:unset }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed { flex-direction:column;margin-top:10px }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-menuLayout { display:flex }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { width:180px;min-height:38px;align-items:center;border:0;border-radius:var(--border-radius--small);margin:0 0 0 6px;transition:transform cubic-bezier(0.22,0.58,0.12,0.98) 0.2s }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget:before { display:inline-block;background-image:none;direction:ltr;font-family:'Material Icons';font-feature-settings:'liga';-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:1;opacity:1;text-align:center;text-indent:0;text-rendering:optimizeLegibility;text-transform:none;user-select:none;vertical-align:middle;white-space:nowrap;word-wrap:normal;width:24px;height:24px;margin-left:3px;color:black;font-size:24px;opacity:var(--opacity-icon-base) }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget:hover { background:var(--background-color-quiet--hover) }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label { padding:0 8px;border:0;font-size:0.95em }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label:after { bottom:26%;left:0;width:3px;height:16px;border-bottom:none;animation:none;background-color:var(--color-primary);transform:translateY(-25px) scaleY(2) }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color:var(--background-color-quiet--hover) }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label { border:0 }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label:after { transform:translateY(0) scaleY(1) }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected.oo-ui-optionWidget-pressed .oo-ui-labelElement-label:after { transform:translateY(0) scaleY(0.7) }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-menuLayout.oo-ui-menuLayout-showMenu.oo-ui-menuLayout-top > .oo-ui-menuLayout-content { width:85% }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label,.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed.oo-ui-widget-enabled:focus .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label { border-bottom:none }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-panelLayout-scrollable { min-height:985px;animation:slide-in-parent cubic-bezier(0.22,0.58,0.12,0.98) 0.4s backwards }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper:after { position:fixed;right:-64px;bottom:-32px;left:unset;display:flex;width:256px;height:256px;padding:0;margin:0;margin-right:8px;animation:rolling 10s infinite linear;background-position:center;color:black;content:'settings';direction:ltr;font-family:'Material Icons';font-feature-settings:'liga';font-size:256px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:1;opacity:0.05;pointer-events:none;text-rendering:optimizeLegibility;text-transform:none;user-select:none;white-space:nowrap;word-wrap:normal }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-optionWidget.oo-ui-labelElement > .oo-ui-labelElement-label { display:flex }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed { flex-wrap:wrap }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { color:#7d7d7d }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget:before { display:inline-block;background-image:none;direction:ltr;font-family:'Material Icons';font-feature-settings:'liga';-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:1;opacity:1;text-align:center;text-indent:0;text-rendering:optimizeLegibility;text-transform:none;user-select:none;vertical-align:middle;white-space:nowrap;word-wrap:normal;display:flex;width:24px;height:24px;margin-right:4px;font-size:24px }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout { padding:36px 8px }
+
+【live-skins.timeless.css】.mw-special-Preferences #mw-wrapper .oo-ui-labelWidget { display:flex;flex-wrap:wrap;row-gap:8px }

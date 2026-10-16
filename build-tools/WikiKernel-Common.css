@@ -1,0 +1,732 @@
+/* 这里放置的CSS将应用于所有皮肤 —— WikiKernel 适配版 */
+
+/* 
+ * 请尊重音MAD维基版权，复制需要注明源自音MAD维基，并且附上URL地址 https://otomad.wiki/MediaWiki:Common.css
+ * 版权协定：知识共享 署名-非商业性使用-相同方式共享 3.0
+ *
+ * ★ 本文已按 WikiKernel 适配（配合 kawaii-timeless 皮肤 + comments / social-profile 插件）：
+ *   · 评论：FlowThread → comments 插件（.wiki-comments 系列类名）；分页器 / 热门栏 / 点赞 / 举报
+ *     这些 WikiKernel 没有的组件已移除，其余按原设计改编；
+ *   · 资料卡：#profile-* / .profile-* / .avatar 与 social-profile 插件的用户页结构一致，可直接用；
+ *     原 SocialProfile 的「资料卡折叠按钮 #profile-toggle-button」「.profile-tab」「.eye-container」
+ *     在 WikiKernel 里没有对应元素，已移除；
+ *   · 回顶按钮：原 img#scrollUpButton / #scrollDownButton → Gadget:ReadingProgress.js 的 .back-to-top；
+ *   · 页面级样式：body.page-首页 / .page-留言板 依赖的 page-<页面名> 类由 Kawaii-Timeless 皮肤输出
+ *     （内容页 = 标题；特殊页 = 显示名，如 body.page-上传文件）；
+ *   · 外链 a.external：core 按 MediaWiki 惯例输出（.repost-circle、.heimu 里的 a.external 可直接用）；
+ *   · CSS 变量（--color-primary 等）由 Kawaii-Timeless 皮肤定义；这里都补了回退值，换其它皮肤也不至于失效。
+*/
+
+/* 加载Material icons：优先用 Kawaii-Timeless 皮肤内置的字体（本地、即时），
+   CDN 只作后备 —— 反过来的话 CDN 慢时 font-display: block 会让图标先空白一阵；
+   注意：内联 <style> 里的相对路径会相对“当前页面”解析，所以这里必须用绝对路径 */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('/skins/kawaii-timeless/fonts/MaterialIcons-v140.woff2') format('woff2'),
+       url(https://gstatic.loli.net/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2'),
+       url('/skins/kawaii-timeless/fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+.material-icons, .md, .md-lg, .md-md, .md-sm {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  user-select: none;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.md-lg {
+    font-size: 60px;
+}
+.md-md {
+    font-size: 30px;
+}
+.md-sm {
+    font-size: 10px;
+}
+
+/* 隐藏首页按钮和标题（page-首页 由 Kawaii-Timeless 皮肤加到 body 上） */
+body.page-首页 #firstHeading, body.page-首页 li#ca-talk, body.page-首页 li#ca-watch,
+body.page-首页 li#ca-history, body.page-首页 li#ca-nstab-main, body.page-首页 li#ca-view,
+body.page-首页 #catlinks-sidebar {
+	display: none !important;
+}
+/* 注：原版的 #siteSub / #mw-normal-catlinks / li#ca-viewsource 在 WikiKernel 不存在（已移除）；
+   WikiKernel 里「编辑」与「查看源代码」是同一个 li#ca-edit，隐藏它会连编辑入口一起消失，故不隐藏。 */
+
+/* 留言板：评论区由 comments 插件渲染（.wiki-comments），输入框默认在最上面、
+   没有分页器 / 热门栏 / 预览工具条 —— 原对应块已移除，保留模板相关的通用规则。 */
+
+.res-img img {
+	max-width:100%;
+	height:auto;
+}
+
+/* 链接列表的转载标记 */
+.repost-circle{
+    display: inline-block;
+    margin-left: 5px;
+    border: solid 1px;
+    border-radius: 100px;
+    padding: 3px;
+    font-size: 12px;
+    line-height: 1;
+    color: #e06386;
+    border: 1px #e06386 solid;
+}
+.repost-circle a.external{
+    background: none!important;
+    padding-right: 0px!important;
+    color: #e06386!important;
+    box-sizing: border-box!important;
+}
+
+/* 本段内容来自萌娘百科 https://zh.moegirl.org.cn/MediaWiki:Gadget-site-styles.css 感谢贡献！*/
+/* 版权协定：知识共享 署名-非商业性使用-相同方式共享 3.0 */
+/* 黑幕模板配合CSS */
+/* 把这几行单独拎出来写，否则会被Firefox合并到“.heimu a”这条规则，然后又被上面的“点过外链不变色”规则override */
+.heimu,
+.heimu rt {
+    background-color: #252525;
+}
+span.heimu a.external,
+span.heimu a.external:visited,
+span.heimu a.extiw,
+span.heimu a.extiw:visited {
+    color: #252525;
+}
+.heimu,
+.heimu a,
+a .heimu,
+.heimu a.new {
+    color: #252525;
+    text-shadow: none;
+}
+body:not(.heimu_toggle_on) .heimu:hover,
+body:not(.heimu_toggle_on) .heimu:active,
+body:not(.heimu_toggle_on) .heimu.off {
+    transition: color .13s linear;
+    color: white;
+}
+body:not(.heimu_toggle_on) .heimu:hover a,
+body:not(.heimu_toggle_on) a:hover .heimu,
+body:not(.heimu_toggle_on) .heimu.off a,
+body:not(.heimu_toggle_on) a:hover .heimu.off {
+    transition: color .13s linear;
+    color: lightblue;
+}
+body:not(.heimu_toggle_on) .heimu.off .new,
+body:not(.heimu_toggle_on) .heimu.off .new:hover,
+body:not(.heimu_toggle_on) .new:hover .heimu.off,
+body:not(.heimu_toggle_on) .heimu:hover .new {
+    transition: color .13s linear;
+    color: #FCC;
+}
+/* info类模板 */
+.infoBox {
+    margin: 10px auto;
+    width: 80%;
+    box-shadow: 0 1px 3px 0px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+}
+@media screen and (max-width: 850px) {
+.infoBox {
+	float: unset !important;
+    width: 100% !important;
+    clear: both;
+}}
+.infoBox a, p{
+    word-break: break-all;
+}
+.infoBoxTitle {
+    margin: 3px auto;
+    padding: 6px 0 0 0;
+    text-align: center;
+    font-weight: 700;
+}
+.infoBoxIcon {
+    display: table-cell;
+    padding: 2px 0 2px .5em;
+    vertical-align: middle;
+}
+.infoBoxText {
+    display: table-cell;
+    padding: .25em .5em .25em 1.3em;
+    width: 100%;
+    vertical-align: middle;
+}
+.infoBoxContent {
+    border: 1px solid #ddd;
+    border-left-width: 0;
+    background: #fbfbfb;
+}
+.infoBoxBelow {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+/* wikitable green */
+table.wikitable-green {
+    background: #c9f6e1
+}
+.wikitable-green th {
+    background: #13ec93
+}
+.wikitable-green td {
+    background: #f3f3f3
+}
+
+
+
+/* 教程链接列表 */
+/* 目前全部移动到 https://otomad.wiki/Template:链接列表/style.css 下
+.tutorial-links {
+	width: 100%;
+	margin-bottom: 6px;
+}
+.tutorial-links>tbody>tr>td:first-child {
+	text-align: center;
+	width: 35px;
+}
+.tutorial-links>tbody>tr>td:first-child>span {
+	border: 1px #e06386 solid;
+	border-radius: 4px;
+	color: #e06386;
+	font-size: 12px;
+	height: 14px;
+	padding: 2px 4px;
+}
+.tutorial-links>tbody>tr>td:nth-child(2) {
+	padding-left: 6px;
+}
+.tutorial-links>tbody>tr>td:nth-child(3) {
+	font-size: 12px;
+	color: grey;
+	text-align: right;
+}
+*/
+
+/* scrollUpButton样式 → WikiKernel：Gadget:ReadingProgress.js 生成的 .back-to-top
+   （原 scrollDownButton 没有对应元素，已移除） */
+.back-to-top {
+    transition: opacity 200ms, transform 200ms;
+}
+.back-to-top:hover {
+    transform: scale(1.1);
+}
+.back-to-top:active {
+    transform: scale(.95);
+}
+@media (prefers-reduced-motion: reduce) {
+    .back-to-top {
+        transition: none;
+    }
+}
+
+/* 从https://zh.wikipedia.org/wiki/MediaWiki:Common.css引入的样式 */
+/* Style for horizontal lists (separator following item) */
+.hlist dl,
+.hlist ol,
+.hlist ul {
+    margin: 0;
+}
+.hlist dd,
+.hlist dt,
+.hlist li {
+    display: inline;
+    margin: 0;
+}
+/* Display nested lists inline */
+.hlist.inline,
+.hlist.inline dl,
+.hlist.inline ol,
+.hlist.inline ul,
+.hlist dl dl, .hlist dl ol, .hlist dl ul,
+.hlist ol dl, .hlist ol ol, .hlist ol ul,
+.hlist ul dl, .hlist ul ol, .hlist ul ul {
+	display: inline;
+}
+/* Generate interpuncts */
+.hlist dt:after {
+    content: " :";
+}
+.hlist dd:after,
+.hlist li:after {
+    content: " · ";
+    font-weight: bold;
+}
+.hlist dd:last-child:after,
+.hlist dt:last-child:after,
+.hlist li:last-child:after {
+    content: none;
+}
+/* for IE 8 */
+.hlist dd.nopunct:after,
+.hlist dt.nopunct:after,
+.hlist li.nopunct:after {
+    content: none;
+}
+/* Add parens around nested lists */
+.hlist dl dl:before,
+.hlist ol ol:before,
+.hlist ul ul:before {
+    content: "（";
+}
+.hlist dl dl:after,
+.hlist ol ol:after,
+.hlist ul ul:after {
+    content: "）";
+}
+/* Put numbers in ordered lists */
+.hlist.hnum ol li {
+    counter-increment: level1;
+}
+.hlist.hnum ol li:before {
+    content: counter(level1) " ";
+}
+.hlist.hnum ol ol li {
+    counter-increment: level2;
+}
+.hlist.hnum ol ol li:before {
+    content: counter(level2) " ";
+}
+/* Default style for navigation boxes */
+.navbox {                     /* Navbox container style */
+    border: 1px solid #a2a9b1;
+    width: 100%; 
+    margin: auto;
+    clear: both;
+    font-size: 88%;
+    text-align: center;
+    padding: 1px;
+}
+.navbox-inner,
+.navbox-subgroup {
+    width: 100%;
+}
+.navbox th,
+.navbox-title,
+.navbox-abovebelow {
+    text-align: center;       /* Title and above/below styles */
+    padding-left: 1em;
+    padding-right: 1em;
+}
+th.navbox-group {             /* Group style */
+    white-space: nowrap;
+    /* @noflip */
+    text-align: right;
+}
+.navbox,
+.navbox-subgroup {
+    background: #fdfdfd;      /* Background color */
+}
+.navbox-list {
+    border-color: #fdfdfd;    /* Must match background color */
+}
+.navbox th,
+.navbox-title {
+    background: #ccccff;      /* Level 1 color */
+}
+.navbox-abovebelow,
+th.navbox-group,
+.navbox-subgroup .navbox-title {
+    background: #ddddff;      /* Level 2 color */
+}
+.navbox-subgroup .navbox-group,
+.navbox-subgroup .navbox-abovebelow {
+    background: #e6e6ff;      /* Level 3 color */
+}
+/* Even row striping */
+.navbox-even {
+    background: #FFF;
+}
+.navbox-odd {
+    background: transparent;  /* Odd row striping */
+}
+table.navbox + table.navbox {  /* Single pixel border between adjacent navboxes */
+    margin-top: -1px;          /* (doesn't work for IE6, but that's okay)       */
+}
+.navbox .hlist td dl,
+.navbox .hlist td ol,
+.navbox .hlist td ul,
+.navbox td.hlist dl,
+.navbox td.hlist ol,
+.navbox td.hlist ul {
+    padding: 0.125em 0;       /* Adjust hlist padding in navboxes */
+}
+.navbox .hlist dd,
+.navbox .hlist dt,
+.navbox .hlist li {
+    white-space: nowrap;      /* Nowrap list items in navboxes */
+}
+.navbox .hlist dd dl,
+.navbox .hlist dt dl,
+.navbox .hlist li ol,
+.navbox .hlist li ul {
+    white-space: normal;      /* But allow parent list items to be wrapped */
+}
+ol + table.navbox,
+ul + table.navbox {
+    margin-top: 0.5em;        /* Prevent lists from clinging to navboxes */
+}
+
+/* Default styling for Navbar template */
+.navbar {
+    display: inline;
+    font-weight: normal;
+}
+.navbar ul {
+    display: inline;
+    white-space: nowrap;
+}
+.navbar li {
+    word-spacing: -0.125em;
+}
+.navbar.mini li abbr[title] {
+    font-variant: small-caps;
+    border-bottom: none;
+    text-decoration: none;
+    cursor: inherit;
+}
+/* Navbar styling when nested in navbox */
+.navbox .navbar {
+    display: block;
+}
+.navbox-title .navbar {
+    /* @noflip */
+    float: left;
+    /* @noflip */
+    text-align: left;
+    /* @noflip */
+    margin-right: 0.5em;
+    width: 8em;
+}
+
+/* 'show'/'hide' buttons created dynamically by the CollapsibleTables javascript
+   in [[MediaWiki:Common.js]] are styled here so they can be customised. */
+.collapseButton {       
+    /* @noflip */
+    float: right;
+    font-weight: normal;
+    /* @noflip */
+    margin-left: 0.5em;
+    /* @noflip */
+    text-align: right;
+    width: auto;
+}
+/* In navboxes, the show/hide button balances the v·d·e links
+   from [[Template:Navbar]], so they need to be the same width. */
+.navbox .collapseButton {
+    width: 8em;
+}
+/* 个人资料设置页（.profile-tab / #profile-toggle-button / .eye-container）：
+   WikiKernel 的资料设置页结构不同、资料卡没有折叠按钮 —— 原块已移除。 */
+/*提示框（WikiKernel 的提交反馈是 .form-message；.mw-notification 没有对应元素，保留无害） */
+.mw-notification,
+.form-message{
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 0 12px rgb(0 0 0 / 15%);
+}
+/*修复和修改infobox*/
+@media screen and (max-width: 850px){
+.infobox{
+	width: 100%;
+	margin: 0em 0em 2em;
+}}
+@media screen and (min-width: 851px){
+.infobox{
+	width: 300px;
+	margin: 1em 0 30px 30px;
+}}
+.infoBoxContent{
+	border: 0;
+	border-radius: 4px;
+}
+
+.fieldset{
+	border: 1px solid #c7c7c7;
+	border-radius: 4px;
+	padding: 0.35em 1.625em 0.75em;
+}
+textarea {
+	border-radius: 4px;
+	box-shadow: none;
+	background-color: transparent;
+	border: 1px solid var(--border-color-base--darker, #c8ccd1);
+    outline: none;
+}
+textarea:hover {
+	border: 1px solid #fb7299;
+	background: transparent;
+}
+textarea:focus-visible {
+	box-shadow: inset 0 0 0 1px #fb7299;
+    border: 1px solid #fb7299;
+    background: transparent;
+}
+/*导航盒*/
+.navbox th, .navbox-title {
+	background: #FCA6BF;
+}
+.navbox-abovebelow, th.navbox-group, .navbox-subgroup .navbox-title {
+	background: #FDBFD0;
+}
+.navbox-subgroup .navbox-group,
+.navbox-subgroup .navbox-abovebelow {
+	background: #FED7E2;
+}
+.navbox-even {
+	background: #FFF;
+}
+.navbox{
+	border: 0;
+}
+/* 资料卡（#profile-toggle-button 不存在 —— 已移除；WikiKernel 的「编辑资料 / 上传头像」
+   入口由 social-profile 插件自带样式） */
+/*按钮动画（WikiKernel 不使用 OOUI —— 原 .oo-ui-buttonElement 块已移除） */
+/*圆形头像（资料卡 / 评论 / 顶部头像；.c-avatar / .profile-info 对应 WikiKernel 的 .avatar / .comment-avatar） */
+#profile-image img,
+.avatar,
+.wiki-avatar,
+.comment-avatar {
+    border-radius: 50%;
+}
+#profile-image img{
+    padding: 4px;
+    border: none;
+    width: 75px;
+}
+/*解决cite定位内文字显示为斜体的问题*/
+cite {
+	font-style: normal;
+}
+/* 首页dpl列表相关样式 */
+.mini-block {
+    width: 100%;
+    min-width: 20%;
+    padding: 16px;
+    margin-top: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.04);
+    border: 1px solid; border-color: rgba(0,0,0,0.05);
+    border-radius: 8px;
+    word-break: break-all;
+    box-sizing: border-box;
+}
+.mini-block p {
+	margin: 0 0 1em 0;
+}
+.mini-block p:last-child {
+	margin: 0;
+}
+.mini-block-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    box-sizing: border-box;
+}
+.mini-block-list a{
+	color: #212121;
+}
+.mini-block-list a.new{
+	color: #212121;
+}
+.mini-block-list a:hover{
+	color: #00aeec;
+}
+.mini-block-list li a:hover {
+    color: #212121;
+}
+.mini-block-container li{
+    border-radius: 4px;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+    transition: background cubic-bezier(0.22,0.58,0.12,0.98) 0.4s;
+}
+.mini-block-title {
+	font-size: 24px;
+	font-weight: 500;
+}
+@media screen and (min-width: 851px) {
+	.mini-block-container li:hover {
+    	background: #0000000d;
+	}
+	.mini-block-container li:hover a {
+		transform: translateX(5px);
+	}
+}
+.mini-block-container ul {
+    margin: 0;
+    padding: 0;
+}
+.mini-block-container li a {
+    padding: .5em .4em;
+    display: inline-block;
+    width: 100%;
+    transition: transform cubic-bezier(0.22,0.58,0.12,0.98) 0.4s;
+}
+@media screen and (max-width: 850px) {
+    .mini-block {
+        align-self: stretch;
+        width: auto;
+    }
+    .mini-block-container {
+    	flex-direction: column;
+    }
+}
+
+
+/*针对移动端用户页的竖向排列（WikiKernel 的 social-profile 同样输出 #user-page-left / #user-page-right）*/
+@media screen and (max-width: 850px){
+#user-page-left {
+    width: 100%;
+    float: none;}
+#user-page-right {
+    width: 100%;
+    float: none;
+    }
+}
+
+/*移动端导航栏子级标题竖向排列*/
+@media screen and (max-width: 850px){
+th.navbox-group {
+	white-space: normal;
+}
+th.navbox-group div {
+    line-height: 1.3em;
+    width: 10px;
+    margin: 10px 0;
+}
+}
+
+/* 留言板「热门」栏（.comment-container-top）在 WikiKernel 不存在 —— 已移除 */
+
+/* 上传文件InfoBox排版增强修复（WikiKernel 的「上传文件」是特殊页：body.page-上传文件） */
+body.page-上传文件 i.md {
+	display: flex;
+}
+body.page-上传文件 .infoBoxText li {
+	margin-top: 6px;
+	margin-bottom: 0;
+}
+
+/* 设置原生html组件的颜色 */
+body {
+	accent-color: #FFB57C;
+}
+
+/* 现代化评论区主题（WikiKernel comments 插件：原 FlowThread 主题的对应改编；
+   选择器带 .wiki-comments 前缀，确保盖过插件自带样式） */
+.wiki-comments .comment-item {
+	border-radius: 4px;
+}
+
+.wiki-comments .comment-form {
+	border-radius: 4px;
+}
+
+.wiki-comments .comment-form .wiki-button {
+	font-family: inherit;
+	color: #fff;
+	border: 0;
+	background-color: #fb7299;
+	background-color: var(--color-primary, #fb7299);
+	border-radius: 2px;
+}
+
+.wiki-comments .comment-form .wiki-button:hover {
+	background-color: #f390a9;
+	background-color: var(--color-primary--hover, #f390a9);
+}
+
+.wiki-comments .comment-avatar {
+	border-radius: 100%;
+	overflow: hidden;
+	border: 0;
+}
+
+.wiki-comments .comment-body {
+	font-size: inherit;
+}
+
+.wiki-comments .comment-header .comment-author,
+.wiki-comments .comment-header a.comment-author {
+	font-size: inherit;
+	color: var(--color-base--subtle, #72777d);
+}
+
+.wiki-comments .comment-reply-link,
+.wiki-comments .comment-delete-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.25em;
+}
+
+.wiki-comments .comment-reply-link::before,
+.wiki-comments .comment-delete-link::before {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	direction: ltr;
+	font-family: 'Material Icons';
+	font-feature-settings: 'liga';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	text-align: center;
+	text-indent: 0;
+	text-rendering: optimizeLegibility;
+	text-transform: none;
+	user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	word-wrap: normal;
+	color: currentColor;
+	opacity: var(--opacity-icon-base, 0.87);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wiki-comments .comment-reply-link::before {
+	content: 'reply';
+}
+
+.wiki-comments .comment-delete-link::before {
+	content: 'delete';
+}
+
+/* 顶部标题文字（#p-logo-text 是 Kawaii-Timeless 皮肤的元素，其它皮肤下不生效） */
+#p-logo-text a {
+	font-size: 1.45em;
+	color: #ff5757;
+}
+
+/* 顶栏白底 + 阴影（原选择器 .mw-header-container 是类名、页面上没有这个类的元素，
+   线上这条规则实际不生效、顶栏保持透明；为与线上渲染一致，这里保持原样式不动 */
+.mw-header-container {
+	background: white;
+	box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
+}

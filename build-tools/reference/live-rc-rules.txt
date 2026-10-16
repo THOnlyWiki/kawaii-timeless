@@ -1,0 +1,55 @@
+【skins.timeless】.mw-body .mw-changeslist-legend dt { margin:0 0.5em 0 0 }
+
+【skins.timeless】.mw-body .mw-changeslist-legend dd { margin-bottom:0 }
+
+【skins.timeless】.client-js .mw-changeslist .content-table-wrapper { border-bottom:1px var(--border-color-base) solid }
+
+【skins.timeless】.client-js .mw-changeslist .content-table-wrapper:nth-child(1) { border-top:1px var(--border-color-base) solid }
+
+【skins.timeless】.mw-changeslist { font-size:0.95em }
+
+【skins.timeless】.mw-changeslist h4 { padding:var(--space-sm) 0;border-bottom:0;margin-bottom:0;color:var(--color-base--subtle);font-size:0.8125rem;font-weight:var(--font-weight-normal);letter-spacing:0.05em }
+
+【skins.timeless】#mw-wrapper .comment--without-parentheses:before,.mw-changeslist-links:before,#mw-wrapper .mw-diff-bytes:before,.mw-tag-markers:before,.mw-uctop:before { padding-left:6px;content:'(' }
+
+【skins.timeless】#mw-wrapper .comment--without-parentheses:after,.mw-changeslist-links:after,#mw-wrapper .mw-diff-bytes:after,.mw-tag-markers:after,.mw-uctop:after { padding-right:6px;content:')' }
+
+【skins.timeless】.mw-rcfilters-ui-changesListWrapperWidget:not(.mw-rcfilters-ui-changesListWrapperWidget-highlighted) .mw-changeslist-watchedseen div.mw-rcfilters-ui-highlights-color-none { border:1px solid var(--color-primary) }
+
+【skins.timeless】.mw-rcfilters-ui-changesListWrapperWidget:not(.mw-rcfilters-ui-changesListWrapperWidget-highlighted) .mw-changeslist-watchedunseen div.mw-rcfilters-ui-highlights-color-none { border:1px solid var(--color-primary);background-color:var(--color-primary) }
+
+【skins.timeless】.mw-rcfilters-ui-liveUpdateButtonWidget.oo-ui-buttonElement-active .oo-ui-buttonElement-button { border-color:#2fbdec !important;background-color:#2fbdec !important;color:#fff !important }
+
+【skins.timeless】.mw-rcfilters-ui-liveUpdateButtonWidget.oo-ui-toggleWidget-on:after { top:3px !important;left:10px !important;animation:ripple 2.3s linear 1s infinite !important;background:rgba(255,255,255,0.5) !important }
+
+【skins.timeless】.diff-editfont-monospace .diff-addedline,.diff-editfont-monospace .diff-deletedline,.diff-editfont-monospace .diff-context,.mw-body .wikiEditor-ui .ace_editor,.ace_search_field,td.mw-enhanced-rc,.mw-enhanced-rc-time a,.mw-enhanced-rc-time { font-family:'JetBrains Mono','Ubuntu Mono','Cascadia Code PL','Menlo','Consolas','Monaco','Noto Mono','Nimbus Mono L','Courier New','Microsoft YaHei UI','Microsoft YaHei','Yu Gothic UI',monospace,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol' }
+
+【skins.timeless】.mw-collapsible-toggle { transition:transform 0.4s cubic-bezier(0.22,0.58,0.12,0.98),opacity 0.4s cubic-bezier(0.22,0.58,0.12,0.98) }
+
+【skins.timeless】#mw-wrapper .mw-collapsible-arrow:before { display:flex;width:15px;height:15px;align-content:center;align-items:center;justify-content:center;background-image:none;content:'chevron_right';direction:ltr;font-family:'Material Icons';font-feature-settings:'liga';font-size:24px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:0.95em;text-align:center;text-indent:0;text-rendering:optimizeLegibility;text-transform:none;transition:transform 0.4s cubic-bezier(0.22,0.58,0.12,0.98),opacity 0.4s cubic-bezier(0.22,0.58,0.12,0.98);user-select:none;vertical-align:middle;white-space:nowrap;word-wrap:normal }
+
+【skins.timeless】#mw-wrapper .mw-collapsible-arrow { background-image:none }
+
+【skins.timeless】.mw-collapsible-arrow.mw-collapsible-toggle-collapsed { margin-top:3px;opacity:var(--opacity-icon-base);transform:rotate(0deg) }
+
+【skins.timeless】.mw-collapsible-arrow.mw-collapsible-toggle-collapsed:active { transform:translateY(3px) }
+
+【skins.timeless】.mw-collapsible-arrow.mw-collapsible-toggle-expanded { margin-top:3px;opacity:1;transform:rotate(90deg) }
+
+【skins.timeless】.mw-collapsible-arrow.mw-collapsible-toggle-expanded:active { transform:rotate(90deg) translateX(3px) }
+
+【skins.timeless】#mw-wrapper .mw-collapsible-toggle-default:before { content:'expand_more';display:inline-block;background-image:none;direction:ltr;font-family:'Material Icons';font-feature-settings:'liga';-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:1;opacity:1;text-align:center;text-indent:0;text-rendering:optimizeLegibility;text-transform:none;user-select:none;vertical-align:middle;white-space:nowrap;word-wrap:normal;transform:scale(1.5) rotate(180deg);transition:transform 0.4s cubic-bezier(0.22,0.58,0.12,0.98);margin-left:8px }
+
+【skins.timeless】#mw-wrapper .mw-collapsible-toggle-default:after { content:none;display:none }
+
+【skins.timeless】#mw-wrapper .mw-collapsible-toggle-default a.mw-collapsible-text { display:none }
+
+【skins.timeless】#mw-wrapper .mw-collapsible-toggle-default.mw-collapsible-toggle-collapsed::before { transform:scale(1.5) }
+
+【skins.timeless】#mw-wrapper .mw-collapsible-toggle-default.mw-collapsible-toggle-expanded::before { transform:scale(1.5) rotate(180deg) }
+
+【skins.timeless】.mw-collapsible-arrow.mw-collapsible-toggle-collapsed:hover:active,.mw-collapsible-arrow.mw-collapsible-toggle-expanded:active { transform:rotate(90deg) translateX(3px) }
+
+【skins.timeless】.mw-collapsible-arrow.mw-collapsible-toggle-collapsed:hover { opacity:1;transform:rotate(90deg) }
+
+【skins.timeless】.mw-rcfilters-ui-filterWrapperWidget-bottom { row-gap:16px }

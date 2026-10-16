@@ -1,0 +1,638 @@
+/*
+ * Kawaii-Timeless 皮肤补充样式（手写，kernel 适配用）：
+ *   1) Material Icons 字体（原站由站内 Common.css / 资产注入，这里随皮肤打包，
+ *      #header-upload 等 content:'upload' 的图标才能显示）；
+ *   2) 分类栏：Timeless 把分类放在右侧 related-navigation（#catlinks-sidebar），
+ *      隐藏正文底部的 core 分类栏，避免重复；
+ *   3) 打印视图（?printable=yes）：外壳已由 layout 的 th:unless 移除，这里补正文边距。
+ */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    /* v140（与线上同版本，连字齐全：file_open / upload / smart_toy …）；ttf 为旧版兜底 */
+    src: url('fonts/MaterialIcons-v140.woff2') format('woff2'),
+         url('fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+/* core 的正文分类栏（词条 / 文件 / 分类页底部）在 Timeless 里改由右侧栏展示 */
+#mw-content .catlinks-block {
+    display: none;
+}
+
+/* 正文基准字号：core 的 base.css 把 #content 压到 0.875em（14px，vector 设计），
+   线上 MediaWiki 正文基准是 16px（1em）——皮肤内恢复 1em，
+   让 #firstHeading（2em=32px）、正文、页签等与线上一致 */
+#content {
+    font-size: 1em;
+}
+
+/* core 的 base.css 全局 * { box-sizing: border-box }；原皮肤按 content-box 计算
+   #header-upload（24px + 6px*2 padding = 36px 点击区），这里恢复 content-box 对齐线上尺寸 */
+#header-upload {
+    box-sizing: content-box;
+}
+
+/* 顶栏变窄时应当压缩的是搜索框：头像 / 图标组 / 上传按钮都固定尺寸
+   （否则 36px 的上传按钮会被 flex 压成 12px，图标几乎看不见） */
+#header-upload,
+#user-tools,
+#personal,
+#personal-extra {
+    flex: 0 0 auto;
+}
+
+/* 同上：侧栏条目链接（width:100% + 0.4em 内边距）在原站是 content-box，
+   合计宽 188px（比侧栏本体宽 12px、悬停高亮条右侧外溢），border-box 下只有 176px */
+#mw-site-navigation .sidebar-chunk li a,
+#mw-related-navigation .sidebar-chunk li a {
+    box-sizing: content-box;
+}
+
+/* 页脚：core 的 base.css 给 #footer-icons / #footer-places 定的是 vector 皮肤的样式
+   （13px 深灰、flex 两栏），这里按原皮肤 .mw-footer 系的渲染恢复：
+   徽章行 1em 字号、继承 .mw-footer-container 的 #9499a0、上下 1em 外边距；
+   #footer-places 回到普通块级（行内 li，原站没有 flex 排布） */
+#mw-footer #footer-icons {
+    margin: 1em 0;
+    font-size: 1em;
+    color: inherit;
+}
+
+#mw-footer #footer-places {
+    display: block;
+    gap: 0;
+    justify-content: initial;
+}
+
+#mw-footer #footer-places li {
+    display: inline-block;
+    margin: 0 1em 0 0;
+}
+
+/* 按钮：不再在这里给 .wiki-button 统一刷糖果粉 —— 改用 core 的通用组件
+   （base.css 的 .wiki-button / .wiki-button-primary / .wiki-button-danger / .wiki-button-quiet）
+   + 本文件末尾的 --wiki-button-* 主题变量：主按钮/焦点环自动跟站点 --color-* 糖果色，
+   次要按钮（取消等）保持扁平灰、危险按钮红底。裸 `button` 的糖果主题仍由站点页面 CSS 负责。 */
+
+/* desktop-small（851–1099px）：原皮肤把「导航 / 页面工具」两个下拉块用 top:-2.35em
+   （= -37.6px，挂在 #mw-content-block 上沿之上）放到固定头部下方的留白带里 ——
+   线上 1000px 实测就是 y=49（紧贴 48px 顶栏下方），下文内容（margin-top: 5.425em）从它下面开始。
+   曾经这里改成 top: 0.85em，两个下拉块就压到了内容与页签上（重叠 bug），现按线上改回原值。 */
+@media screen and (min-width: 851px) and (max-width: 1099px) {
+    #mw-site-navigation,
+    #mw-related-navigation {
+        top: -2.35em;
+    }
+}
+
+/* 用户系统开启「减少动态效果」时关闭动画 / 过渡（线上皮肤 CSS 里也有一段同样的规则，
+   本地打包的副本没有，这里补齐） */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+        animation-delay: -0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0ms !important;
+    }
+}
+
+/* 界面外壳的链接悬停不加下划线：core 的 base.css 有一条 vector 风格的通用
+   `a:hover, a:focus { text-decoration: underline }`；线上皮肤在侧栏 / 页签 / 顶栏 /
+   页脚都只换颜色（侧栏再加 translateX(5px) 位移），不下划线。正文（#mw-content）保持原样。 */#mw-site-navigation a:hover,
+#mw-site-navigation a:focus,
+#mw-related-navigation a:hover,
+#mw-related-navigation a:focus,
+#mw-header a:hover,
+#mw-header a:focus,
+#mw-page-header-links a:hover,
+#mw-page-header-links a:focus,
+#mw-footer-container a:hover,
+#mw-footer-container a:focus,
+#menus-cover a:hover,
+#menus-cover a:focus {
+    text-decoration: none;
+}
+
+/* 顶栏右侧：按原皮肤排布 —— 头像紧跟搜索框右边（#personal 的 margin-right:auto 撑开间距），
+   然后是个人工具图标组（Echo 插件注入的「提醒 / 一般通知」两个铃铛，与线上一致），
+   上传按钮在最右边。原皮肤给 #user-tools 固定 14em 宽就是为这一排预留的。 */
+
+/* 个人工具图标组（Echo 插件注入 <li class="echo-entry echo-alerts/echo-notices">）：
+   文字标签换成 Material 图标，有未读时右上角显示小红点（图标本身由 echo.css 指定）。 */
+#personal-extra li a {
+    position: relative;
+    text-decoration: none;
+}
+
+#personal-extra li a span {
+    display: none;
+}
+
+#personal-extra li a::before {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    direction: ltr;
+    font-family: 'Material Icons';
+    font-feature-settings: 'liga';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    user-select: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    color: #000;
+    opacity: var(--opacity-icon-base, 0.51);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 有未读数（条目里渲染了计数 <span>）时：图标右上角小红点 */
+#personal-extra li:has(a span + span) a::after {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #fb7299;
+    content: '';
+}
+
+/* 特殊页的命名空间页签：模板里这块只有一条 #ca-nstab-special（span「特殊页面」），
+   页签行里显示它是多余的 —— 整块 display:none（内容页的 页面/讨论 页签不受影响） */
+#ca-nstab-special,
+#p-namespaces:has(#ca-nstab-special) {
+    display: none;
+}
+
+/* 打印视图：去掉内容区阴影 / 留白，纸张友好（原皮肤 print.css 之外的补充） */
+.wiki-printable .mw-body {
+    box-shadow: none;
+}
+
+/* ============================================================
+   特殊:参数设置：仿线上（thonly.cc）MediaWiki 参数设置（OOUI menuLayout）
+   —— 左列竖排标签（Material 图标 + 选中粉色指示条）+ 右侧面板 + 底部保存条。
+      标题滚动 settings 图标、右下角大齿轮水印、页脚压在水印上由主皮肤 CSS 的
+      .mw-special-Preferences 规则提供（布局给 body 加同名类）。
+   ============================================================ */
+.pref-layout {
+    display: flex;
+    align-items: flex-start;
+}
+
+.pref-layout .pref-tabs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: 0 0 186px;
+    width: 186px;
+    margin: 10px 0 0;
+    border-bottom: 0;
+}
+
+.pref-layout .pref-tab {
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 180px;
+    min-height: 38px;
+    margin: 0 0 0 6px;
+    padding: 0;
+    border: 0;
+    border-radius: var(--border-radius--small, 4px);
+    background: transparent;
+    color: #7d7d7d;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+}
+
+.pref-layout .pref-tab:hover {
+    background: var(--background-color-quiet--hover, rgba(0, 0, 0, 0.07));
+    text-decoration: none;
+}
+
+/* Material 图标（连字）：与线上参数设置各标签图标一致；插件标签默认 widgets */
+.pref-layout .pref-tab::before {
+    display: flex;
+    flex: 0 0 24px;
+    width: 24px;
+    height: 24px;
+    margin: 0 4px 0 3px;
+    color: #000;
+    font-family: 'Material Icons';
+    font-size: 24px;
+    font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    content: 'widgets';
+    opacity: var(--opacity-icon-base, 0.51);
+}
+
+.pref-layout .pref-tab[data-target="profile"]::before {
+    content: 'person';
+}
+
+.pref-layout .pref-tab[data-target="appearance"]::before {
+    content: 'display_settings';
+}
+
+.pref-layout .pref-tab[data-target="recentchanges"]::before {
+    content: 'history';
+}
+
+.pref-layout .pref-tab[data-target="watchlist"]::before {
+    content: 'star';
+}
+
+.pref-layout .pref-tab[data-target="search"]::before {
+    content: 'search';
+}
+
+.pref-layout .pref-tab[data-target="misc"]::before {
+    content: 'settings';
+}
+
+.pref-layout .pref-tab.selected {
+    background: var(--background-color-quiet--hover, rgba(0, 0, 0, 0.07));
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.pref-layout .pref-tab.selected::before {
+    color: var(--color-primary);
+    opacity: 1;
+}
+
+.pref-layout .pref-tab.selected::after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 3px;
+    height: 16px;
+    border-radius: 100px;
+    background: var(--color-primary);
+    content: '';
+    transform: translateY(-50%);
+}
+
+/* 参数设置：面板固定高度 + 内部滚动 + 底部固定保存条（布局规则在 core 的 base.css：
+   .pref-content / .pref-panels / .pref-actions / #preferences-message）。
+   这里只保留皮肤视觉：圆角、内边距与面板滑入动效。 */
+.pref-layout .pref-content {
+    flex: 1 1 auto;
+    padding: 20px;
+    border-radius: var(--border-radius--small, 4px);
+    animation: slide-in-parent cubic-bezier(0.22, 0.58, 0.12, 0.98) 0.4s backwards;
+}
+
+/* 底部保存条（仿线上 .mw-prefs-buttons：贴在面板底部、覆盖色背景 + 分隔线） */
+.pref-layout .pref-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+    margin: 0 -20px -20px;
+    padding: 1em;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    background: var(--background-color-overlay, rgba(255, 255, 255, 0.95));
+}
+
+/* 分区标题（仿 fieldset legend：黑体加粗、无下边框无外框） */
+.pref-layout .pref-content h2 {
+    margin: 1.2em 0 0.5em;
+    padding: 0;
+    border: 0;
+    color: #000;
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.pref-layout .pref-content h2:first-child {
+    margin-top: 0;
+}
+
+/* 表单控件：白底 + 1px 浅边框 + 4px 圆角（仿 OOUI 输入框） */
+.pref-layout input[type="text"],
+.pref-layout input[type="email"],
+.pref-layout input[type="password"],
+.pref-layout input[type="number"],
+.pref-layout input[type="search"],
+.pref-layout select,
+.pref-layout textarea {
+    box-sizing: border-box;
+    padding: 0.5em 0.6em;
+    border: 1px solid var(--border-color-base, #c8ccd1);
+    border-radius: var(--border-radius--small, 4px);
+    background: #fff;
+}
+
+.pref-layout input[type="radio"],
+.pref-layout input[type="checkbox"] {
+    accent-color: var(--color-primary);
+}
+
+/* 分区切换：与线上一致的面板滑入动效（隐藏/显示由 core 的 preferences.js 控制） */
+.pref-layout .pref-panels > .pref-section:not([hidden]),
+.pref-layout .pref-content > .pref-section:not([hidden]) {
+    animation: slide-in-parent cubic-bezier(0.22, 0.58, 0.12, 0.98) 0.4s backwards;
+}
+
+/* ============================================================
+   界面控件不吃站点「糖果按钮」主题
+   —— 站点皮肤页（WikiKernel:Kawaii-timeless.css）用裸 `button` 选择器给所有按钮加了
+      粉色底 / 白色粗体 / box-shadow(0 4px 4px) / hover 大投影 / active 缩放；那是**内容区按钮**的主题。
+      编辑器工具条、参数设置标签与保存条、最近更改工具等属于界面控件，皮肤与线上（OOUI）都是扁平样式，
+      这里用比裸元素选择器更高的权重（两个类 ≥ 覆盖 `button:hover`）把它们中和掉。
+      注意：站点页面 CSS 在皮肤样式之后加载，所以必须靠选择器权重赢，不能只靠加载顺序。
+   ============================================================ */
+.pref-layout .pref-tab,
+.pref-layout .pref-actions .wiki-button,
+.rc-toolbar .rc-live,
+.rc-filters .rc-link-button {
+    box-shadow: none;
+    transform: none;
+    margin-right: 0;
+}
+
+/* 文字型小按钮（最近更改的「隐藏」）：不继承糖果主题的粗体 */
+.rc-filters .rc-link-button {
+    font-weight: 400;
+}
+
+/* 参数设置表单：面板底部留白由 core 的 .pref-panels 提供（见 base.css），
+   保存条不再用 sticky —— 面板是固定高度 + 内部滚动，保存条就固定在面板底部。 */
+
+/* 保存按钮：线上是浅灰按钮（不是全站粉色按钮），这里照线上 */
+.pref-layout .pref-actions .wiki-button {
+    padding: 0.6em 1.2em;
+    border: 1px solid var(--border-color-base, #c8ccd1);
+    border-radius: var(--border-radius--small, 4px);
+    background: var(--color-surface-2, #f8f9fa);
+    color: var(--color-base, #54595d);
+    font-weight: 500;
+}
+
+.pref-layout .pref-actions .wiki-button:hover {
+    background: #eaecf0;
+}
+
+/* ============================================================
+   特殊:最近更改：对齐线上（MediaWiki 增强版最近更改）
+   —— 白色过滤卡片（工具栏在卡片外）；行距 12px、14px 字号、85px 时间列；
+      日期标题灰字小号、图例/字节增减色照线上计算值。
+   ============================================================ */
+.rc-filters {
+    margin: 16px 0 0;
+    padding: 1em;
+    border: 0;
+    border-radius: var(--border-radius--small, 4px);
+    background: #fff;
+}
+
+.rc-filters-head {
+    padding: 0 0 0.5em;
+    font-weight: 400;
+}
+
+.rc-active-filters {
+    padding: 0 0 0.8em;
+}
+
+.rc-filter-row {
+    padding: 0;
+}
+
+.rc-filters .rc-link-button {
+    color: var(--color-primary);
+}
+
+.rc-chip {
+    min-height: 25px;
+    margin: 0 4px 4px 0;
+    padding: 0 23px 0 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    background: #fff;
+    color: var(--color-base, #54595d);
+}
+
+.rc-chip-remove {
+    color: var(--color-base, #54595d);
+}
+
+.rc-filter-row input {
+    padding: 0.5em 0.6em;
+    border: 1px solid var(--border-color-base, rgba(0, 0, 0, 0.05));
+    border-radius: var(--border-radius--small, 4px);
+    background: #fff;
+}
+
+/* 命名空间 / 标签 / 隐藏：线上是扁平按钮 + Material 图标 */
+.rc-filter-actions .rc-menu > summary {
+    padding: 0.35em 0.6em;
+    border: 0;
+    border-radius: var(--border-radius--small, 4px);
+    background: transparent;
+    color: var(--color-base, #54595d);
+}
+
+.rc-filter-actions .rc-menu > summary:hover,
+.rc-filter-actions .rc-menu[open] > summary {
+    background: var(--background-color-quiet--hover, rgba(0, 0, 0, 0.07));
+}
+
+.rc-filter-actions .rc-menu > summary::before {
+    margin-right: 0.3em;
+    font-family: 'Material Icons';
+    font-size: 18px;
+    font-feature-settings: 'liga';
+    line-height: 1;
+    vertical-align: -4px;
+    opacity: var(--opacity-icon-base, 0.51);
+}
+
+.rc-filter-actions .rc-menu:nth-of-type(1) > summary::before {
+    content: 'list';
+}
+
+.rc-filter-actions .rc-menu:nth-of-type(2) > summary::before {
+    content: 'sell';
+}
+
+.rc-filter-actions .rc-menu:nth-of-type(3) > summary::before {
+    content: 'visibility_off';
+}
+
+/* 工具栏（卡片外）：动态更新在左、范围在右 */
+.rc-toolbar {
+    margin: 16px 0 1em;
+    padding: 0;
+    border: 0;
+}
+
+.rc-toolbar .rc-live {
+    border: 1px solid var(--border-color-base, #c8ccd1);
+    border-radius: var(--border-radius--small, 4px);
+    background: var(--color-surface-2, #f8f9fa);
+    color: var(--color-base, #54595d);
+}
+
+.rc-toolbar .rc-live.active {
+    border-color: var(--color-primary);
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.rc-range > summary {
+    border: 1px solid var(--border-color-base, #c8ccd1);
+    border-radius: var(--border-radius--small, 4px);
+    background: var(--color-surface-2, #f8f9fa);
+}
+
+/* 日期标题：小号灰字（线上 .mw-changeslist h4），下面一条浅分隔线
+   （用 .mw-rc-page 提优先级，压过皮肤对 .mw-body h2 的字号/加粗规则） */
+.mw-rc-page .rc-day-title {
+    margin: 0;
+    padding: var(--space-sm, 12px) 0;
+    border: 0;
+    color: var(--color-base--subtle, #72777d);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.rc-list {
+    padding-left: 0;
+    border-top: 1px solid var(--border-color-base, rgba(0, 0, 0, 0.05));
+}
+
+/* 条目：线上行 padding 12px 0、字号 14px、行高 1.6 */
+.rc-entry {
+    padding: 12px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.rc-group > summary {
+    padding-left: 0;
+}
+
+.rc-group > summary::before {
+    top: 0.35em;
+}
+
+/* 时间列：固定宽度（线上 td 单元格是 85px，但那是 td 内侧留白撑出来的；
+   这里按 HH:mm 收紧到 60px，时间后不再拖一大段空白，内容更贴近） */
+.rc-time {
+    display: inline-block;
+    min-width: 60px;
+    color: var(--color-base, #54595d);
+}
+
+/* 箭头位（线上 .mw-enhancedchanges-arrow-space 是 15px）：普通行与分组行都留出这段空白，
+   时间列才能对齐；分组折叠箭头画在这段空白里，并与时间保持一点呼吸距离 */
+.rc-entry > .rc-line,
+.rc-entry > .rc-group > summary {
+    padding-left: 18px;
+}
+
+.rc-entry > .rc-group > summary::before {
+    left: 2px;
+    top: 0.42em;
+    font-size: 0.65em;
+}
+
+.rc-links a,
+.rc-page,
+.rc-user a {
+    color: var(--color-link, #008ac5);
+}
+
+.rc-dot {
+    padding: 0 0.35em;
+}
+
+/* 字节增减色（线上 .mw-plusminus-*：+ #00af89、− #dd3333、0 灰） */
+.rc-bytes-plus {
+    color: var(--color-success, #00af89);
+}
+
+.rc-bytes-minus {
+    color: var(--color-destructive, #dd3333);
+}
+
+.rc-bytes-zero {
+    color: #a2a9b1;
+}
+
+/* 图例：线上 .mw-changeslist-legend（浅灰底、无边框、13px） */
+.rc-legend {
+    position: relative;
+    z-index: 1;
+    float: right;
+    max-width: 24em;
+    margin: 0 0 6.5px 13px;
+    padding: 7.8px;
+    border: 1px solid transparent;
+    border-radius: var(--border-radius--small, 4px);
+    background: var(--color-surface-2, #f8f9fa);
+    font-size: 13px;
+    line-height: 1.2em;
+}
+
+/* ============================================================
+   侧栏空分组隐藏（仿 MediaWiki .emptyPortlet —— 特殊页等场景下
+   没有任何条目的分组（含标题与 body）整块不显示）
+   ============================================================ */
+.sidebar-chunk .mw-portlet:not(:has(.mw-portlet-body li)) {
+    display: none;
+}
+
+/* ============================================================
+   通用组件主题（Timeless 糖果风）：覆盖 core base.css「通用组件」的变量
+   （按钮 / 弹窗 / 焦点环；插件直接用 .wiki-button-* 就能跟站点同风格）
+   —— 改 WikiKernel:Kawaii-timeless.css 里的 --color-primary / --color-hover /
+      --color-dark，主按钮与焦点环整体跟着换色。
+   ============================================================ */
+:root {
+    --wiki-focus-ring: var(--color-primary, #fb7299);
+
+    --wiki-button-bg: #f8f9fa;
+    --wiki-button-bg-hover: #eaecf0;
+    --wiki-button-bg-active: #dcdfe3;
+    --wiki-button-border: #d6d6d6;
+    --wiki-button-border-hover: #b9b9b9;
+    --wiki-button-text: #212121;
+
+    /* 主按钮 → 站点糖果色 */
+    --wiki-button-primary-bg: var(--color-primary, #fb7299);
+    --wiki-button-primary-bg-hover: var(--color-hover, #f390a9);
+    --wiki-button-primary-bg-active: var(--color-dark, #bd5774);
+    --wiki-button-primary-text: #ffffff;
+
+    --wiki-button-danger-bg: #e0533d;
+    --wiki-button-danger-bg-hover: #c33f2b;
+    --wiki-button-danger-bg-active: #a32f1e;
+    --wiki-button-danger-text: #ffffff;
+
+    --wiki-quiet-text: #7d7d7d;
+    --wiki-quiet-text-hover: #212121;
+    --wiki-quiet-bg-hover: rgba(251, 114, 153, 0.16);
+    --wiki-quiet-bg-active: rgba(251, 114, 153, 0.28);
+}

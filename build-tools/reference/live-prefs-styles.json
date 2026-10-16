@@ -1,0 +1,2951 @@
+{
+ "url": "https://thonly.cc/%E7%89%B9%E6%AE%8A:%E5%8F%82%E6%95%B0%E8%AE%BE%E7%BD%AE",
+ "title": "参数设置 - 东方Project线下活动维基",
+ "bodyClass": "mediawiki ltr sitedir-ltr mw-hide-empty-elt ns--1 ns-special mw-special-Preferences page-特殊_参数设置 rootpage-特殊_参数设置 skin-timeless action-view skin--responsive mdui-loaded webfonts-changed",
+ "viewport": [
+  1600,
+  1000
+ ],
+ "totalRulesReadable": 3070,
+ "selectors": {
+  "mw-content-text": {
+   "selector": "#mw-content-text",
+   "rect": {
+    "x": 272,
+    "y": 156,
+    "w": 1056,
+    "h": 1429
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "1056px",
+    "height": "1428.56px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "25.6px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "#mw-content-text",
+     "css": "#mw-content-text { margin-bottom: 3em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "print"
+    }
+   ]
+  },
+  "preferences": {
+   "selector": "#preferences",
+   "rect": {
+    "x": 272,
+    "y": 156,
+    "w": 1056,
+    "h": 1429
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "1056px",
+    "height": "1428.56px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "#preferences",
+     "css": "#preferences { filter: brightness(1); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "mw-prefs-container": {
+   "selector": ".mw-prefs-container",
+   "missing": true
+  },
+  "mw-prefs-tabs": {
+   "selector": ".mw-prefs-tabs",
+   "rect": {
+    "x": 272,
+    "y": 156,
+    "w": 1056,
+    "h": 1346
+   },
+   "props": {
+    "display": "flex",
+    "position": "static",
+    "width": "1056px",
+    "height": "1345.52px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-indexLayout",
+     "css": ".oo-ui-indexLayout { }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout",
+     "css": ".oo-ui-menuLayout { inset: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-menuLayout",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-menuLayout { display: flex; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".oo-ui-indexLayout",
+     "css": ".oo-ui-indexLayout { }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout",
+     "css": ".oo-ui-menuLayout { inset: 0px; }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "mw-prefs-tab": {
+   "selector": ".mw-prefs-tab",
+   "missing": true
+  },
+  "mw-prefs-section": {
+   "selector": ".mw-prefs-section",
+   "missing": true
+  },
+  "mw-prefs-buttons": {
+   "selector": ".mw-prefs-buttons",
+   "rect": {
+    "x": 272,
+    "y": 932,
+    "w": 1056,
+    "h": 68
+   },
+   "props": {
+    "display": "flex",
+    "position": "sticky",
+    "width": "1024px",
+    "height": "36.0469px",
+    "margin": "15px 0px 0px",
+    "padding": "16px",
+    "border": "",
+    "borderRadius": "0px",
+    "background": "rgba(255, 255, 255, 0.95) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(255, 255, 255, 0.95)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "space-between",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "0px",
+    "inset": "auto auto 0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-prefs-buttons",
+     "css": ".mw-prefs-buttons { background-color: rgb(255, 255, 255); position: sticky; bottom: 0px; margin-top: -1px; border-top: 1px solid rgb(200, 204, 209); padding: 1em 0px; box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 4px -4px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-prefs-buttons",
+     "css": ".mw-prefs-buttons { border-color: var(--border-color-base); background-color: var(--color-surface-0); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .mw-prefs-buttons",
+     "css": ".mw-special-Preferences #mw-wrapper .mw-prefs-buttons { display: flex; flex-direction: row; justify-content: space-between; padding: 1em 0px; border-top: 1px transparent; margin-top: 15px; background-color: var(--background-color-overlay); box-shadow: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .mw-prefs-buttons",
+     "css": ".mw-special-Preferences #mw-wrapper .mw-prefs-buttons { display: flex; flex-direction: row; justify-content: space-between; padding: 1em; border-top: 1px transparent; margin-top: 15px; box-shadow: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    }
+   ]
+  },
+  "oo-ui-tabSelectWidget-framed": {
+   "selector": ".oo-ui-tabSelectWidget-framed",
+   "rect": {
+    "x": 272,
+    "y": 166,
+    "w": 186,
+    "h": 266
+   },
+   "props": {
+    "display": "flex",
+    "position": "static",
+    "width": "186px",
+    "height": "266px",
+    "margin": "10px 0px 0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "column",
+    "flexWrap": "nowrap",
+    "alignItems": "flex-end",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "left",
+    "opacity": "1",
+    "overflow": "auto hidden",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-tabSelectWidget",
+     "css": ".oo-ui-tabSelectWidget { text-align: left; overflow: auto hidden; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed",
+     "css": ".oo-ui-tabSelectWidget-framed { background-color: rgb(234, 236, 240); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "#mw-wrapper .oo-ui-tabSelectWidget-framed",
+     "css": "#mw-wrapper .oo-ui-tabSelectWidget-framed { display: flex; align-items: flex-end; background-color: transparent; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed { flex-direction: column; margin-top: 10px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed { flex-wrap: wrap; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (max-width: 850px)"
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget",
+     "css": ".oo-ui-tabSelectWidget { text-align: left; overflow: auto hidden; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed",
+     "css": ".oo-ui-tabSelectWidget-framed { background-color: rgb(234, 236, 240); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed",
+     "css": ".oo-ui-tabSelectWidget-framed { background-color: var(--color-surface-2); }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "oo-ui-tabOptionWidget-selected": {
+   "selector": ".oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+   "rect": {
+    "x": 278,
+    "y": 166,
+    "w": 180,
+    "h": 38
+   },
+   "props": {
+    "display": "flex",
+    "position": "relative",
+    "width": "180px",
+    "height": "38px",
+    "margin": "0px 0px 0px 6px",
+    "padding": "0px 8px",
+    "border": "0px none rgb(32, 33, 34)",
+    "borderRadius": "4px",
+    "background": "rgba(0, 0, 0, 0.07) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0.07)",
+    "color": "rgb(32, 33, 34)",
+    "fontSize": "16px",
+    "fontWeight": "500",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "16px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "center",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "left",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-optionWidget",
+     "css": ".oo-ui-optionWidget { position: relative; display: block; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-optionWidget.oo-ui-widget-enabled",
+     "css": ".oo-ui-optionWidget.oo-ui-widget-enabled { cursor: pointer; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabOptionWidget { display: inline-block; box-sizing: border-box; vertical-align: bottom; color: rgb(64, 66, 68); margin: 6px 0px 0px 6px; padding: 0px 8px; border-color: transparent; border-style: solid; font-weight: bold; line-height: 1; transition: background-color 100ms, color 100ms, borde",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { cursor: default; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { border-width: 1px 1px 0px; border-top-left-radius: 2px; border-top-right-radius: 2px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color: transparent; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": "#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { display: flex; min-height: 40px; align-items: center; border-radius: var(--border-radius--small); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { width: 180px; min-height: 38px; align-items: center; border: 0px; border-radius: var(--border-radius--small); margin: 0px 0px 0px 6px; transition: transform 0.2s cubic-bezier(0.22, 0.58, 0.12, 0.98); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color: var(--background-color-quiet--hover); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { color: rgb(125, 125, 125); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (max-width: 850px)"
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabOptionWidget { display: inline-block; box-sizing: border-box; vertical-align: bottom; color: rgb(64, 66, 68); margin: 6px 0px 0px 6px; padding: 0px 8px; border-color: transparent; border-style: solid; font-weight: bold; line-height: 1; transition: background-color 100ms, color 100ms, borde",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { cursor: default; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { border-width: 1px 1px 0px; border-top-left-radius: 2px; border-top-right-radius: 2px; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabOptionWidget { color: var(--color-base); font-weight: var(--font-weight-medium); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { border-top-left-radius: var(--border-radius--small); border-top-right-radius: var(--border-radius--small); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color: var(--color-surface-0); color: var(--color-base--emphasized); }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "oo-ui-tabOptionWidget-first": {
+   "selector": ".oo-ui-tabOptionWidget",
+   "rect": {
+    "x": 278,
+    "y": 166,
+    "w": 180,
+    "h": 38
+   },
+   "props": {
+    "display": "flex",
+    "position": "relative",
+    "width": "180px",
+    "height": "38px",
+    "margin": "0px 0px 0px 6px",
+    "padding": "0px 8px",
+    "border": "0px none rgb(32, 33, 34)",
+    "borderRadius": "4px",
+    "background": "rgba(0, 0, 0, 0.07) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0.07)",
+    "color": "rgb(32, 33, 34)",
+    "fontSize": "16px",
+    "fontWeight": "500",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "16px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "center",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "left",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-optionWidget",
+     "css": ".oo-ui-optionWidget { position: relative; display: block; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-optionWidget.oo-ui-widget-enabled",
+     "css": ".oo-ui-optionWidget.oo-ui-widget-enabled { cursor: pointer; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabOptionWidget { display: inline-block; box-sizing: border-box; vertical-align: bottom; color: rgb(64, 66, 68); margin: 6px 0px 0px 6px; padding: 0px 8px; border-color: transparent; border-style: solid; font-weight: bold; line-height: 1; transition: background-color 100ms, color 100ms, borde",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { cursor: default; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { border-width: 1px 1px 0px; border-top-left-radius: 2px; border-top-right-radius: 2px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color: transparent; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": "#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { display: flex; min-height: 40px; align-items: center; border-radius: var(--border-radius--small); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { width: 180px; min-height: 38px; align-items: center; border: 0px; border-radius: var(--border-radius--small); margin: 0px 0px 0px 6px; transition: transform 0.2s cubic-bezier(0.22, 0.58, 0.12, 0.98); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color: var(--background-color-quiet--hover); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { color: rgb(125, 125, 125); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (max-width: 850px)"
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabOptionWidget { display: inline-block; box-sizing: border-box; vertical-align: bottom; color: rgb(64, 66, 68); margin: 6px 0px 0px 6px; padding: 0px 8px; border-color: transparent; border-style: solid; font-weight: bold; line-height: 1; transition: background-color 100ms, color 100ms, borde",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { cursor: default; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { border-width: 1px 1px 0px; border-top-left-radius: 2px; border-top-right-radius: 2px; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabOptionWidget { color: var(--color-base); font-weight: var(--font-weight-medium); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget { border-top-left-radius: var(--border-radius--small); border-top-right-radius: var(--border-radius--small); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected { background-color: var(--color-surface-0); color: var(--color-base--emphasized); }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "oo-ui-menuLayout": {
+   "selector": ".oo-ui-menuLayout",
+   "rect": {
+    "x": 272,
+    "y": 156,
+    "w": 1056,
+    "h": 1346
+   },
+   "props": {
+    "display": "flex",
+    "position": "static",
+    "width": "1056px",
+    "height": "1345.52px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-indexLayout",
+     "css": ".oo-ui-indexLayout { }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout",
+     "css": ".oo-ui-menuLayout { inset: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-menuLayout",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-menuLayout { display: flex; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".oo-ui-indexLayout",
+     "css": ".oo-ui-indexLayout { }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout",
+     "css": ".oo-ui-menuLayout { inset: 0px; }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "oo-ui-menuLayout-content": {
+   "selector": ".oo-ui-menuLayout-content",
+   "rect": {
+    "x": 458,
+    "y": 156,
+    "w": 870,
+    "h": 1346
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "870px",
+    "height": "1345.52px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "228.571px",
+    "bottom": "0px",
+    "inset": "228.571px 0px 0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-menuLayout > .oo-ui-menuLayout-menu, .oo-ui-menuLayout > .oo-ui-menuLayout-content",
+     "css": ".oo-ui-menuLayout > .oo-ui-menuLayout-menu, .oo-ui-menuLayout > .oo-ui-menuLayout-content { transition: height 250ms ease-out, width 250ms ease-out, top 250ms ease-out, left 250ms ease-out, right 250ms ease-out, bottom 250ms ease-out; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout > .oo-ui-menuLayout-content",
+     "css": ".oo-ui-menuLayout > .oo-ui-menuLayout-content { inset: 14.2857em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout.oo-ui-menuLayout-showMenu.oo-ui-menuLayout-top > .oo-ui-menuLayout-content",
+     "css": ".oo-ui-menuLayout.oo-ui-menuLayout-showMenu.oo-ui-menuLayout-top > .oo-ui-menuLayout-content { right: 0px !important; bottom: 0px !important; left: 0px !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-menuLayout.oo-ui-menuLayout-showMenu.oo-ui-menuLayout-top > .oo-ui-menuLayout-content",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-menuLayout.oo-ui-menuLayout-showMenu.oo-ui-menuLayout-top > .oo-ui-menuLayout-content { width: 85%; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".oo-ui-menuLayout > .oo-ui-menuLayout-menu, .oo-ui-menuLayout > .oo-ui-menuLayout-content",
+     "css": ".oo-ui-menuLayout > .oo-ui-menuLayout-menu, .oo-ui-menuLayout > .oo-ui-menuLayout-content { transition: height 250ms ease-out, width 250ms ease-out, top 250ms ease-out, left 250ms ease-out, right 250ms ease-out, bottom 250ms ease-out; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout > .oo-ui-menuLayout-content",
+     "css": ".oo-ui-menuLayout > .oo-ui-menuLayout-content { inset: 14.2857em; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout.oo-ui-menuLayout-showMenu.oo-ui-menuLayout-top > .oo-ui-menuLayout-content",
+     "css": ".oo-ui-menuLayout.oo-ui-menuLayout-showMenu.oo-ui-menuLayout-top > .oo-ui-menuLayout-content { right: 0px !important; bottom: 0px !important; left: 0px !important; }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "oo-ui-indexLayout": {
+   "selector": ".oo-ui-indexLayout",
+   "rect": {
+    "x": 272,
+    "y": 156,
+    "w": 1056,
+    "h": 1346
+   },
+   "props": {
+    "display": "flex",
+    "position": "static",
+    "width": "1056px",
+    "height": "1345.52px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-indexLayout",
+     "css": ".oo-ui-indexLayout { }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout",
+     "css": ".oo-ui-menuLayout { inset: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-menuLayout",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-menuLayout { display: flex; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".oo-ui-indexLayout",
+     "css": ".oo-ui-indexLayout { }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout",
+     "css": ".oo-ui-menuLayout { inset: 0px; }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "oo-ui-panelLayout-scrollable": {
+   "selector": ".oo-ui-panelLayout-scrollable",
+   "rect": {
+    "x": 458,
+    "y": 156,
+    "w": 870,
+    "h": 1346
+   },
+   "props": {
+    "display": "block",
+    "position": "relative",
+    "width": "830px",
+    "height": "1305.52px",
+    "margin": "0px",
+    "padding": "20px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "4px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "auto",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed, .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout",
+     "css": ".mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed, .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout { border-color: rgb(200, 204, 209); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".client-js .mw-prefs-tabs .oo-ui-tabPanelLayout",
+     "css": ".client-js .mw-prefs-tabs .oo-ui-tabPanelLayout { border: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed, .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout",
+     "css": ".mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed, .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout { border: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-panelLayout",
+     "css": ".oo-ui-panelLayout { position: relative; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-panelLayout-scrollable",
+     "css": ".oo-ui-panelLayout-scrollable { overflow: auto; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-panelLayout-framed",
+     "css": ".oo-ui-panelLayout-framed { border: 1px solid rgb(162, 169, 177); border-radius: 2px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-panelLayout-framed",
+     "css": ".oo-ui-panelLayout-framed { border-color: var(--border-color-base); border-radius: var(--border-radius--small); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-indexLayout-stackLayout > .oo-ui-panelLayout",
+     "css": ".oo-ui-indexLayout-stackLayout > .oo-ui-panelLayout { padding: 20px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-panelLayout-scrollable",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-panelLayout-scrollable { min-height: 985px; animation: 0.4s cubic-bezier(0.22, 0.58, 0.12, 0.98) 0s 1 normal backwards running slide-in-parent; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout",
+     "css": ".mw-special-Preferences #mw-wrapper .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout { padding: 36px 8px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (max-width: 850px)"
+    },
+    {
+     "selector": ".oo-ui-indexLayout-stackLayout > .oo-ui-panelLayout",
+     "css": ".oo-ui-indexLayout-stackLayout > .oo-ui-panelLayout { padding: 20px; }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "oo-ui-fieldsetLayout": {
+   "selector": ".oo-ui-fieldsetLayout",
+   "rect": {
+    "x": 478,
+    "y": 176,
+    "w": 830,
+    "h": 1306
+   },
+   "props": {
+    "display": "block",
+    "position": "relative",
+    "width": "830px",
+    "height": "1305.52px",
+    "margin": "0px",
+    "padding": "0.01px 0px 0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-fieldsetLayout",
+     "css": ".oo-ui-fieldsetLayout { position: relative; min-width: 0px; margin: 0px; border: 0px; padding: 0.01px 0px 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "fieldset",
+     "css": "fieldset { border: 1px solid rgb(192, 192, 192); margin: 0px 2px; padding: 0.35em 0.625em 0.75em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    }
+   ]
+  },
+  "oo-ui-fieldsetLayout-header": {
+   "selector": ".oo-ui-fieldsetLayout-header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "props": {
+    "display": "none",
+    "position": "static",
+    "width": "100%",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-htmlform-ooui .oo-ui-fieldsetLayout-header",
+     "css": ".mw-htmlform-ooui .oo-ui-fieldsetLayout-header { font-size: 100%; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".client-js .mw-prefs-tabs .oo-ui-tabPanelLayout > fieldset > legend",
+     "css": ".client-js .mw-prefs-tabs .oo-ui-tabPanelLayout > fieldset > legend { display: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-fieldsetLayout > .oo-ui-fieldsetLayout-header",
+     "css": ".oo-ui-fieldsetLayout > .oo-ui-fieldsetLayout-header { display: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-fieldsetLayout.oo-ui-iconElement > .oo-ui-fieldsetLayout-header, .oo-ui-fieldsetLayout.oo-ui-labelElement > .oo-ui-fieldsetLayout-header",
+     "css": ".oo-ui-fieldsetLayout.oo-ui-iconElement > .oo-ui-fieldsetLayout-header, .oo-ui-fieldsetLayout.oo-ui-labelElement > .oo-ui-fieldsetLayout-header { color: inherit; display: inline-table; box-sizing: border-box; padding: 0px; white-space: normal; float: left; width: 100%; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-fieldsetLayout .oo-ui-fieldsetLayout-header",
+     "css": ".oo-ui-fieldsetLayout .oo-ui-fieldsetLayout-header { max-width: 50em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "legend",
+     "css": "legend { border: 0px; padding: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    }
+   ]
+  },
+  "oo-ui-fieldlayout": {
+   "selector": ".oo-ui-fieldLayout",
+   "rect": {
+    "x": 478,
+    "y": 210,
+    "w": 830,
+    "h": 24
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "830px",
+    "height": "24.4219px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(114, 119, 125)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(114, 119, 125)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-htmlform-field-HTMLInfoField",
+     "css": ".mw-htmlform-field-HTMLInfoField { color: var(--color-base--subtle); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-fieldLayout",
+     "css": ".oo-ui-fieldLayout { display: block; margin-top: 16px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-fieldLayout.oo-ui-labelElement, .oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline",
+     "css": ".oo-ui-fieldLayout.oo-ui-labelElement, .oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline { margin-top: 12px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-fieldLayout:first-child, .oo-ui-fieldLayout.oo-ui-labelElement:first-child, .oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline:first-child",
+     "css": ".oo-ui-fieldLayout:first-child, .oo-ui-fieldLayout.oo-ui-labelElement:first-child, .oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline:first-child { margin-top: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "oo-ui-labelElement-label": {
+   "selector": ".oo-ui-labelElement-label",
+   "rect": {
+    "x": 313,
+    "y": 174,
+    "w": 77,
+    "h": 22
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "76.8125px",
+    "height": "21.7188px",
+    "margin": "0px",
+    "padding": "0px 8px",
+    "border": "0px none rgb(243, 104, 104)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(243, 104, 104)",
+    "fontSize": "15.2px",
+    "fontWeight": "700",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "21.7143px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "left",
+    "opacity": "1",
+    "overflow": "hidden",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-labelElement .oo-ui-labelElement-label, .oo-ui-labelElement.oo-ui-labelElement-label",
+     "css": ".oo-ui-labelElement .oo-ui-labelElement-label, .oo-ui-labelElement.oo-ui-labelElement-label { box-sizing: border-box; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-labelElement .oo-ui-labelElement-label",
+     "css": ".oo-ui-labelElement .oo-ui-labelElement-label { line-height: 1.42857em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-optionWidget.oo-ui-labelElement > .oo-ui-labelElement-label",
+     "css": ".oo-ui-optionWidget.oo-ui-labelElement > .oo-ui-labelElement-label { display: block; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget > .oo-ui-labelElement-label",
+     "css": ".oo-ui-tabOptionWidget > .oo-ui-labelElement-label { color: inherit; padding: 5px; line-height: 1.42857em; text-decoration: inherit; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label { border-bottom: 2px solid transparent; padding: 5px 5px 3px; transition: border-color 100ms; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label { border-bottom-color: rgb(255, 255, 255); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label, #mw-wrapper .oo-ui-tabSelectWidget-framed.oo-ui-widget-enabled:focus .oo-ui-tabO",
+     "css": "#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label, #mw-wrapper .oo-ui-tabSelectWidget-framed.oo-ui-widget-enabled:focus .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label { color: var(--color-primary); fon",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label",
+     "css": "#mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label { padding: 5px 5px 6px; font-size: 16px; font-weight: 500; transition: color 0.5s cubic-bezier(0.1, 0.9, 0.2, 1); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label { padding: 0px 8px; border: 0px; font-size: 0.95em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label { border: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label, .mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidg",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label, .mw-special-Preferences #mw-wrapper .oo-ui-tabSelectWidget-framed.oo-ui-widget-enabled:focus .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-label",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-optionWidget.oo-ui-labelElement > .oo-ui-labelElement-label",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-optionWidget.oo-ui-labelElement > .oo-ui-labelElement-label { display: flex; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (max-width: 850px)"
+    },
+    {
+     "selector": ".oo-ui-tabOptionWidget > .oo-ui-labelElement-label",
+     "css": ".oo-ui-tabOptionWidget > .oo-ui-labelElement-label { color: inherit; padding: 5px; line-height: 1.42857em; text-decoration: inherit; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label { border-bottom: 2px solid transparent; padding: 5px 5px 3px; transition: border-color 100ms; }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label { border-bottom-color: rgb(255, 255, 255); }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label",
+     "css": ".oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label { border-bottom-color: var(--color-surface-0); }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "oo-ui-inputWidget-input": {
+   "selector": ".oo-ui-inputWidget-input",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "props": {
+    "display": "none",
+    "position": "static",
+    "width": "100%",
+    "height": "36.5714px",
+    "margin": "0px",
+    "padding": "4px 34.2857px 4px 12px",
+    "border": "1px solid rgba(0, 0, 0, 0.08)",
+    "borderRadius": "4px",
+    "background": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) no-repeat scroll calc(100% - 12px) 50% / auto padding-box border-box, rgba(0, 0, 0, 0) url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 viewBox=%220 0 12 12%22%3E%3Ctitle%3E down %3C/title%3E%3Cpath d=%22M9.9 2.9 6 6.8 2.1 2.9 1 4l5 5 5-5z%22/%3E%3C/svg%3E\") no-repeat scroll 12px 50% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(32, 33, 34)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "center",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "clip",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-dropdownInputWidget select",
+     "css": ".oo-ui-dropdownInputWidget select { display: none; background-position: -9999em 0px; background-repeat: no-repeat; width: 100%; box-sizing: border-box; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-dropdownInputWidget.oo-ui-widget-enabled select",
+     "css": ".oo-ui-dropdownInputWidget.oo-ui-widget-enabled select { cursor: pointer; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-dropdownInputWidget select",
+     "css": ".oo-ui-dropdownInputWidget select { appearance: none; background-color: transparent; background-position: right 12px center; box-sizing: border-box; height: 2.28571em; border: 1px solid rgb(162, 169, 177); border-radius: 2px; padding-left: 12px; padding-right: 2.14286em; font-size: inherit; font-fam",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-dropdownInputWidget.oo-ui-widget-enabled select",
+     "css": ".oo-ui-dropdownInputWidget.oo-ui-widget-enabled select { color: rgb(32, 33, 34); transition: border-color 100ms, box-shadow 100ms; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-dropdownInputWidget select",
+     "css": ".oo-ui-dropdownInputWidget select { border-color: var(--border-color-base--darker); border-radius: var(--border-radius--small); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-dropdownInputWidget.oo-ui-widget-enabled select",
+     "css": ".oo-ui-dropdownInputWidget.oo-ui-widget-enabled select { color: var(--color-base--emphasized); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-indicator-down",
+     "css": ".oo-ui-indicator-down { background-image: linear-gradient(transparent, transparent), url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 viewBox=%220 0 12 12%22%3E%3Ctitle%3E down %3C/title%3E%3Cpath d=%22M9.9 2.9 6 6.8 2.1 2.9 1 4l5 5 5-5z%22/%3E%3C/",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "button, input, optgroup, select, textarea",
+     "css": "button, input, optgroup, select, textarea { font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; margin: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "button, select",
+     "css": "button, select { text-transform: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".oo-ui-buttonElement-framed.oo-ui-labelElement > .oo-ui-buttonElement-button, .oo-ui-textInputWidget .oo-ui-inputWidget-input, .oo-ui-dropdownWidget-handle, button, textarea, select",
+     "css": ".oo-ui-buttonElement-framed.oo-ui-labelElement > .oo-ui-buttonElement-button, .oo-ui-textInputWidget .oo-ui-inputWidget-input, .oo-ui-dropdownWidget-handle, button, textarea, select { height: unset; box-sizing: border-box; padding: 0.35em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "select",
+     "css": "select { height: 36px; padding: 4px 24px 4px 12px; border: 1px solid rgb(226, 226, 226); border-radius: 2px; appearance: none; background-color: rgb(251, 251, 251); background-image: url(\"/skins/Timeless/resources/images/material-icons/expand_more_black_24dp.svg?7e503\"); background-position: 99% 50%",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    }
+   ]
+  },
+  "oo-ui-buttonElement-button": {
+   "selector": ".oo-ui-buttonElement-button",
+   "rect": {
+    "x": 644,
+    "y": 377,
+    "w": 98,
+    "h": 36
+   },
+   "props": {
+    "display": "inline-block",
+    "position": "relative",
+    "width": "98px",
+    "height": "36.0469px",
+    "margin": "0px",
+    "padding": "5.6px 16px",
+    "border": "1px solid rgba(0, 0, 0, 0.05)",
+    "borderRadius": "4px",
+    "background": "rgb(249, 250, 251) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgb(249, 250, 251)",
+    "color": "rgb(32, 33, 34)",
+    "fontSize": "16px",
+    "fontWeight": "500",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "16px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "center",
+    "opacity": "1",
+    "overflow": "hidden",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-buttonElement > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement > .oo-ui-buttonElement-button { cursor: pointer; display: inline-block; box-sizing: border-box; vertical-align: middle; font-family: inherit; font-size: inherit; white-space: nowrap; user-select: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-buttonElement-framed > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement-framed > .oo-ui-buttonElement-button { vertical-align: top; text-align: center; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-buttonElement > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement > .oo-ui-buttonElement-button { position: relative; min-height: 32px; border-radius: 2px; padding-top: 2.14286em; font-weight: bold; text-decoration: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-buttonElement.oo-ui-labelElement > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement.oo-ui-labelElement > .oo-ui-buttonElement-button { line-height: 1; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-buttonElement.oo-ui-widget-enabled > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement.oo-ui-widget-enabled > .oo-ui-buttonElement-button { transition: background-color 100ms, color 100ms, border-color 100ms, box-shadow 100ms; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-buttonElement-framed > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement-framed > .oo-ui-buttonElement-button { border-style: solid; border-width: 1px; border-radius: 2px; padding-left: 12px; padding-right: 12px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-buttonElement-framed.oo-ui-labelElement > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement-framed.oo-ui-labelElement > .oo-ui-buttonElement-button { padding-top: 5px; padding-bottom: 5px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button { background-color: rgb(248, 249, 250); color: rgb(32, 33, 34); border-color: rgb(162, 169, 177); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-buttonElement > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement > .oo-ui-buttonElement-button { border-radius: var(--border-radius--small); font-weight: var(--font-weight-medium); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-buttonElement-framed > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement-framed > .oo-ui-buttonElement-button { border-radius: var(--border-radius--small); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button { border-color: var(--border-color-base); background-color: var(--color-surface-2); color: var(--color-base--emphasized); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "a",
+     "css": "a { background: none !important; padding: 0px !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "print"
+    },
+    {
+     "selector": "a, a.external, a.new, a.stub",
+     "css": "a, a.external, a.new, a.stub { color: inherit !important; text-decoration: inherit !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "print"
+    },
+    {
+     "selector": ".mdui-ripple",
+     "css": ".mdui-ripple { position: relative; overflow: hidden; cursor: pointer; user-select: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "a",
+     "css": "a { background: transparent; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".oo-ui-buttonElement-framed.oo-ui-labelElement > .oo-ui-buttonElement-button, .oo-ui-textInputWidget .oo-ui-inputWidget-input, .oo-ui-dropdownWidget-handle, button, textarea, select",
+     "css": ".oo-ui-buttonElement-framed.oo-ui-labelElement > .oo-ui-buttonElement-button, .oo-ui-textInputWidget .oo-ui-inputWidget-input, .oo-ui-dropdownWidget-handle, button, textarea, select { height: unset; box-sizing: border-box; padding: 0.35em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".oo-ui-buttonElement-framed.oo-ui-labelElement > .oo-ui-buttonElement-button, button",
+     "css": ".oo-ui-buttonElement-framed.oo-ui-labelElement > .oo-ui-buttonElement-button, button { padding: 0.35em 1em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "a",
+     "css": "a { --color-link: #008ac5; --color-link--hover: #00aeec; --color-link--active: #36c; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "a",
+     "css": "a { color: var(--color-link); text-decoration: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": ".oo-ui-buttonElement.oo-ui-widget-enabled > .oo-ui-buttonElement-button",
+     "css": ".oo-ui-buttonElement.oo-ui-widget-enabled > .oo-ui-buttonElement-button { transition: background-color 100ms, color 100ms, border-color 100ms, box-shadow 100ms, transform 200ms; }",
+     "source": "load.php?modules=site.styles&skin=timeless",
+     "media": ""
+    }
+   ]
+  },
+  "mw-htmlform-submit-buttons": {
+   "selector": ".mw-htmlform-submit-buttons",
+   "rect": {
+    "x": 288,
+    "y": 948,
+    "w": 66,
+    "h": 36
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "66px",
+    "height": "36.0469px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-htmlform-field-HTMLMultiSelectField.oo-ui-fieldLayout, .mw-htmlform-ooui .htmlform-tip, .mw-htmlform-ooui .mw-htmlform-submit-buttons",
+     "css": ".mw-htmlform-field-HTMLMultiSelectField.oo-ui-fieldLayout, .mw-htmlform-ooui .htmlform-tip, .mw-htmlform-ooui .mw-htmlform-submit-buttons { margin-top: 0.857143em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-prefs-buttons .mw-htmlform-submit-buttons",
+     "css": ".mw-prefs-buttons .mw-htmlform-submit-buttons { margin: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "mw-indicator-mw-helplink": {
+   "selector": "#mw-indicator-mw-helplink",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "props": {
+    "display": "none",
+    "position": "static",
+    "width": "auto",
+    "height": "auto",
+    "margin": "10.4px 0px 0px 4px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "25.6px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-indicator",
+     "css": ".mw-indicator { display: inline-block; margin: 0.65em 0px 0px 0.25em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    },
+    {
+     "selector": "body #mw-wrapper .mw-helplink, body #mw-wrapper #mw-indicator-mw-helplink",
+     "css": "body #mw-wrapper .mw-helplink, body #mw-wrapper #mw-indicator-mw-helplink { display: none; }",
+     "source": "load.php?modules=site.styles&skin=timeless",
+     "media": ""
+    }
+   ]
+  }
+ },
+ "selectorsExtra": {
+  "mw-prefs-tabs-infused": {
+   "selector": ".mw-prefs-tabs-infused",
+   "rect": {
+    "x": 272,
+    "y": 156,
+    "w": 1056,
+    "h": 1346
+   },
+   "props": {
+    "display": "flex",
+    "position": "static",
+    "width": "1056px",
+    "height": "1345.52px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-indexLayout",
+     "css": ".oo-ui-indexLayout { }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout",
+     "css": ".oo-ui-menuLayout { inset: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-menuLayout",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-menuLayout { display: flex; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (min-width: 851px)"
+    },
+    {
+     "selector": ".oo-ui-indexLayout",
+     "css": ".oo-ui-indexLayout { }",
+     "source": "inline",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-menuLayout",
+     "css": ".oo-ui-menuLayout { inset: 0px; }",
+     "source": "inline",
+     "media": ""
+    }
+   ]
+  },
+  "mw-prefs-fieldset-wrapper": {
+   "selector": ".mw-prefs-fieldset-wrapper",
+   "rect": {
+    "x": 478,
+    "y": 176,
+    "w": 830,
+    "h": 326
+   },
+   "props": {
+    "display": "block",
+    "position": "relative",
+    "width": "830px",
+    "height": "310px",
+    "margin": "0px",
+    "padding": "0px 0px 16px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-prefs-tabs .mw-prefs-fieldset-wrapper",
+     "css": ".mw-prefs-tabs .mw-prefs-fieldset-wrapper { padding-left: 0px; padding-right: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-prefs-tabs .mw-prefs-fieldset-wrapper:first-child",
+     "css": ".mw-prefs-tabs .mw-prefs-fieldset-wrapper:first-child { padding-top: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-panelLayout",
+     "css": ".oo-ui-panelLayout { position: relative; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-panelLayout-padded",
+     "css": ".oo-ui-panelLayout-padded { padding: 12px 16px 16px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "mw-prefs-section-fieldset": {
+   "selector": ".mw-prefs-section-fieldset",
+   "rect": {
+    "x": 478,
+    "y": 176,
+    "w": 830,
+    "h": 1306
+   },
+   "props": {
+    "display": "block",
+    "position": "relative",
+    "width": "830px",
+    "height": "1305.52px",
+    "margin": "0px",
+    "padding": "0.01px 0px 0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-fieldsetLayout",
+     "css": ".oo-ui-fieldsetLayout { position: relative; min-width: 0px; margin: 0px; border: 0px; padding: 0.01px 0px 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": "fieldset",
+     "css": "fieldset { border: 1px solid rgb(192, 192, 192); margin: 0px 2px; padding: 0.35em 0.625em 0.75em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen"
+    }
+   ]
+  },
+  "oo-ui-fieldLayout-header": {
+   "selector": ".oo-ui-fieldLayout-header",
+   "rect": {
+    "x": 478,
+    "y": 212,
+    "w": 166,
+    "h": 23
+   },
+   "props": {
+    "display": "inline-block",
+    "position": "static",
+    "width": "166px",
+    "height": "22.8594px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(114, 119, 125)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(114, 119, 125)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "18.2857px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-htmlform-ooui .oo-ui-fieldLayout.oo-ui-labelElement > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header",
+     "css": ".mw-htmlform-ooui .oo-ui-fieldLayout.oo-ui-labelElement > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header { line-height: 1.14286em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "#mw-htmlform-info > .oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header",
+     "css": "#mw-htmlform-info > .oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header { display: inline-block; width: 20%; padding: 0px; vertical-align: middle; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(min-width: 720px)"
+    },
+    {
+     "selector": ".oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header, .oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-fiel",
+     "css": ".oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header, .oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-field { display: block; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-fieldLayout.oo-ui-labelElement > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header",
+     "css": ".oo-ui-fieldLayout.oo-ui-labelElement > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header { padding-bottom: 4px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-fieldLayout.oo-ui-labelElement.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header, .oo-ui-fieldLayout.oo-ui-labelElement.oo-ui-fieldLayout-align-inline > .oo-ui-f",
+     "css": ".oo-ui-fieldLayout.oo-ui-labelElement.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header, .oo-ui-fieldLayout.oo-ui-labelElement.oo-ui-fieldLayout-align-inline > .oo-ui-fieldLayout-body { max-width: 50em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "oo-ui-fieldLayout-body": {
+   "selector": ".oo-ui-fieldLayout-body",
+   "rect": {
+    "x": 478,
+    "y": 210,
+    "w": 830,
+    "h": 24
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "830px",
+    "height": "24.4219px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(114, 119, 125)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(114, 119, 125)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "oo-ui-panelLayout-padded": {
+   "selector": ".oo-ui-panelLayout-padded",
+   "rect": {
+    "x": 478,
+    "y": 176,
+    "w": 830,
+    "h": 326
+   },
+   "props": {
+    "display": "block",
+    "position": "relative",
+    "width": "830px",
+    "height": "310px",
+    "margin": "0px",
+    "padding": "0px 0px 16px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-prefs-tabs .mw-prefs-fieldset-wrapper",
+     "css": ".mw-prefs-tabs .mw-prefs-fieldset-wrapper { padding-left: 0px; padding-right: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-prefs-tabs .mw-prefs-fieldset-wrapper:first-child",
+     "css": ".mw-prefs-tabs .mw-prefs-fieldset-wrapper:first-child { padding-top: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-panelLayout",
+     "css": ".oo-ui-panelLayout { position: relative; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-panelLayout-padded",
+     "css": ".oo-ui-panelLayout-padded { padding: 12px 16px 16px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "oo-ui-panelLayout-framed": {
+   "selector": ".oo-ui-panelLayout-framed",
+   "rect": {
+    "x": 272,
+    "y": 156,
+    "w": 1056,
+    "h": 1346
+   },
+   "props": {
+    "display": "block",
+    "position": "relative",
+    "width": "1056px",
+    "height": "1345.52px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "4px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "0px",
+    "inset": "0px",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed, .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout",
+     "css": ".mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed, .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout { border-color: rgb(200, 204, 209); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed, .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout",
+     "css": ".mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed, .mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout { border: 0px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-panelLayout",
+     "css": ".oo-ui-panelLayout { position: relative; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-panelLayout-framed",
+     "css": ".oo-ui-panelLayout-framed { border: 1px solid rgb(162, 169, 177); border-radius: 2px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-panelLayout-framed",
+     "css": ".oo-ui-panelLayout-framed { border-color: var(--border-color-base); border-radius: var(--border-radius--small); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "oo-ui-iconElement-icon": {
+   "selector": ".oo-ui-iconElement-icon",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "props": {
+    "display": "none",
+    "position": "absolute",
+    "width": "22.8571px",
+    "height": "22.8571px",
+    "margin": "0px",
+    "padding": "0px",
+    "border": "0px none rgb(33, 33, 33)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none no-repeat scroll 50% 50% / contain padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "22.4px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "0px",
+    "bottom": "auto",
+    "inset": "0px auto auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-iconElement-icon",
+     "css": ".oo-ui-iconElement-icon { background-size: contain; background-position: center center; background-repeat: no-repeat; position: absolute; top: 0px; min-width: 20px; width: 1.42857em; min-height: 20px; height: 100%; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-iconElement-noIcon",
+     "css": ".oo-ui-iconElement-noIcon { display: none; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-iconElement-icon:not(.oo-ui-image-invert)",
+     "css": ".oo-ui-iconElement-icon:not(.oo-ui-image-invert) { filter: invert(1) hue-rotate(180deg); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(forced-colors: active) and (prefers-color-scheme: dark)"
+    },
+    {
+     "selector": ".oo-ui-fieldsetLayout .oo-ui-fieldsetLayout-header .oo-ui-iconElement-icon",
+     "css": ".oo-ui-fieldsetLayout .oo-ui-fieldsetLayout-header .oo-ui-iconElement-icon { height: 1.42857em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    }
+   ]
+  },
+  "oo-ui-inline-help": {
+   "selector": ".oo-ui-inline-help",
+   "rect": {
+    "x": 478,
+    "y": 797,
+    "w": 830,
+    "h": 21
+   },
+   "props": {
+    "display": "block",
+    "position": "static",
+    "width": "830px",
+    "height": "21.2188px",
+    "margin": "4px 0px 0px",
+    "padding": "0px",
+    "border": "0px none rgb(114, 119, 125)",
+    "borderRadius": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(114, 119, 125)",
+    "fontSize": "14.8571px",
+    "fontWeight": "400",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Segoe UI Variable Display\", Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Yu Gothic UI\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "lineHeight": "21.2245px",
+    "boxShadow": "none",
+    "flexDirection": "row",
+    "flexWrap": "nowrap",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "gap": "normal",
+    "gridTemplateColumns": "none",
+    "textAlign": "start",
+    "opacity": "1",
+    "overflow": "visible",
+    "zIndex": "auto",
+    "top": "auto",
+    "bottom": "auto",
+    "inset": "auto",
+    "textDecoration": "none"
+   },
+   "rules": [
+    {
+     "selector": ".oo-ui-labelElement .oo-ui-labelElement-label, .oo-ui-labelElement.oo-ui-labelElement-label",
+     "css": ".oo-ui-labelElement .oo-ui-labelElement-label, .oo-ui-labelElement.oo-ui-labelElement-label { box-sizing: border-box; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-labelElement .oo-ui-labelElement-label",
+     "css": ".oo-ui-labelElement .oo-ui-labelElement-label { line-height: 1.42857em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-inline-help",
+     "css": ".oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-inline-help { margin-top: 4px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-labelWidget",
+     "css": ".oo-ui-labelWidget { display: inline-block; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-labelWidget.oo-ui-inline-help",
+     "css": ".oo-ui-labelWidget.oo-ui-inline-help { display: block; color: rgb(84, 89, 93); font-size: 0.928571em; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": ".oo-ui-labelWidget.oo-ui-inline-help",
+     "css": ".oo-ui-labelWidget.oo-ui-inline-help { color: var(--color-base--subtle); }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": ""
+    },
+    {
+     "selector": "*, ::before, ::after",
+     "css": "*, ::before, ::after { animation-delay: -0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0ms !important; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "(prefers-reduced-motion: reduce)"
+    },
+    {
+     "selector": ".mw-special-Preferences #mw-wrapper .oo-ui-labelWidget",
+     "css": ".mw-special-Preferences #mw-wrapper .oo-ui-labelWidget { display: flex; flex-wrap: wrap; row-gap: 8px; }",
+     "source": "load.php?modules=ext.echo.styles.badge|ext.socialprofile.responsive|ext.uls.preferencespage,pt|ext.visualEditor.desktopArticleTarget.noscript|mediawiki.helplink|mediawiki.htmlform.ooui.styles|mediawiki.htmlform.styles|mediawiki.special.preferences.styles.ooui|mediawiki.widgets.SelectWithInputWidget.styles|mediawiki.widgets.TagMultiselectWidget.styles|mediawiki.widgets.styles|oojs-ui-core.icons,styles|oojs-ui-widgets.styles|oojs-ui.styles.icons-alerts,indicators|skins.timeless&skin=timeless",
+     "media": "screen and (max-width: 850px)"
+    }
+   ]
+  }
+ },
+ "missing": [
+  ".mw-prefs-container",
+  ".mw-prefs-tab",
+  ".mw-prefs-section"
+ ],
+ "missingExtra": [],
+ "tabs": [
+  {
+   "text": "用户资料",
+   "href": null,
+   "id": "ooui-php-190",
+   "classes": "oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement oo-ui-optionWidget-selected oo-ui-optionWidget oo-ui-tabOptionWidget",
+   "selected": true,
+   "beforeSelf": "\"person\"",
+   "beforeLabel": "none",
+   "beforeIcon": null,
+   "iconClasses": null
+  },
+  {
+   "text": "外观",
+   "href": null,
+   "id": "ooui-php-191",
+   "classes": "oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement oo-ui-optionWidget oo-ui-tabOptionWidget",
+   "selected": false,
+   "beforeSelf": "\"display_settings\"",
+   "beforeLabel": "none",
+   "beforeIcon": null,
+   "iconClasses": null
+  },
+  {
+   "text": "编辑",
+   "href": null,
+   "id": "ooui-php-192",
+   "classes": "oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement oo-ui-optionWidget oo-ui-tabOptionWidget",
+   "selected": false,
+   "beforeSelf": "\"edit\"",
+   "beforeLabel": "none",
+   "beforeIcon": null,
+   "iconClasses": null
+  },
+  {
+   "text": "最近更改",
+   "href": null,
+   "id": "ooui-php-193",
+   "classes": "oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement oo-ui-optionWidget oo-ui-tabOptionWidget",
+   "selected": false,
+   "beforeSelf": "\"history\"",
+   "beforeLabel": "none",
+   "beforeIcon": null,
+   "iconClasses": null
+  },
+  {
+   "text": "监视列表",
+   "href": null,
+   "id": "ooui-php-194",
+   "classes": "oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement oo-ui-optionWidget oo-ui-tabOptionWidget",
+   "selected": false,
+   "beforeSelf": "\"star\"",
+   "beforeLabel": "none",
+   "beforeIcon": null,
+   "iconClasses": null
+  },
+  {
+   "text": "搜索",
+   "href": null,
+   "id": "ooui-php-195",
+   "classes": "oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement oo-ui-optionWidget oo-ui-tabOptionWidget",
+   "selected": false,
+   "beforeSelf": "\"search\"",
+   "beforeLabel": "none",
+   "beforeIcon": null,
+   "iconClasses": null
+  },
+  {
+   "text": "通知",
+   "href": null,
+   "id": "ooui-php-196",
+   "classes": "oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement oo-ui-optionWidget oo-ui-tabOptionWidget",
+   "selected": false,
+   "beforeSelf": "\"notifications\"",
+   "beforeLabel": "none",
+   "beforeIcon": null,
+   "iconClasses": null
+  }
+ ],
+ "tabsVsContent": {
+  "tabSelect": {
+   "x": 272,
+   "y": 166,
+   "w": 186,
+   "h": 266
+  },
+  "tabSelectClasses": "oo-ui-widget oo-ui-widget-enabled oo-ui-selectWidget oo-ui-selectWidget-unpressed oo-ui-tabSelectWidget oo-ui-tabSelectWidget-framed",
+  "menuLayout": {
+   "x": 272,
+   "y": 156,
+   "w": 1056,
+   "h": 1346
+  },
+  "menuLayoutClasses": "mw-prefs-tabs oo-ui-layout oo-ui-menuLayout oo-ui-menuLayout-static oo-ui-menuLayout-top oo-ui-menuLayout-showMenu oo-ui-indexLayout mw-prefs-tabs-infused",
+  "menuContent": {
+   "x": 458,
+   "y": 156,
+   "w": 870,
+   "h": 1346
+  }
+ },
+ "panelSections": [
+  {
+   "legend": "用户资料",
+   "rect": {
+    "x": 478,
+    "y": 176,
+    "w": 830,
+    "h": 1306
+   }
+  },
+  {
+   "legend": "基本信息",
+   "rect": {
+    "x": 478,
+    "y": 176,
+    "w": 830,
+    "h": 310
+   }
+  },
+  {
+   "legend": "国际化",
+   "rect": {
+    "x": 478,
+    "y": 514,
+    "w": 830,
+    "h": 343
+   }
+  },
+  {
+   "legend": "签名",
+   "rect": {
+    "x": 478,
+    "y": 885,
+    "w": 830,
+    "h": 231
+   }
+  },
+  {
+   "legend": "电子邮件选项",
+   "rect": {
+    "x": 478,
+    "y": 1144,
+    "w": 830,
+    "h": 337
+   }
+  },
+  {
+   "legend": "外观",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "皮肤",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "皮肤设置",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "阅读设置",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "日期格式",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "时差",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "文件",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "差异",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "高级选项",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "数学公式",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "语言",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "编辑",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "常规选项",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "编辑",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "预览",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "无障碍",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "最近更改",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "显示选项",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "高级选项",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "展示的更改类型",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "监视列表",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "编辑监视列表",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "显示选项",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "高级选项",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "展示的更改类型",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "监视的页面",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "令牌",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "搜索",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "通用",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "通知",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "电子邮件选项",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  },
+  {
+   "legend": "通知我这些事件",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   }
+  }
+ ],
+ "panelChildren": [
+  {
+   "tag": "fieldset",
+   "cls": "mw-prefs-section-fieldset oo-ui-layout oo-ui-labelElement oo-ui-fieldsetLayout",
+   "text": "用户资料\n基本信息用户名：稀神灵梦用户组：小部件编辑者、​推送订阅管理、​用户查",
+   "rect": {
+    "x": 478,
+    "y": 176,
+    "w": 830,
+    "h": 1306
+   }
+  }
+ ],
+ "capturedAt": "2026-10-14T15:35:17.635Z",
+ "notes": [
+  "未找到元素的选择器：.mw-prefs-container；.mw-prefs-tab；.mw-prefs-section",
+  "DOM 已截断：原始 294746 字符 → 前 122880 字符"
+ ],
+ "domOriginalLength": 294746
+}
