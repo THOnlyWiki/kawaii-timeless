@@ -112,3 +112,15 @@ php plugin\kawaii-timeless\build-tools\compile-less.php
 - 用户级：`特殊:参数设置 → 外观`（或 `特殊:外观`）；
 - 站点级：`/init` 的「KawaiiTimeless」tab 勾选默认皮肤，或 `特殊:权限配置 → 站点设置`
   （`wikikernel.skins.default-skin=kawaii-timeless`）。
+
+## 与主仓库的关系
+
+本仓库是 [WikiKernel](https://github.com/THOnlyWiki/WikiKernel) 的**子模块**
+（主仓库路径 `plugin/kawaii-timeless`）：Kawaii-Timeless 皮肤是 Timeless 皮肤的现代化魔改移植，
+随主仓库一起发布，也可单独作为皮肤插件安装（构建出的 jar 放进 WikiKernel 的 `plugins/`）。
+
+适配 WikiKernel `0.0.1-SNAPSHOT`。
+
+## 许可
+
+GPL-3.0（与主仓库一致），见 [LICENSE](LICENSE)。
