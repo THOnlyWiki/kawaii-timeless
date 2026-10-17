@@ -253,11 +253,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!--/* 正文之后（#content 之外、原皮肤 getAfterContent）：afterContent 片段（评论等） */-->
-                <div id="content-bottom-stuff" th:if="${pageAfterContentHtml != null}">
-                    <th:block th:each="fragment : ${pageAfterContentHtml}" th:utext="${fragment}"></th:block>
-                </div>
             </div>
 
             <!--/* ==================== 左侧：logo + 导航 + wiki工具 ==================== */-->
