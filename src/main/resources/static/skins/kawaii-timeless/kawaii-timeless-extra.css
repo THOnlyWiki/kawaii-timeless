@@ -87,6 +87,28 @@
     }
 }
 
+/* 移动端弹出菜单（导航 / wiki工具 / 页面工具 / 其他语言 / 头像）：
+   1) 主皮肤给 #site-navigation .sidebar-inner 的 transition: all 0.7s 会把 jQuery
+      淡入淡出时的 opacity 也纳入 CSS 过渡，和 display 切换互相追帧；这里只过渡 transform。
+   2) 关闭时菜单还会以 display:flex 淡出 200ms，期间用 pointer-events:none 避免误点，
+      打开后再恢复点击（.mobile-menu-open 由 mobile.js 维护）。 */
+@media screen and (max-width: 850px) {
+    #site-navigation .sidebar-inner {
+        transition: transform 0.7s cubic-bezier(0.12, 1, 0.29, 0.99);
+    }
+
+    #personal-inner,
+    .sidebar-inner {
+        pointer-events: none;
+    }
+
+    #personal-inner.mobile-menu-open,
+    .sidebar-inner.mobile-menu-open,
+    #mw-wrapper .dropdown-active .sidebar-inner {
+        pointer-events: auto;
+    }
+}
+
 /* 用户系统开启「减少动态效果」时关闭动画 / 过渡（线上皮肤 CSS 里也有一段同样的规则，
    本地打包的副本没有，这里补齐） */
 @media (prefers-reduced-motion: reduce) {
