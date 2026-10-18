@@ -71,6 +71,24 @@
     margin: 0 1em 0 0;
 }
 
+/* 站点名称:Footer-Left / Footer-Right 自定义页脚（Timeless 只替换文本区，不影响 icons） */
+#mw-footer .footer-custom {
+    min-width: 0;
+}
+
+#mw-footer .footer-custom-left {
+    text-align: left;
+}
+
+#mw-footer .footer-custom-right {
+    text-align: right;
+    margin-top: 0.35em;
+}
+
+#mw-footer .footer-custom > p {
+    margin: 0 0 0.25em;
+}
+
 /* 按钮：不再在这里给 .wiki-button 统一刷糖果粉 —— 改用 core 的通用组件
    （base.css 的 .wiki-button / .wiki-button-primary / .wiki-button-danger / .wiki-button-quiet）
    + 本文件末尾的 --wiki-button-* 主题变量：主按钮/焦点环自动跟站点 --color-* 糖果色，
