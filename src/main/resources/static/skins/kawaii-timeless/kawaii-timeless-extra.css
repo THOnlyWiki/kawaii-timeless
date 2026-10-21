@@ -308,6 +308,27 @@
     content: 'settings';
 }
 
+/* 插件标签：每个分区用自己的 Material 图标，避免全部显示默认 widgets */
+.pref-layout .pref-tab[data-target="gadgets"]::before {
+    content: 'widgets';
+}
+
+.pref-layout .pref-tab[data-target="ai"]::before {
+    content: 'smart_toy';
+}
+
+.pref-layout .pref-tab[data-target="fingerprint-login"]::before {
+    content: 'fingerprint';
+}
+
+.pref-layout .pref-tab[data-target="echo"]::before {
+    content: 'notifications';
+}
+
+.pref-layout .pref-tab[data-target="social-profile"]::before {
+    content: 'people';
+}
+
 .pref-layout .pref-tab.selected {
     background: var(--background-color-quiet--hover, rgba(0, 0, 0, 0.07));
     color: var(--color-primary);

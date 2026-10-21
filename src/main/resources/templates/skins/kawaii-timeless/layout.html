@@ -70,10 +70,10 @@
                             <div class="mw-portlet-body">
                                 <ul th:lang="${#locale}" dir="ltr">
                                     <li id="pt-login" class="mw-list-item" th:if="${currentUser == null}">
-                                        <a th:href="@{/wiki/特殊:登录}" th:title="#{auth.login}"><span th:text="#{auth.login}">登录</span></a>
+                                        <a th:href="@{/wiki/特殊:登录(returnto=${loginReturnTo})}" th:title="#{auth.login}"><span th:text="#{auth.login}">登录</span></a>
                                     </li>
                                     <li id="pt-createaccount" class="mw-list-item" th:if="${currentUser == null and registerAvailable}">
-                                        <a th:href="@{/wiki/特殊:注册}" th:title="#{auth.registerTitle}"><span th:text="#{auth.register}">注册</span></a>
+                                        <a th:href="@{/wiki/特殊:注册(returnto=${loginReturnTo})}" th:title="#{auth.registerTitle}"><span th:text="#{auth.register}">注册</span></a>
                                     </li>
                                     <li id="pt-userpage" class="mw-list-item" th:if="${currentUser != null}">
                                         <a th:href="@{/wiki/{t}(t=${'用户:' + currentUser.username})}" th:title="#{auth.currentUserTitle}"><span th:text="#{skin.kawaii-timeless.userpage}">用户页</span></a>
@@ -189,7 +189,7 @@
                                                 <a th:if="${currentUser != null}" href="#" id="watch-toggle"
                                                    th:attr="data-title=${wikiTitle},data-watched=${watched}"
                                                    th:text="${watched == true} ? #{watch.unwatch} : #{watch.watch}">监视</a>
-                                                <a th:if="${currentUser == null}" th:href="@{/wiki/特殊:登录}"
+                                                <a th:if="${currentUser == null}" th:href="@{/wiki/特殊:登录(returnto=${loginReturnTo})}"
                                                    th:text="#{watch.watch}">监视</a>
                                             </li>
                                         </ul>
@@ -245,6 +245,8 @@
                             <div class="visualClear"></div>
                             <!--/* 正文：#bodyContent.mw-body-content > .mw-parser-output（Timeless 的内容样式挂在这里） */-->
                             <div id="bodyContent" class="mw-body-content">
+                                <!--/* 子页面面包屑：a/b/c → < a/b < a（仿 MediaWiki 的 contentSub） */-->
+                                <div th:replace="~{fragments/subpages :: subpages(${subpageBreadcrumb})}"></div>
                                 <div id="mw-parser-output" class="mw-parser-output wiki-content mw-content-ltr" dir="ltr"
                                      th:insert="${content}">
                                     <p>页面内容</p>
