@@ -32,7 +32,7 @@ plugin/kawaii-timeless/
 | 原皮肤（MediaWiki） | 本移植（WikiKernel） |
 | --- | --- |
 | `#mw-header-container/#mw-header` 顶栏 | 相同 DOM；`#p-banner` 显示站点名（`siteName`，>13 字自动加 `.long`） |
-| `#user-tools` 用户栏（头像下拉、`#header-upload`） | 相同 DOM；头像用 `/img/avatar-default.svg`（用户页可用 `userAvatarUrl`），上传指向 `特殊:上传文件` |
+| `#user-tools` 用户栏（头像下拉、`#header-upload`） | 相同 DOM；头像优先取当前用户上传的 `wiki_user.avatar`，否则用共享的站点默认头像 `site.default-avatar`（内置 `/img/avatar-default.svg`），上传指向 `特殊:上传文件` |
 | `#p-search`（`#simpleSearch`、`#searchButton`/`#mw-searchButton`） | 相同 DOM；表单提交到 `特殊:搜索?q=` |
 | `#p-logo`（侧栏大 logo） | 用皮肤上下文的 `${skin.logoUrl}`（默认 `/img/wiki-logo.svg`，可换） |
 | `#mw-page-header-links`（命名空间 / 更多 / 页面操作页签） | `p-namespaces`、`p-more`（`#ca-more`）、`p-views`：页面·讨论 / 阅读·编辑(源代码)·历史 / 监视（`#watch-toggle` 供 watch.js） |
@@ -58,7 +58,8 @@ php plugin\kawaii-timeless\build-tools\compile-less.php
 ## 与原站的已知差异
 
 - logo/站点名/头像/页脚/分类/语言都接的是 WikiKernel 的数据源（原站是 MediaWiki 的 `$wgLogos`、
-  自定义头像目录 `/images/avatars/…`、`MediaWiki:Sidebar` 等）；
+  自定义头像目录 `/images/avatars/…`、`MediaWiki:Sidebar` 等）；站点设置里的「默认头像」
+  写的是 core 共享键 `site.default-avatar`，SocialProfile 用户页、评论等独立插件读取同一个值；
 - 「工具」分组的拆分按**本地化文案**匹配（上传文件/特殊页面/用户贡献/日志/…），
   侧栏页面若把这些条目改成了别的显示文字，会落回「更多」分组；
 - Material Icons 字体随皮肤打包（原站由站内资产提供，备份里没有 @font-face）；

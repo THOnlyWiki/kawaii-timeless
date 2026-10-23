@@ -52,11 +52,10 @@
                     </ul>
                 </div>
                 <div id="personal">
-                    <!--/* 头像：站点设置键 kawaii-timeless.header-avatar = 图片 URL（站点统一头像；留空 = 用用户自己的头像，
-                           未登录 / 无头像时用内置默认头像）——LocalSettings.yaml: wikikernel.skins.kawaii-timeless.header-avatar */-->
+                    <!--/* 头像：当前用户上传过头像时优先显示自己的（core 每次从数据库取，上传后刷新页面即生效）；
+                           否则显示站点默认头像（site.default-avatar，Timeless 设置里的「默认头像」也写这个共享键）。 */-->
                     <h2 th:title="#{skin.kawaii-timeless.personalTitle}"
-                        th:with="avatarSetting=${@siteConfigImpl.get('kawaii-timeless.header-avatar', '')},
-                                 avatarUrl=${#strings.isEmpty(avatarSetting) ? (userAvatarUrl ?: '/img/avatar-default.svg') : avatarSetting}">
+                        th:with="avatarUrl=${currentUserAvatarUrl ?: (defaultAvatarUrl ?: '/img/avatar-default.svg')}">
                         <div class="header-avatar"
                              th:style="|background-image: url('${avatarUrl}')|"></div>
                     </h2>
@@ -465,5 +464,8 @@
         </div>
     </div>
 </div>
+
+<!--/* 回到顶部：只在 Timeless 皮肤显示；滚动后由 JS 切换 body.back-to-top-visible。 */-->
+<a id="wiki-back-to-top" class="wiki-back-to-top" href="#" title="回到顶部" aria-label="回到顶部">↑</a>
 </body>
 </html>

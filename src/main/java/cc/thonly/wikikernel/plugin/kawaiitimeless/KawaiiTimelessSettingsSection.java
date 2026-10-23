@@ -45,7 +45,7 @@ public class KawaiiTimelessSettingsSection implements SiteSettingsSection {
         return List.of(
                 SettingField.text(KawaiiTimelessSettings.LOGO_KEY, text("settings.kawaiiTimelessLogo"), ""),
                 SettingField.text(KawaiiTimelessSettings.WORDMARK_KEY, text("settings.kawaiiTimelessWordmark"), ""),
-                SettingField.text(KawaiiTimelessSettings.HEADER_AVATAR_KEY,
+                SettingField.text(KawaiiTimelessSettings.DEFAULT_AVATAR_KEY,
                         text("settings.kawaiiTimelessHeaderAvatar"), ""));
     }
 

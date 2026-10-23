@@ -55,7 +55,7 @@ public class KawaiiTimelessPlugin implements WikiPlugin {
         context.logger().log(System.Logger.Level.INFO, "已注册插件皮肤 kawaii-timeless（Kawaii-Timeless）");
     }
 
-    /** yaml 里写了的 logo / wordmark 设置每次启动导入一次（与 core 的站点设置是同一批键）。 */
+    /** yaml 里写了的 logo / wordmark / 默认头像每次启动导入一次（与 core 的站点设置是同一批键）。 */
     private void importYamlSettings() {
         if (siteConfig == null || yamlSettings == null) {
             return;
@@ -67,8 +67,28 @@ public class KawaiiTimelessPlugin implements WikiPlugin {
         if (yamlSettings.getLogo() != null) {
             siteConfig.set(KawaiiTimelessSettings.LOGO_KEY, yamlSettings.getLogo().trim());
         }
+        // 兼容旧版：以前只影响顶栏的 kawaii-timeless.header-avatar 迁移成全站共享的默认头像键。
+        migrateLegacyHeaderAvatar();
         if (yamlSettings.getHeaderAvatar() != null) {
-            siteConfig.set(KawaiiTimelessSettings.HEADER_AVATAR_KEY, yamlSettings.getHeaderAvatar().trim());
+            siteConfig.set(KawaiiTimelessSettings.DEFAULT_AVATAR_KEY,
+                    KawaiiTimelessSettings.normalizeDefaultAvatar(yamlSettings.getHeaderAvatar()));
         }
+    }
+
+    /**
+     * 旧键 {@code kawaii-timeless.header-avatar} → 共享键 {@code site.default-avatar}：
+     * 只在共享键为空时迁移一次，然后把旧键清空，避免管理员以后清空默认头像时又被旧值覆盖。
+     */
+    private void migrateLegacyHeaderAvatar() {
+        String legacy = KawaiiTimelessSettings.normalizeDefaultAvatar(
+                siteConfig.get(KawaiiTimelessSettings.HEADER_AVATAR_KEY, ""));
+        if (legacy.isEmpty()) {
+            return;
+        }
+        if (!siteConfig.get(KawaiiTimelessSettings.DEFAULT_AVATAR_KEY, "").isBlank()) {
+            return;
+        }
+        siteConfig.set(KawaiiTimelessSettings.DEFAULT_AVATAR_KEY, legacy);
+        siteConfig.set(KawaiiTimelessSettings.HEADER_AVATAR_KEY, "");
     }
 }

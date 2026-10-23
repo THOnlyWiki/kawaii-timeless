@@ -231,7 +231,12 @@ $("#p-banner, #ca-ve-edit a, #ca-edit a, #ca-viewsource a, #ca-history a, #ca-wa
 $("#simpleSearch").removeClass("opacityhide");
 
 /** 滚动添加class */
-$(window).scroll(function () {
+function updateBackToTop() {
+	// body 的 scrolled 是顶栏紧凑态（页面加载时也会保留），不能当作“已滚动”用；
+	// 回到顶部单独用 back-to-top-visible，超过一屏才出现。
+	$("body").toggleClass("back-to-top-visible", $(document).scrollTop() >= 400);
+}
+$(window).on('scroll.kawaiiScrollClasses', function () {
 	var scrollTop = $(document).scrollTop();
 	if (scrollTop >= 16) {
 		$("body").addClass("scrolled");
@@ -240,6 +245,51 @@ $(window).scroll(function () {
 		$("body").removeClass("scrolled");
 		$(".header-links-li").removeClass("mdui-ripple");
 	}
+	updateBackToTop();
+});
+updateBackToTop();
+
+/**
+ * 页内锚点（快速定位 / 目录 / 脚注）：只滚动，不把 #标题 写进地址栏。
+ * 某些浏览器在地址栏保留 fragment 时会持续把滚动位置拉回锚点，跳转后滚轮上不去；
+ * 这里手动 scrollIntoView，并从当前 URL 清掉旧 hash，保留页面其它查询参数。
+ */
+$(document).on('click.kawaiiAnchor', 'a[href^="#"]', function (event) {
+	if (event.isDefaultPrevented() || event.which > 1
+			|| event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+		return;
+	}
+	var href = this.getAttribute('href');
+	if (!href || href === '#') {
+		return;
+	}
+	var id = href.slice(1);
+	try {
+		id = decodeURIComponent(id);
+	} catch (e) {
+		// 保留原始 id
+	}
+	var target = document.getElementById(id) || document.getElementsByName(id)[0];
+	if (!target) {
+		return;
+	}
+	event.preventDefault();
+	if (window.history && window.history.replaceState) {
+		window.history.replaceState(null, '', window.location.pathname + window.location.search);
+	}
+	// 不使用 smooth：部分浏览器在长页面上会把平滑滚动动画和用户滚轮互相卡住，
+	// 快速定位应当立即到位。必须显式 instant，否则 behavior:auto 会跟随
+	// html { scroll-behavior: smooth }，又回到会卡住的平滑滚动。
+	target.scrollIntoView({ behavior: 'instant', block: 'start' });
+});
+
+/** 右下角回到顶部 */
+$(document).on('click.kawaiiBackTop', '#wiki-back-to-top', function (event) {
+	event.preventDefault();
+	if (window.history && window.history.replaceState) {
+		window.history.replaceState(null, '', window.location.pathname + window.location.search);
+	}
+	window.scrollTo({ top: 0, behavior: 'instant' });
 });
 
 /*ART*/

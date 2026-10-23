@@ -233,12 +233,19 @@
 }
 
 .pref-layout .pref-tabs {
+    position: sticky;
+    top: 3.25rem;
+    z-index: 10;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     flex: 0 0 186px;
+    align-self: flex-start;
     width: 186px;
+    max-height: calc(100vh - 4rem);
+    max-height: calc(100dvh - 4rem);
     margin: 10px 0 0;
+    overflow-y: auto;
     border-bottom: 0;
 }
 
@@ -352,25 +359,103 @@
     transform: translateY(-50%);
 }
 
-/* 参数设置：面板固定高度 + 内部滚动 + 底部固定保存条（布局规则在 core 的 base.css：
-   .pref-content / .pref-panels / .pref-actions / #preferences-message）。
-   这里只保留皮肤视觉：圆角、内边距与面板滑入动效。 */
-.pref-layout .pref-content {
-    flex: 1 1 auto;
-    padding: 20px;
-    border-radius: var(--border-radius--small, 4px);
-    animation: slide-in-parent cubic-bezier(0.22, 0.58, 0.12, 0.98) 0.4s backwards;
+/* 参数设置：改为整页滚动（不再给 .pref-content 固定高度、也不让 .pref-panels 内部滚动）。
+   左侧标签与底部保存条 sticky 在视口边缘，内容区按内容自然撑开；这样无论上方标题 / 搜索框、
+   下方页脚多高，都不会出现「面板高度算错 → 保存条跑到屏幕外 / 双层滚动」的问题。
+   core 的 base.css 仍保留默认固定高度布局，供其它皮肤使用。 */
+/* #mw-content-wrapper 的原生入场动画 slide-in-parent 只写 overflow:hidden，而且动画结束后
+   仍可能让整个内容区变成一个不滚动的滚动容器：鼠标滚轮 / 触屏在正文上会被它吃掉，
+   表现为“快速定位跳下去后滚不上来”。正文本来就不该被裁剪，所有页面都关掉这段动画。 */
+body.skin-timeless #mw-content-wrapper {
+    animation: none;
+    overflow: visible;
 }
 
-/* 底部保存条（仿线上 .mw-prefs-buttons：贴在面板底部、覆盖色背景 + 分隔线） */
-.pref-layout .pref-actions {
+/* 页内锚点跳转时给标题留出顶栏高度，避免标题被吸顶导航挡住。 */
+.mw-parser-output h1,
+.mw-parser-output h2,
+.mw-parser-output h3,
+.mw-parser-output h4,
+.mw-parser-output h5,
+.mw-parser-output h6 {
+    scroll-margin-top: 4.5rem;
+}
+
+/* 快速定位 / 长页面：右下角回到顶部按钮（滚动超过一屏后出现）。 */
+.wiki-back-to-top {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 80;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid var(--wiki-border, #d9d9d9);
+    border-radius: 50%;
+    background: var(--background-color-base, #fff);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+    color: var(--wiki-text, #202122);
+    font-size: 1.25rem;
+    line-height: 1;
+    text-decoration: none;
+}
+
+body.back-to-top-visible .wiki-back-to-top {
     display: flex;
-    justify-content: space-between;
-    gap: 0.5em;
+}
+
+/* 参数设置底部有 sticky 保存条，别再让回到顶部按钮压在上面。 */
+body.mw-special-Preferences .wiki-back-to-top {
+    display: none;
+}
+
+.wiki-back-to-top:hover,
+.wiki-back-to-top:focus {
+    background: var(--background-color-interactive, #f2f2f2);
+    color: var(--wiki-link, #3366cc);
+    text-decoration: none;
+}
+
+.pref-layout .pref-content {
+    flex: 1 1 auto;
+    min-width: 0;
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+    padding: 20px;
+    border-radius: var(--border-radius--small, 4px);
+    /* slide-in-parent 的 keyframes 会设置 overflow:hidden，这里不参与该动画，避免截断 sticky。 */
+    animation: none;
+}
+
+.pref-layout .pref-panels,
+.pref-layout .pref-content > .pref-section {
+    overflow: visible;
+}
+
+/* 底部保存条（仿线上 .mw-prefs-buttons：贴在视口底部、覆盖色背景 + 分隔线） */
+.pref-layout .pref-footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 20;
+    box-sizing: border-box;
     margin: 0 -20px -20px;
     padding: 1em;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
     background: var(--background-color-overlay, rgba(255, 255, 255, 0.95));
+    backdrop-filter: blur(8px);
+}
+
+.pref-layout .pref-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
 }
 
 /* 分区标题（仿 fieldset legend：黑体加粗、无下边框无外框） */
@@ -408,10 +493,11 @@
     accent-color: var(--color-primary);
 }
 
-/* 分区切换：与线上一致的面板滑入动效（隐藏/显示由 core 的 preferences.js 控制） */
-.pref-layout .pref-panels > .pref-section:not([hidden]),
-.pref-layout .pref-content > .pref-section:not([hidden]) {
-    animation: slide-in-parent cubic-bezier(0.22, 0.58, 0.12, 0.98) 0.4s backwards;
+/* 分区切换：隐藏/显示由 core 的 preferences.js 控制。
+   不再套用 slide-in-parent（它的 keyframes 会把 overflow 设为 hidden，滚动 / sticky 保存条会被截断）。 */
+.pref-layout .pref-panels > .pref-section,
+.pref-layout .pref-content > .pref-section {
+    animation: none;
 }
 
 /* ============================================================
@@ -435,9 +521,6 @@
 .rc-filters .rc-link-button {
     font-weight: 400;
 }
-
-/* 参数设置表单：面板底部留白由 core 的 .pref-panels 提供（见 base.css），
-   保存条不再用 sticky —— 面板是固定高度 + 内部滚动，保存条就固定在面板底部。 */
 
 /* 保存按钮：线上是浅灰按钮（不是全站粉色按钮），这里照线上 */
 .pref-layout .pref-actions .wiki-button {
