@@ -69,10 +69,10 @@
                             <div class="mw-portlet-body">
                                 <ul th:lang="${#locale}" dir="ltr">
                                     <li id="pt-login" class="mw-list-item" th:if="${currentUser == null}">
-                                        <a th:href="@{/wiki/特殊:登录(returnto=${loginReturnTo})}" th:title="#{auth.login}"><span th:text="#{auth.login}">登录</span></a>
+                                        <a th:href="${wikiUrl.loginTo(loginReturnTo)}" th:title="#{auth.login}"><span th:text="#{auth.login}">登录</span></a>
                                     </li>
                                     <li id="pt-createaccount" class="mw-list-item" th:if="${currentUser == null and registerAvailable}">
-                                        <a th:href="@{/wiki/特殊:注册(returnto=${loginReturnTo})}" th:title="#{auth.registerTitle}"><span th:text="#{auth.register}">注册</span></a>
+                                        <a th:href="${wikiUrl.registerTo(loginReturnTo)}" th:title="#{auth.registerTitle}"><span th:text="#{auth.register}">注册</span></a>
                                     </li>
                                     <li id="pt-userpage" class="mw-list-item" th:if="${currentUser != null}">
                                         <a th:href="@{/wiki/{t}(t=${'用户:' + currentUser.username})}" th:title="#{auth.currentUserTitle}"><span th:text="#{skin.kawaii-timeless.userpage}">用户页</span></a>
@@ -81,13 +81,13 @@
                                         <a th:href="@{/wiki/{t}(t=${'用户讨论:' + currentUser.username})}" th:title="#{personal.talkTitle}"><span th:text="#{skin.kawaii-timeless.talkpage}">用户讨论</span></a>
                                     </li>
                                     <li id="pt-preferences" class="mw-list-item" th:if="${currentUser != null}">
-                                        <a th:href="@{/wiki/特殊:参数设置}" th:title="#{personal.preferencesTitle}"><span th:text="#{special.preferences}">参数设置</span></a>
+                                        <a th:href="${wikiUrl.preferences()}" th:title="#{personal.preferencesTitle}"><span th:text="#{special.preferences}">参数设置</span></a>
                                     </li>
                                     <li id="pt-watchlist" class="mw-list-item" th:if="${currentUser != null}">
-                                        <a th:href="@{/wiki/特殊:监视列表}" th:title="#{watch.title}"><span th:text="#{special.watchlist}">监视列表</span></a>
+                                        <a th:href="${wikiUrl.page('特殊:监视列表')}" th:title="#{watch.title}"><span th:text="#{special.watchlist}">监视列表</span></a>
                                     </li>
                                     <li id="pt-mycontris" class="mw-list-item" th:if="${currentUser != null}">
-                                        <a th:href="@{/wiki/特殊:用户贡献(name=${currentUser.username})}" th:title="#{personal.contributionsTitle}"><span th:text="#{personal.contributions}">贡献</span></a>
+                                        <a th:href="${wikiUrl.withQuery('特殊:用户贡献', 'name', currentUser.username)}" th:title="#{personal.contributionsTitle}"><span th:text="#{personal.contributions}">贡献</span></a>
                                     </li>
                                     <!--/* 注意：本皮肤不渲染 core 的「外观」入口（原站也没有）与插件注入的个人工具
                                            （social-profile 的私信 / 好友 / 礼物）——按站点所有者要求保持与原站菜单一致 */-->
@@ -188,7 +188,7 @@
                                                 <a th:if="${currentUser != null}" href="#" id="watch-toggle"
                                                    th:attr="data-title=${wikiTitle},data-watched=${watched}"
                                                    th:text="${watched == true} ? #{watch.unwatch} : #{watch.watch}">监视</a>
-                                                <a th:if="${currentUser == null}" th:href="@{/wiki/特殊:登录(returnto=${loginReturnTo})}"
+                                                <a th:if="${currentUser == null}" th:href="${wikiUrl.loginTo(loginReturnTo)}"
                                                    th:text="#{watch.watch}">监视</a>
                                             </li>
                                         </ul>
