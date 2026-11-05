@@ -5,6 +5,9 @@ plugins {
 description = 'Kawaii-Timeless 皮肤插件：注册 kawaii-timeless 皮肤（布局 + 编译好的样式 + 脚本都在插件 jar 内）'
 
 dependencies {
+    testImplementation project(':common')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.11.4'
     // common 由 core 在运行时提供（插件类加载器的父加载器），不打进插件 jar
     compileOnly project(':common')
     // Spring 注解 + MessageSource（安装向导文案的本地化，运行时由 core 提供）

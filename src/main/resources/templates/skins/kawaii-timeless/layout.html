@@ -163,11 +163,13 @@
                 <div id="mw-content">
                     <div id="content" class="mw-body" role="main">
                         <!--/* 页面横幅等 beforeTitle 片段（PageDisplayHook） */-->
-                        <div id="siteNotice" th:if="${pageBeforeTitleHtml != null}">
+                        <div id="siteNotice" th:if="${pageBeforeTitleHtml != null or (systemInterface != null and systemInterface.noticeHtml != null)}">
+                <th:block th:replace="~{fragments/system-interface :: notice}"/>
                             <th:block th:each="fragment : ${pageBeforeTitleHtml}" th:utext="${fragment}"></th:block>
                         </div>
                         <h1 id="firstHeading" class="firstHeading" th:if="${hideTitle != true}"
                             th:text="${pageTitle}">页面标题</h1>
+        <th:block th:replace="~{fragments/system-interface :: tagline}"/>
                         <div id="bodyContentOuter">
                             <!--/* 页签行（原皮肤 #mw-page-header-links：命名空间 + 更多 + 页面操作） */-->
                             <div id="mw-page-header-links" th:unless="${printableView}">

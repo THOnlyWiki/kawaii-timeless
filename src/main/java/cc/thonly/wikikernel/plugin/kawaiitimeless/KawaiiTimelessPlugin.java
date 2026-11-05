@@ -48,7 +48,7 @@ public class KawaiiTimelessPlugin implements WikiPlugin {
     @Override
     public void onStart(PluginContext context) {
         context.register(MessageBundle.class, new KawaiiTimelessMessages());
-        context.register(Skin.class, new KawaiiTimelessSkin());
+        context.register(Skin.class, new KawaiiTimelessSkin(siteConfig));
         context.register(SetupStep.class, new KawaiiTimelessSetup(messageSource));
         context.register(SiteSettingsSection.class, new KawaiiTimelessSettingsSection(messageSource));
         importYamlSettings();

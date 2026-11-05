@@ -1,6 +1,7 @@
 package cc.thonly.wikikernel.plugin.kawaiitimeless;
 
 import cc.thonly.wikikernel.common.extension.Skin;
+import cc.thonly.wikikernel.common.service.SiteConfig;
 
 import java.util.List;
 
@@ -14,6 +15,16 @@ import java.util.List;
  * 取本地化文案（见 {@link KawaiiTimelessMessages}）。
  */
 public class KawaiiTimelessSkin implements Skin {
+
+    private final SiteConfig siteConfig;
+
+    public KawaiiTimelessSkin() {
+        this(null);
+    }
+
+    public KawaiiTimelessSkin(SiteConfig siteConfig) {
+        this.siteConfig = siteConfig;
+    }
 
     @Override
     public String id() {
@@ -53,8 +64,13 @@ public class KawaiiTimelessSkin implements Skin {
                 "/skins/kawaii-timeless/mobile.js");
     }
 
-    // 左栏 logo 不再由皮肤写死：布局按站点设置 kawaii-timeless.logo（图片 URL，留空隐藏）渲染，
-    // 所以这里不覆盖 logoUrl()。
+    /** 通过公共 Skin 接口暴露同一份站点 Logo，独立应用也能沿用；空表示隐藏。 */
+    @Override
+    public String logoUrl() {
+        if (siteConfig == null) { return Skin.super.logoUrl(); }
+        String logo = siteConfig.get(KawaiiTimelessSettings.LOGO_KEY, "");
+        return logo == null ? "" : logo.trim();
+    }
 
     @Override
     public int order() {
