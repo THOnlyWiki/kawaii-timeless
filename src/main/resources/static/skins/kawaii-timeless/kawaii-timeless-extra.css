@@ -541,112 +541,653 @@ body.mw-special-Preferences .wiki-back-to-top {
    —— 白色过滤卡片（工具栏在卡片外）；行距 12px、14px 字号、85px 时间列；
       日期标题灰字小号、图例/字节增减色照线上计算值。
    ============================================================ */
-.rc-filters {
-    margin: 16px 0 0;
-    padding: 1em;
-    border: 0;
-    border-radius: var(--border-radius--small, 4px);
-    background: #fff;
+/* 最近更改工具区。强调色与深色表面从当前 Timeless 主题继承。 */
+.rc-timeless {
+    --rc-accent: var(--color-primary);
+    --rc-text: var(--color-base, #202122);
+    --rc-muted: var(--color-base--subtle, #72777d);
+    --rc-panel: var(--color-surface-1, #fff);
+    --rc-control: var(--color-surface-2, #f8f9fa);
+    --rc-hover: var(--color-surface-3, #eaecf0);
+    --rc-outline: var(--color-surface-4, #c8ccd1);
+    --rc-ease: cubic-bezier(0.22, 0.58, 0.12, 0.98);
+    position: relative;
+    container: rc-controls / inline-size;
+    color: var(--rc-text);
 }
 
-.rc-filters-head {
-    padding: 0 0 0.5em;
-    font-weight: 400;
+.rc-timeless [hidden] {
+    display: none !important;
 }
 
-.rc-active-filters {
-    padding: 0 0 0.8em;
+.mw-rc-page .rc-timeless :is(a, button, input, summary):focus-visible {
+    outline: 2px solid var(--rc-accent);
+    outline-offset: 2px;
 }
 
-.rc-filter-row {
+.rc-timeless .rc-icon {
+    display: inline-block;
+    flex: none;
+    color: var(--rc-muted);
+    font: normal 22px/1 'Material Icons';
+    font-feature-settings: 'liga';
+    white-space: nowrap;
+}
+
+.rc-timeless .rc-chevron {
+    font-size: 17px;
+    transition: transform 200ms var(--rc-ease);
+}
+
+.rc-timeless .rc-menu[open] .rc-chevron {
+    transform: rotate(180deg);
+}
+
+.rc-timeless .rc-saved-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 16px;
+}
+
+body .mw-rc-page .rc-timeless .rc-filters {
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--rc-outline);
+    background: var(--rc-panel);
+    box-shadow: none;
+}
+
+.rc-timeless .rc-filter-tray {
+    padding: 12px 10px 8px;
+    background: var(--rc-control);
+}
+
+body .mw-rc-page .rc-timeless .rc-filters-head {
+    padding: 0 0 6px;
+    color: var(--rc-text);
+    font-size: .875rem;
+}
+
+.rc-timeless .rc-filters .rc-link-button {
+    padding: 0 4px;
+    color: var(--rc-accent);
+    font-size: .95rem;
+}
+
+.rc-timeless .rc-active-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    min-height: 36px;
     padding: 0;
 }
 
-.rc-filters .rc-link-button {
-    color: var(--color-primary);
+.rc-timeless .rc-chips,
+.rc-timeless .rc-tray-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
 }
 
-.rc-chip {
-    min-height: 25px;
-    margin: 0 4px 4px 0;
-    padding: 0 23px 0 8px;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    border-radius: 25px;
-    background: #fff;
-    color: var(--color-base, #54595d);
+.rc-timeless .rc-tray-actions {
+    flex: none;
+    flex-wrap: nowrap;
 }
 
-.rc-chip-remove {
-    color: var(--color-base, #54595d);
+body .mw-rc-page .rc-timeless .rc-chip {
+    gap: 4px;
+    min-height: 26px;
+    padding: 0 5px 0 9px;
+    border: 1px solid var(--rc-hover);
+    border-radius: 999px;
+    background: var(--rc-panel);
+    color: var(--rc-text);
 }
 
-.rc-filter-row input {
-    padding: 0.5em 0.6em;
-    border: 1px solid var(--border-color-base, rgba(0, 0, 0, 0.05));
-    border-radius: var(--border-radius--small, 4px);
-    background: #fff;
+.rc-timeless .rc-chip-leaving {
+    position: absolute;
+    z-index: 2;
+    box-sizing: border-box;
+    pointer-events: none;
 }
 
-/* 命名空间 / 标签 / 隐藏：线上是扁平按钮 + Material 图标 */
-.rc-filter-actions .rc-menu > summary {
-    padding: 0.35em 0.6em;
+.rc-timeless .rc-chip .rc-icon {
+    font-size: 16px;
+}
+
+.mw-rc-page .rc-timeless .rc-icon-button,
+.mw-rc-page .rc-timeless .rc-chip-remove {
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
     border: 0;
-    border-radius: var(--border-radius--small, 4px);
+    border-radius: 4px;
     background: transparent;
-    color: var(--color-base, #54595d);
+    color: var(--rc-text);
+    box-shadow: none;
+    text-decoration: none;
+    transform: none;
+    cursor: pointer;
 }
 
-.rc-filter-actions .rc-menu > summary:hover,
-.rc-filter-actions .rc-menu[open] > summary {
-    background: var(--background-color-quiet--hover, rgba(0, 0, 0, 0.07));
+.mw-rc-page .rc-timeless .rc-icon-button {
+    width: 34px;
+    height: 34px;
 }
 
-.rc-filter-actions .rc-menu > summary::before {
-    margin-right: 0.3em;
-    font-family: 'Material Icons';
-    font-size: 18px;
-    font-feature-settings: 'liga';
-    line-height: 1;
-    vertical-align: -4px;
-    opacity: var(--opacity-icon-base, 0.51);
+.mw-rc-page .rc-timeless .rc-chip-remove {
+    width: 23px;
+    height: 23px;
 }
 
-.rc-filter-actions .rc-menu:nth-of-type(1) > summary::before {
-    content: 'list';
+.mw-rc-page .rc-timeless :is(.rc-icon-button, .rc-chip-remove):hover {
+    background: var(--rc-hover);
 }
 
-.rc-filter-actions .rc-menu:nth-of-type(2) > summary::before {
-    content: 'sell';
+.mw-rc-page .rc-timeless .rc-filter-row {
+    align-items: stretch;
+    gap: 0;
+    padding: 0;
+    border-top: 1px solid var(--rc-hover);
 }
 
-.rc-filter-actions .rc-menu:nth-of-type(3) > summary::before {
-    content: 'visibility_off';
+.rc-timeless .rc-filter-search {
+    position: relative;
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    align-items: stretch;
 }
 
-/* 工具栏（卡片外）：动态更新在左、范围在右 */
-.rc-toolbar {
+body .mw-rc-page .rc-timeless .rc-filter-row input {
+    min-width: 0;
+    min-height: 40px;
+    padding: 0 8px 0 0;
+    border: 0;
+    background: transparent;
+    color: var(--rc-text);
+    font-size: inherit;
+}
+
+.rc-timeless .rc-filter-row input::placeholder {
+    color: var(--rc-muted);
+    opacity: 1;
+}
+
+body .mw-rc-page .rc-timeless .rc-filter-row input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.rc-timeless .rc-filter-search:focus-within {
+    box-shadow: inset 0 0 0 1px var(--rc-accent);
+}
+
+.rc-timeless .rc-picker-icon::before {
+    content: 'menu';
+}
+
+.rc-timeless .rc-picker[open] .rc-picker-icon::before {
+    content: 'search';
+}
+
+.rc-timeless .rc-filter-actions {
+    gap: 0;
+    border-left: 1px solid var(--rc-hover);
+}
+
+.mw-rc-page .rc-timeless .rc-toolbar {
+    flex-wrap: wrap;
+    gap: 8px;
     margin: 16px 0 1em;
     padding: 0;
     border: 0;
 }
 
-.rc-toolbar .rc-live {
-    border: 1px solid var(--border-color-base, #c8ccd1);
-    border-radius: var(--border-radius--small, 4px);
-    background: var(--color-surface-2, #f8f9fa);
-    color: var(--color-base, #54595d);
+.rc-timeless .rc-range {
+    margin-inline-start: auto;
 }
 
-.rc-toolbar .rc-live.active {
-    border-color: var(--color-primary);
-    background: var(--color-primary);
-    color: #fff;
+body .mw-rc-page .rc-timeless .rc-menu > summary,
+body .mw-rc-page .rc-timeless .rc-toolbar .rc-live,
+body .mw-rc-page .rc-timeless .rc-control {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    box-sizing: border-box;
+    min-height: 36px;
+    padding: 4px 12px;
+    border: 1px solid var(--rc-hover);
+    border-radius: 4px;
+    background: var(--rc-control);
+    color: var(--rc-text);
+    font: inherit;
+    line-height: 1.35;
+    box-shadow: none;
+    transform: none;
+    cursor: pointer;
+    transition: background-color 200ms var(--rc-ease), border-color 200ms var(--rc-ease),
+        color 200ms var(--rc-ease);
 }
 
-.rc-range > summary {
-    border: 1px solid var(--border-color-base, #c8ccd1);
-    border-radius: var(--border-radius--small, 4px);
-    background: var(--color-surface-2, #f8f9fa);
+body .mw-rc-page .rc-timeless .rc-filter-row .rc-menu > summary {
+    height: 100%;
+    min-height: 40px;
+    padding: 4px 9px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+}
+
+body .mw-rc-page .rc-timeless :is(.rc-control, .rc-live, .rc-menu > summary):hover,
+body .mw-rc-page .rc-timeless .rc-menu[open] > summary {
+    background: var(--rc-hover);
+    border-color: var(--rc-accent);
+}
+
+body .mw-rc-page .rc-timeless .rc-toolbar .rc-live.active {
+    border-color: var(--rc-accent);
+    background: var(--rc-accent);
+    color: var(--color-inverted, #fff);
+}
+
+.rc-timeless .rc-live-icon {
+    display: inline-grid;
+    position: relative;
+    place-items: center;
+    isolation: isolate;
+}
+
+.rc-timeless .rc-live-icon .rc-icon {
+    grid-area: 1 / 1;
+    transition: opacity 170ms var(--rc-ease), transform 170ms var(--rc-ease);
+}
+
+.rc-timeless .rc-live-stop,
+.rc-timeless .rc-live.active .rc-live-start {
+    opacity: 0;
+    transform: scale(.65);
+}
+
+.rc-timeless .rc-live.active .rc-live-stop {
+    opacity: 1;
+    transform: none;
+    color: inherit;
+}
+
+.rc-timeless .rc-live.active .rc-live-icon::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: rc-live-pulse 2.3s ease-out 1s infinite backwards;
+}
+
+@keyframes rc-live-pulse {
+    from { opacity: .66; transform: scale(.65); }
+    60%, to { opacity: 0; transform: scale(1.3); }
+}
+
+.rc-timeless .rc-popover {
+    position: absolute;
+    z-index: 25;
+    right: 0;
+    top: calc(100% + 3px);
+    box-sizing: border-box;
+    width: min(20rem, 100cqi);
+    max-height: min(32rem, 58vh);
+    overflow: auto;
+    padding: 12px;
+    border: 1px solid var(--rc-hover);
+    border-radius: 6px;
+    background: var(--rc-panel);
+    box-shadow: 0 5px 16px rgb(0 0 0 / 16%);
+    color: var(--rc-text);
+    overflow-wrap: anywhere;
+}
+
+.rc-timeless .rc-menu[open] > .rc-popover {
+    animation: rc-popover-enter 200ms var(--rc-ease);
+    transform-origin: top;
+}
+
+@keyframes rc-popover-enter {
+    from { opacity: 0; transform: translateY(-6px) scale(.985); }
+    to { opacity: 1; transform: none; }
+}
+
+@supports selector(details::details-content) {
+    .rc-timeless .rc-menu::details-content {
+        transition: content-visibility 160ms allow-discrete;
+    }
+
+    .rc-timeless .rc-menu > .rc-popover {
+        opacity: 0;
+        transform: translateY(-6px) scale(.985);
+        transform-origin: top;
+        transition: opacity 160ms var(--rc-ease), transform 160ms var(--rc-ease);
+    }
+
+    .rc-timeless .rc-menu:not([open]) > .rc-popover {
+        pointer-events: none;
+    }
+
+    .rc-timeless .rc-menu[open] > .rc-popover {
+        opacity: 1;
+        transform: none;
+        animation: none;
+    }
+
+    @starting-style {
+        .rc-timeless .rc-menu[open] > .rc-popover {
+            opacity: 0;
+            transform: translateY(-6px) scale(.985);
+        }
+    }
+}
+
+.rc-timeless.rc-restoring .rc-popover,
+.rc-timeless.rc-restoring .rc-chevron {
+    transition: none !important;
+    animation: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .rc-timeless :is(.rc-chevron, .rc-live, .rc-live-icon .rc-icon, .rc-control, .rc-menu > summary, .rc-popover) {
+        transition: none !important;
+        animation: none !important;
+    }
+
+    .rc-timeless .rc-menu::details-content {
+        transition: none !important;
+    }
+
+    .rc-timeless .rc-live.active .rc-live-icon::after {
+        animation: none;
+        content: none;
+    }
+
+    body.skin-timeless .mw-rc-page .rc-live-new {
+        animation: none;
+    }
+}
+
+.rc-timeless .rc-filter-row .rc-popover {
+    width: min(13rem, 100cqi);
+    padding: 5px 0;
+}
+
+.rc-timeless .rc-picker {
+    position: static;
+}
+
+.rc-timeless .rc-picker .rc-popover {
+    z-index: 26;
+    left: 0;
+    right: auto;
+    width: 100%;
+    max-height: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.rc-timeless .rc-picker-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    padding: 10px 12px;
+}
+
+.rc-timeless .rc-picker-options {
+    max-height: min(34rem, 48vh);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+}
+
+.rc-timeless .rc-filter-category + .rc-filter-category {
+    margin-top: 14px;
+}
+
+.mw-rc-page .rc-timeless .rc-picker .rc-menu-heading {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--rc-hover);
+}
+
+.mw-rc-page .rc-timeless .rc-picker a.rc-filter-choice {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    padding: 9px 12px;
+    line-height: 1.35;
+    text-decoration: none;
+}
+
+.rc-timeless .rc-filter-choice[aria-disabled="true"] {
+    opacity: .58;
+    cursor: default;
+}
+
+.rc-timeless .rc-choice-box {
+    display: grid;
+    place-items: center;
+    width: 18px;
+    height: 18px;
+    flex: 0 0 18px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    border: 1px solid var(--rc-outline);
+    border-radius: 2px;
+    background: var(--rc-panel);
+}
+
+.rc-timeless .rc-filter-choice[aria-checked="true"] .rc-choice-box {
+    border-color: var(--rc-accent);
+    background: var(--rc-accent);
+    color: var(--color-inverted, #fff);
+}
+
+.rc-timeless .rc-filter-choice[aria-checked="true"] .rc-choice-box::before {
+    content: 'check';
+    font: normal 16px/1 'Material Icons';
+    font-feature-settings: 'liga';
+}
+
+.rc-timeless .rc-choice-description {
+    display: block;
+    color: var(--rc-muted);
+    font-size: .9em;
+}
+
+.rc-timeless .rc-choice-highlight {
+    margin-left: auto;
+    color: var(--rc-accent);
+}
+
+body .mw-rc-page .rc-timeless .rc-control[aria-pressed="true"] {
+    border-color: var(--rc-accent);
+    background: var(--rc-accent);
+    color: var(--color-inverted, #fff);
+}
+
+.rc-timeless .rc-control[aria-pressed="true"] .rc-icon {
+    color: inherit;
+}
+
+.rc-timeless .rc-picker-empty {
+    padding: 0 12px 10px;
+    color: var(--rc-muted);
+}
+
+body .mw-rc-page .rc-timeless .rc-chip-highlight,
+body.skin-timeless .mw-rc-page .rc-list .rc-author-highlight {
+    background: color-mix(in srgb, var(--color-primary) 12%, var(--color-surface-1, #fff));
+    box-shadow: inset 3px 0 var(--color-primary);
+}
+
+.mw-rc-page .rc-timeless .rc-menu .rc-popover ul {
+    position: static;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    box-shadow: none;
+}
+
+.mw-rc-page .rc-timeless .rc-menu .rc-popover ul a {
+    color: var(--rc-text);
+}
+
+.mw-rc-page .rc-timeless .rc-popover ul a:hover,
+.mw-rc-page .rc-timeless .rc-popover .rc-group-toggle:hover {
+    background: var(--rc-hover);
+}
+
+.mw-rc-page .rc-timeless .rc-menu ul a.selected {
+    color: var(--rc-accent);
+}
+
+.rc-timeless .rc-menu-heading {
+    padding: 6px 12px;
+    color: var(--rc-muted);
+    font-size: .85rem;
+}
+
+.rc-timeless .rc-saved-empty {
+    display: flex;
+    gap: 8px;
+    color: var(--rc-muted);
+}
+
+.rc-timeless .rc-saved-empty p {
+    margin: 4px 0 0;
+}
+
+.rc-timeless .rc-saved-list li,
+.rc-timeless .rc-save-form > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rc-timeless .rc-saved-list a,
+.rc-timeless .rc-save-form input {
+    flex: 1;
+    min-width: 0;
+}
+
+.rc-timeless .rc-save-form input {
+    box-sizing: border-box;
+    min-height: 36px;
+    padding: 4px 7px;
+    border: 1px solid var(--rc-outline);
+    border-radius: 4px;
+    background: var(--rc-panel);
+    color: var(--rc-text);
+}
+
+.rc-timeless .rc-save-form {
+    margin-top: 8px;
+}
+
+.rc-timeless .rc-range-panel {
+    padding: 0;
+}
+
+.rc-timeless .rc-range-section {
+    padding: 12px 14px;
+}
+
+.rc-timeless .rc-range-section + .rc-range-section {
+    border-top: 1px solid var(--rc-hover);
+}
+
+.rc-timeless .rc-range-label {
+    margin: 0 0 4px;
+    color: var(--rc-muted);
+    font-size: .875rem;
+}
+
+.rc-timeless .rc-range-section strong + .rc-segment-field,
+.rc-timeless .rc-segment-field + .rc-segment-field {
+    margin-top: 9px;
+}
+
+.rc-timeless .rc-segments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mw-rc-page .rc-timeless .rc-segments a {
+    padding: 6px 12px;
+    border: 1px solid var(--rc-hover);
+    background: var(--rc-control);
+    color: var(--rc-text);
+    text-decoration: none;
+}
+
+.mw-rc-page .rc-timeless .rc-segments a + a {
+    margin-left: -1px;
+}
+
+.mw-rc-page .rc-timeless .rc-segments a:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.mw-rc-page .rc-timeless .rc-segments a:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.mw-rc-page .rc-timeless .rc-segments a:hover:not(.selected) {
+    background: var(--rc-hover);
+}
+
+.mw-rc-page .rc-timeless .rc-segments a.selected {
+    z-index: 1;
+    border-color: var(--rc-accent);
+    background: var(--rc-accent);
+    color: var(--color-inverted, #fff);
+}
+
+.mw-rc-page .rc-timeless .rc-group-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+    padding: 3px 0;
+    border-radius: 4px;
+    color: var(--rc-text);
+    text-decoration: none;
+}
+
+.rc-timeless .rc-group-toggle[aria-checked="true"] .rc-icon {
+    color: var(--rc-accent);
+}
+
+@container rc-controls (max-width: 460px) {
+    .mw-rc-page .rc-timeless .rc-filter-row {
+        flex-wrap: wrap;
+    }
+
+    .rc-timeless .rc-filter-search {
+        flex-basis: 100%;
+    }
+
+    .rc-timeless .rc-filter-actions {
+        width: 100%;
+        justify-content: flex-end;
+        border-top: 1px solid var(--rc-hover);
+        border-left: 0;
+    }
+
 }
 
 /* 日期标题：小号灰字（线上 .mw-changeslist h4），下面一条浅分隔线
