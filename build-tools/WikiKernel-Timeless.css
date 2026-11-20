@@ -77,7 +77,7 @@ ul#filetoc, .toc, .mw-warning{
 	border: unset;
 	border-radius: 6px;
 }
-@media screen and (max-width: 1099px) and (min-width: 851px){
+@media screen and (width < 1100px) and (min-width: 851px){
 	.sidebar-inner, .dropdown{
 		border: unset !important;
 		box-shadow: 0 2px 30px 1px rgb(0 0 0 / 0.2) !important;
@@ -87,13 +87,13 @@ ul#filetoc, .toc, .mw-warning{
 		box-shadow: 0 2px 30px 1px rgb(0 0 0 / 0.2) !important;
 	}
 }
-@media screen and (max-width: 850px){
+@media screen and (width < 851px){
 	.sidebar-inner, .dropdown{
 	box-shadow: 0 2px 30px 1px rgb(0 0 0 / 0.2) !important;
 	z-index: 501;
 	}
 }
-@media screen and (max-width: 1099px) and (min-width: 851px){
+@media screen and (width < 1100px) and (min-width: 851px){
 	#mw-related-navigation .sidebar-inner{
 	border: unset !important;
 	box-shadow: 0 2px 30px 1px rgb(0 0 0 / 0.2) !important;
@@ -154,12 +154,12 @@ div.wiki-warning{
     border-radius: var(--border-radius--medium, 8px) !important;
 }
 /*去掉平板端奇怪的阴影*/
-@media screen and (min-width: 851px) and (max-width: 1099px){
+@media screen and (min-width: 851px) and (width < 1100px){
 	#mw-related-navigation .sidebar-chunk{
 		box-shadow: none;
 	}
 }
-@media screen and (min-width: 851px) and (max-width: 1099px){
+@media screen and (min-width: 851px) and (width < 1100px){
 	#mw-site-navigation .sidebar-chunk{
 		box-shadow: none;
 	}
@@ -171,7 +171,7 @@ body #mw-wrapper .mw-helplink, body #mw-wrapper #mw-indicator-mw-helplink{
 }
 
 /*针对移动端用户页的竖向排列*/
-@media screen and (max-width: 850px){
+@media screen and (width < 851px){
 #user-page-left {
     width: 100%;
     float: none;}

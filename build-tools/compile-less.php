@@ -75,10 +75,10 @@ $parts[] = block(compile_less("$RES/screen-common.less", $RES, $BACKUP), 'screen
 $parts[] = block(compile_less("$RES/main.js.less", $RES, $BACKUP), 'screen');
 $parts[] = block(compile_less("$RES/screen-desktop.less", $RES, $BACKUP), 'screen and (min-width: 851px)');
 $parts[] = block(compile_less("$RES/screen-desktop-full.less", $RES, $BACKUP), 'screen and (min-width: 1340px)');
-$parts[] = block(compile_less("$RES/screen-desktop-mid.less", $RES, $BACKUP), 'screen and (min-width: 1100px) and (max-width: 1339px)');
+$parts[] = block(compile_less("$RES/screen-desktop-mid.less", $RES, $BACKUP), 'screen and (min-width: 1100px) and (width < 1340px)');
 $parts[] = block(compile_less("$RES/screen-desktop-midup.less", $RES, $BACKUP), 'screen and (min-width: 1100px)');
-$parts[] = block(compile_less("$RES/screen-desktop-small.less", $RES, $BACKUP), 'screen and (min-width: 851px) and (max-width: 1099px)');
-$parts[] = block(compile_less("$RES/screen-mobile.less", $RES, $BACKUP), 'screen and (max-width: 850px)');
+$parts[] = block(compile_less("$RES/screen-desktop-small.less", $RES, $BACKUP), 'screen and (min-width: 851px) and (width < 1100px)');
+$parts[] = block(compile_less("$RES/screen-mobile.less", $RES, $BACKUP), 'screen and (width < 851px)');
 $parts[] = block(compile_less("$RES/screen-misc.less", $RES, $BACKUP), '');
 
 // ---- 打印（原本是独立 media=print 的样式块） ----

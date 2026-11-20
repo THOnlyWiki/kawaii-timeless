@@ -14,7 +14,7 @@
   currentUser / pluginPersonalTools / pageUrl / activeTab / watch …；样式在
   static/skins/kawaii-timeless/kawaii-timeless.css（less.php 编译产物 + main.js/mobile.js）。
 -->
-<html lang="zh" th:lang="${#locale.language}" xmlns:th="http://www.thymeleaf.org"
+<html lang="zh" th:lang="${#locale.toLanguageTag()}" xmlns:th="http://www.thymeleaf.org"
       th:fragment="layout(pageTitle, content)">
 <head th:replace="~{fragments/head :: head(${pageTitle} + ' - ' + (${siteName} ?: 'WikiKernel'))}">
     <title>WikiKernel</title>
@@ -62,12 +62,12 @@
                     <div id="personal-inner" class="dropdown">
                         <div class="mw-portlet" id="p-personal" role="navigation" aria-labelledby="p-personal-label"
                              th:title="#{skin.kawaii-timeless.personalTitle}">
-                            <h3 id="p-personal-label" th:lang="${#locale}" dir="ltr">
+                            <h3 id="p-personal-label" th:lang="${#locale.toLanguageTag()}" dir="ltr">
                                 <b th:if="${currentUser != null}" th:text="${currentUser.username}">用户名</b>
                                 <th:block th:if="${currentUser == null}" th:text="#{skin.kawaii-timeless.notloggedin}">未登录</th:block>
                             </h3>
                             <div class="mw-portlet-body">
-                                <ul th:lang="${#locale}" dir="ltr">
+                                <ul th:lang="${#locale.toLanguageTag()}" dir="ltr">
                                     <li id="pt-login" class="mw-list-item" th:if="${currentUser == null}">
                                         <a th:href="${wikiUrl.loginTo(loginReturnTo)}" th:title="#{auth.login}"><span th:text="#{auth.login}">登录</span></a>
                                     </li>
@@ -431,7 +431,7 @@
          #footer-icons 右浮（CC BY 4.0 + Powered by MediaWiki 两枚 88x31 徽章）
          + #footer-list 左侧（#footer-info：最后编辑 + 版权；#footer-places：隐私/关于/免责声明） */-->
     <div id="mw-footer-container" class="mw-footer-container ts-container" th:unless="${printableView}">
-        <div id="mw-footer" class="mw-footer ts-inner" role="contentinfo" th:lang="${#locale.language}" dir="ltr">
+        <div id="mw-footer" class="mw-footer ts-inner" role="contentinfo" th:lang="${#locale.toLanguageTag()}" dir="ltr">
             <ul id="footer-icons">
                 <li id="footer-copyrightico" class="footer-icons">
                     <a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow">
@@ -458,6 +458,9 @@
                     <li id="footer-places-privacy"><a th:href="@{/wiki/{t}(t=${(siteName ?: 'WikiKernel') + ':隐私政策'})}" th:text="#{footer.privacy}">隐私政策</a></li>
                     <li id="footer-places-about"><a th:href="@{/wiki/{t}(t=${(siteName ?: 'WikiKernel') + ':关于'})}" th:text="${#messages.msg('footer.about', siteName ?: 'WikiKernel')}">关于WikiKernel</a></li>
                     <li id="footer-places-disclaimer"><a th:href="@{/wiki/{t}(t=${(siteName ?: 'WikiKernel') + ':免责声明'})}" th:text="#{footer.disclaimers}">免责声明</a></li>
+                </ul>
+                <ul id="footer-languages" th:if="${footerRightHtml == null}">
+                    <th:block th:replace="~{fragments/footer-languages :: languages}"/>
                 </ul>
                 <div class="footer-custom footer-custom-right" th:if="${footerRightHtml != null}"
                      th:utext="${footerRightHtml}">页脚右侧（站点名称:Footer-Right）</div>

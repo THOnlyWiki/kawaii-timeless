@@ -28,6 +28,16 @@
     font-size: 1em;
 }
 
+/* 横向入场会在首屏把正文推出视口，移动浏览器随后缩小整页。 */
+#mw-content > #content {
+    animation: timeless-content-fade-in 180ms ease-out;
+}
+
+@keyframes timeless-content-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 /* core 的 base.css 全局 * { box-sizing: border-box }；原皮肤按 content-box 计算
    #header-upload（24px + 6px*2 padding = 36px 点击区），这里恢复 content-box 对齐线上尺寸 */
 #header-upload {
@@ -98,7 +108,7 @@
    （= -37.6px，挂在 #mw-content-block 上沿之上）放到固定头部下方的留白带里 ——
    线上 1000px 实测就是 y=49（紧贴 48px 顶栏下方），下文内容（margin-top: 5.425em）从它下面开始。
    曾经这里改成 top: 0.85em，两个下拉块就压到了内容与页签上（重叠 bug），现按线上改回原值。 */
-@media screen and (min-width: 851px) and (max-width: 1099px) {
+@media screen and (min-width: 851px) and (width < 1100px) {
     #mw-site-navigation,
     #mw-related-navigation {
         top: -2.35em;
@@ -110,7 +120,7 @@
       淡入淡出时的 opacity 也纳入 CSS 过渡，和 display 切换互相追帧；这里只过渡 transform。
    2) 关闭时菜单还会以 display:flex 淡出 200ms，期间用 pointer-events:none 避免误点，
       打开后再恢复点击（.mobile-menu-open 由 mobile.js 维护）。 */
-@media screen and (max-width: 850px) {
+@media screen and (width < 851px) {
     #site-navigation .sidebar-inner {
         transition: transform 0.7s cubic-bezier(0.12, 1, 0.29, 0.99);
     }

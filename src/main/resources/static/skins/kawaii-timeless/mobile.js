@@ -7,9 +7,11 @@ $( function () {
 	var $cover = $( '#menus-cover' );
 	// 移动端所有弹出菜单（头像 / 导航 / wiki工具 / 页面工具 / 其他语言）
 	var menuSelector = '#personal-inner, .sidebar-inner';
+	var desktopQuery = window.matchMedia( '(min-width: 851px)' );
+	var wasNarrow = !desktopQuery.matches;
 
 	function isNarrow() {
-		return $( window ).width() < 851;
+		return !desktopQuery.matches;
 	}
 
 	function allMenus() {
@@ -105,10 +107,12 @@ $( function () {
 		toggleMenu( $( '#site-tools .sidebar-inner' ) );
 	} );
 	$( '#ca-more' ).off( 'click.kawaiiMobile' ).on( 'click.kawaiiMobile', function () {
+		if ( !isNarrow() ) return;
 		$( '#page-tools .sidebar-inner' ).css( 'top', $( '#ca-more' ).offset().top + 25 );
 		toggleMenu( $( '#page-tools .sidebar-inner' ) );
 	} );
 	$( '#ca-languages' ).off( 'click.kawaiiMobile' ).on( 'click.kawaiiMobile', function () {
+		if ( !isNarrow() ) return;
 		$( '#other-languages .sidebar-inner' ).css( 'top', $( '#ca-languages' ).offset().top + 25 );
 		toggleMenu( $( '#other-languages .sidebar-inner' ) );
 	} );
@@ -130,16 +134,16 @@ $( function () {
 	$( window )
 		.off( 'resize.kawaiiMobile' )
 		.on( 'resize.kawaiiMobile', function () {
-			if ( isNarrow() ) {
+			var narrow = isNarrow();
+			if ( narrow === wasNarrow ) {
 				return;
 			}
-			var $open = allMenus().filter( '.mobile-menu-open' );
-			if ( $open.length ) {
-				$open.each( function () {
-					$( this ).closest( '.sidebar-chunk, #personal' ).removeClass( 'dropdown-active' );
-					hideMenu( $( this ) );
-				} );
-				syncCover();
-			}
+			wasNarrow = narrow;
+			var $menus = allMenus();
+			$menus.closest( '.sidebar-chunk, #personal' ).removeClass( 'dropdown-active' );
+			$menus.stop( true, true ).removeClass( 'mobile-menu-open' )
+				.css( { display: '', opacity: '', top: '' } );
+			$cover.stop( true, true ).removeClass( 'mobile-cover-open' )
+				.css( { display: '', opacity: '' } );
 		} );
 } );

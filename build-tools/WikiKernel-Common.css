@@ -149,7 +149,7 @@ body:not(.heimu_toggle_on) .heimu:hover .new {
     box-shadow: 0 1px 3px 0px rgb(0 0 0 / 20%);
     border-radius: 4px;
 }
-@media screen and (max-width: 850px) {
+@media screen and (width < 851px) {
 .infoBox {
 	float: unset !important;
     width: 100% !important;
@@ -449,7 +449,7 @@ ul + table.navbox {
 	box-shadow: 0 0 12px rgb(0 0 0 / 15%);
 }
 /*修复和修改infobox*/
-@media screen and (max-width: 850px){
+@media screen and (width < 851px){
 .infobox{
 	width: 100%;
 	margin: 0em 0em 2em;
@@ -587,7 +587,7 @@ cite {
     width: 100%;
     transition: transform cubic-bezier(0.22,0.58,0.12,0.98) 0.4s;
 }
-@media screen and (max-width: 850px) {
+@media screen and (width < 851px) {
     .mini-block {
         align-self: stretch;
         width: auto;
@@ -599,7 +599,7 @@ cite {
 
 
 /*针对移动端用户页的竖向排列（WikiKernel 的 social-profile 同样输出 #user-page-left / #user-page-right）*/
-@media screen and (max-width: 850px){
+@media screen and (width < 851px){
 #user-page-left {
     width: 100%;
     float: none;}
@@ -610,7 +610,7 @@ cite {
 }
 
 /*移动端导航栏子级标题竖向排列*/
-@media screen and (max-width: 850px){
+@media screen and (width < 851px){
 th.navbox-group {
 	white-space: normal;
 }
